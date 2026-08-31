@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import { categories } from '../../lib/data';
+---
+<Base title="分类">
+  <p class="crumb"><a href="/">首页</a> / 分类</p>
+  <h1>分类</h1>
+  <div class="gridCards">
+    {categories.map((c: any) => (
+      <a class="card" href={`/categories/${c.slug}/`}>
+        <h3>{c.name_zh || c.name}</h3>
+        <p class="mono">{c.counts ? Object.values(c.counts).join(' · ') : ''}</p>
+      </a>
+    ))}
+  </div>
+</Base>

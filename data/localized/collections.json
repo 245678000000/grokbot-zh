@@ -1,0 +1,1097 @@
+{
+  "generated_at": "2026-08-31T10:32:55.184Z",
+  "count": 16,
+  "items": [
+    {
+      "type": "collection",
+      "slug": "team-you-didnt-hire",
+      "name": "The Team You Didn't Hire",
+      "name_zh": "你没雇的那支团队",
+      "url": "/collections/team-you-didnt-hire/",
+      "orig_url": "https://grokbot.dev/collections/team-you-didnt-hire/",
+      "tagline": "Five bots doing the jobs a startup used to hire a whole team for.",
+      "tagline_zh": "五只 Bot，干的是创业公司过去要雇一整队才干得完的活。",
+      "rationale": "A startup's first hires are always the same handful of roles: someone to run the calendar, someone to sell, someone to market, someone to write, and someone to watch the burn. This is that team, minus the salaries, the onboarding and the notice periods.\n\nFive bots, each pointed at a role you would normally pay for — executive assistant, CMO, SDR, ops, copywriter — so a company of one can run like a company of six. Every one installs on its own, so treat it as a hiring plan rather than a package: add the roles you are actually missing, in the order the gaps hurt.",
+      "rationale_zh": "创业公司最先雇的总是那几类人：管日历的、卖的、做市场的、写的、盯烧钱的。这就是那支队，去掉薪水、入职和离职期。\n\n五只 Bot，各自对准一个你本来得付钱的角色——行政助理、CMO、SDR、运营、文案——让一人公司跑得像六人公司。每一只单独安装，把它当招聘计划而不是礼包：缺哪个加哪个，按痛的顺序。",
+      "category": "work",
+      "category_zh": "办公",
+      "members": [
+        {
+          "type": "template",
+          "slug": "jess-executive-assistant",
+          "name": "Jess (Executive Assistant)",
+          "reason": "Your executive assistant: recaps email, calendar, Notion and Slack before you've opened any of them, so you start the day already briefed.",
+          "reason_zh": "你的行政助理： recaps email, calendar, Notion and Slack before you've opened any of them, 这样你一睁眼就已经看过简报。",
+          "url": "/marketplace/jess-executive-assistant/",
+          "orig_url": "https://grokbot.dev/marketplace/jess-executive-assistant/"
+        },
+        {
+          "type": "template",
+          "slug": "marketing-bot-cmo",
+          "name": "Marketing Bot (CMO)",
+          "reason": "Your CMO: give it the product once and it turns out the copy, emails, offers and conversion ideas instead of answering one marketing question at a time.",
+          "reason_zh": "Your CMO: give it the product once and it turns out the copy, emails, offers and conversion ideas instead of answering one marketing question at a time.",
+          "url": "/marketplace/marketing-bot-cmo/",
+          "orig_url": "https://grokbot.dev/marketplace/marketing-bot-cmo/"
+        },
+        {
+          "type": "template",
+          "slug": "prospecting-sheet-builder",
+          "name": "Prospecting Sheet Builder",
+          "reason": "Your SDR: wakes you to a fresh sheet of qualified B2B accounts every morning, so the day starts with a list, not a blank page.",
+          "reason_zh": "你的 SDR： wakes you to a fresh sheet of qualified B2B accounts every morning, 让一天从清单开始，而不是空白页。",
+          "url": "/marketplace/prospecting-sheet-builder/",
+          "orig_url": "https://grokbot.dev/marketplace/prospecting-sheet-builder/"
+        },
+        {
+          "type": "template",
+          "slug": "reaper",
+          "name": "Reaper",
+          "reason": "Your ops hawk: audits the subscriptions, meetings and processes that no longer earn their place and makes the case to kill each one.",
+          "reason_zh": "Your ops hawk: audits the subscriptions, meetings and processes that no longer earn their place and makes the case to kill each one.",
+          "url": "/marketplace/reaper/",
+          "orig_url": "https://grokbot.dev/marketplace/reaper/"
+        },
+        {
+          "type": "template",
+          "slug": "human-copywriter",
+          "name": "Human Copywriter",
+          "reason": "Your copywriter: rewrites the AI-sounding draft into something that reads like a person wrote it, so what you ship doesn't get flagged as slop.",
+          "reason_zh": "Your copywriter: rewrites the AI-sounding draft into something that reads like a person wrote it, so what you ship doesn't get flagged as slop.",
+          "url": "/marketplace/human-copywriter/",
+          "orig_url": "https://grokbot.dev/marketplace/human-copywriter/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T20:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "the team you didn't hire 你没雇的那支团队 five bots doing the jobs a startup used to hire a whole team for. 五只 bot，干的是创业公司过去要雇一整队才干得完的活。 创业公司最先雇的总是那几类人：管日历的、卖的、做市场的、写的、盯烧钱的。这就是那支队，去掉薪水、入职和离职期。\n\n五只 bot，各自对准一个你本来得付钱的角色——行政助理、cmo、sdr、运营、文案——让一人公司跑得像六人公司。每一只单独安装，把它当招聘计划而不是礼包：缺哪个加哪个，按痛的顺序。"
+    },
+    {
+      "type": "collection",
+      "slug": "award-travel",
+      "name": "Award Travel",
+      "name_zh": "奖励旅行",
+      "url": "/collections/award-travel/",
+      "orig_url": "https://grokbot.dev/collections/award-travel/",
+      "tagline": "Book the trip on points, for the deepest real value.",
+      "tagline_zh": "用积分订行程，追求最深的真实价值。",
+      "rationale": "Points are worth a fortune and almost nobody redeems them well. This bundle does: it optimises your cards and miles, plans the trip around your home airport and status, compares the routes that are actually cheap, and books the flights, rail, hotels and event tickets, through official channels and only when you say go.",
+      "rationale_zh": "积分旅行不是「能订就订」，是在你家机场、身份和里程结构里找出真实最值的那段。把会算的脑、会比路线的和会找票的放在一起。",
+      "category": "personal",
+      "category_zh": "个人",
+      "members": [
+        {
+          "type": "template",
+          "slug": "point-peddler",
+          "name": "point peddler",
+          "reason": "An award-travel brain whose one job is making credit-card and airline points optimisation effortless.",
+          "reason_zh": "An award-travel brain whose one job is making credit-card and airline points optimisation effortless.",
+          "url": "/marketplace/point-peddler/",
+          "orig_url": "https://grokbot.dev/marketplace/point-peddler/"
+        },
+        {
+          "type": "template",
+          "slug": "travel-guru",
+          "name": "travel guru",
+          "reason": "Plans award travel around your home airport, your points balances and your status.",
+          "reason_zh": "Plans award travel around your home airport, your points balances and your status.",
+          "url": "/marketplace/travel-guru/",
+          "orig_url": "https://grokbot.dev/marketplace/travel-guru/"
+        },
+        {
+          "type": "template",
+          "slug": "japanese-travel-booking-agent",
+          "name": "旅行手配エージェント",
+          "reason": "Compares the cheap and easy routes, then books the flights, rail and hotels for you.",
+          "reason_zh": "Compares the cheap and easy routes, then books the flights, rail and hotels for you.",
+          "url": "/marketplace/japanese-travel-booking-agent/",
+          "orig_url": "https://grokbot.dev/marketplace/japanese-travel-booking-agent/"
+        },
+        {
+          "type": "template",
+          "slug": "travel-event-agency",
+          "name": "Travel & Event Agency",
+          "reason": "Finds live flight and event tickets and compares what the trip actually costs across options.",
+          "reason_zh": "Finds live flight and event tickets and compares what the trip actually costs across options.",
+          "url": "/marketplace/travel-event-agency/",
+          "orig_url": "https://grokbot.dev/marketplace/travel-event-agency/"
+        }
+      ],
+      "member_count": 4,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "award travel 奖励旅行 book the trip on points, for the deepest real value. 用积分订行程，追求最深的真实价值。 积分旅行不是「能订就订」，是在你家机场、身份和里程结构里找出真实最值的那段。把会算的脑、会比路线的和会找票的放在一起。"
+    },
+    {
+      "type": "collection",
+      "slug": "content-machine",
+      "name": "One Video, a Week of Content",
+      "name_zh": "一支视频，一周内容",
+      "url": "/collections/content-machine/",
+      "orig_url": "https://grokbot.dev/collections/content-machine/",
+      "tagline": "Turn one recording into clips, shorts and posts everywhere.",
+      "tagline_zh": "一次录制，切成短片、Shorts，发到各处。",
+      "rationale": "One recording is a week of content if you cut it right. This bundle plans the main edit, carves Shorts from the moments that already worked, clips captioned highlights, writes captions that sound human, and distributes the lot across nine networks. You film once; the crew turns it into everything the platforms want.",
+      "rationale_zh": "拍一次，吃一周。剪辑、切片、Shorts、跨平台分发、再用人味文案收尾——流水线而不是灵感。",
+      "category": "marketing",
+      "category_zh": "营销",
+      "members": [
+        {
+          "type": "template",
+          "slug": "best-video-editor",
+          "name": "Best Video Editor",
+          "reason": "Plans the whole edit from your footage and hands back a review-ready cut, not a pile of trimmed files.",
+          "reason_zh": "Plans the whole edit from your footage and hands back a review-ready cut, not a pile of trimmed files.",
+          "url": "/marketplace/best-video-editor/",
+          "orig_url": "https://grokbot.dev/marketplace/best-video-editor/"
+        },
+        {
+          "type": "template",
+          "slug": "shorty",
+          "name": "Shorty",
+          "reason": "Cuts vertical Shorts from the long-form videos that already performed, so you repurpose proven winners.",
+          "reason_zh": "Cuts vertical Shorts from the long-form videos that already performed, so you repurpose proven winners.",
+          "url": "/marketplace/shorty/",
+          "orig_url": "https://grokbot.dev/marketplace/shorty/"
+        },
+        {
+          "type": "template",
+          "slug": "clip-bot",
+          "name": "Clip Bot",
+          "reason": "Pulls captioned 16:9 highlights from any podcast and drops the file straight onto your machine.",
+          "reason_zh": "Pulls captioned 16:9 highlights from any podcast and drops the file straight onto your machine.",
+          "url": "/marketplace/clip-bot/",
+          "orig_url": "https://grokbot.dev/marketplace/clip-bot/"
+        },
+        {
+          "type": "template",
+          "slug": "adaptlypost",
+          "name": "AdaptlyPost",
+          "reason": "Writes, queues and posts the pieces out to nine social networks from one place.",
+          "reason_zh": "Writes, queues and posts the pieces out to nine social networks from one place.",
+          "url": "/marketplace/adaptlypost/",
+          "orig_url": "https://grokbot.dev/marketplace/adaptlypost/"
+        },
+        {
+          "type": "template",
+          "slug": "human-copywriter",
+          "name": "Human Copywriter",
+          "reason": "Rewrites captions and posts so they read like you, not like a template.",
+          "reason_zh": "Rewrites captions and posts so they read like you, not like a template.",
+          "url": "/marketplace/human-copywriter/",
+          "orig_url": "https://grokbot.dev/marketplace/human-copywriter/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "one video, a week of content 一支视频，一周内容 turn one recording into clips, shorts and posts everywhere. 一次录制，切成短片、shorts，发到各处。 拍一次，吃一周。剪辑、切片、shorts、跨平台分发、再用人味文案收尾——流水线而不是灵感。"
+    },
+    {
+      "type": "collection",
+      "slug": "fill-the-pipeline",
+      "name": "Fill the Pipeline",
+      "name_zh": "把漏斗填上",
+      "url": "/collections/fill-the-pipeline/",
+      "orig_url": "https://grokbot.dev/collections/fill-the-pipeline/",
+      "tagline": "From a fresh lead list to the meeting booked.",
+      "tagline_zh": "从一张新线索表，到会议约上。",
+      "rationale": "Outbound dies in the gaps: no list, a generic opener, the wrong contact, a yes that never gets a calendar invite. This bundle closes each one — a fresh qualified list every morning, a real hook per account, a path to the actual decision-maker, a daily read of buying signals, and a bot that books the calls that slipped. You keep a human hand on every send.",
+      "rationale_zh": "早晨一张合格账户表，研究钩子，爬到决策者，LinkedIn 日扫，夜里把缺的电话补上。获客是一条链，不是一个技巧。",
+      "category": "sales",
+      "category_zh": "销售",
+      "members": [
+        {
+          "type": "template",
+          "slug": "prospecting-sheet-builder",
+          "name": "Prospecting Sheet Builder",
+          "reason": "Wakes you up to a fresh sheet of qualified B2B accounts, so the day starts with a list, not a blank page.",
+          "reason_zh": "Wakes you up to a fresh sheet of qualified B2B accounts, 让一天从清单开始，而不是空白页。",
+          "url": "/marketplace/prospecting-sheet-builder/",
+          "orig_url": "https://grokbot.dev/marketplace/prospecting-sheet-builder/"
+        },
+        {
+          "type": "template",
+          "slug": "pg-prospecting",
+          "name": "PG (Prospecting)",
+          "reason": "Works the target accounts first, mining recent podcasts and webinars for an opener that isn't scraped from a profile.",
+          "reason_zh": "Works the target accounts first, mining recent podcasts and webinars for an opener that isn't scraped from a profile.",
+          "url": "/marketplace/pg-prospecting/",
+          "orig_url": "https://grokbot.dev/marketplace/pg-prospecting/"
+        },
+        {
+          "type": "template",
+          "slug": "john-wick",
+          "name": "John Wick",
+          "reason": "Maps the target company and climbs upward until it reaches the person who can actually say yes.",
+          "reason_zh": "Maps the target company and climbs upward until it reaches the person who can actually say yes.",
+          "url": "/marketplace/john-wick/",
+          "orig_url": "https://grokbot.dev/marketplace/john-wick/"
+        },
+        {
+          "type": "template",
+          "slug": "linkedin-leads",
+          "name": "Linkedin Leads",
+          "reason": "Sweeps LinkedIn posts and comments for your keywords every day and surfaces the real buying signals.",
+          "reason_zh": "Sweeps LinkedIn posts and comments for your keywords every day and surfaces the real buying signals.",
+          "url": "/marketplace/linkedin-leads/",
+          "orig_url": "https://grokbot.dev/marketplace/linkedin-leads/"
+        },
+        {
+          "type": "template",
+          "slug": "dispatch",
+          "name": "Dispatch",
+          "reason": "Scans your channels nightly and books the calls that were agreed to but never actually scheduled.",
+          "reason_zh": "Scans your channels nightly and books the calls that were agreed to but never actually scheduled.",
+          "url": "/marketplace/dispatch/",
+          "orig_url": "https://grokbot.dev/marketplace/dispatch/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "fill the pipeline 把漏斗填上 from a fresh lead list to the meeting booked. 从一张新线索表，到会议约上。 早晨一张合格账户表，研究钩子，爬到决策者，linkedin 日扫，夜里把缺的电话补上。获客是一条链，不是一个技巧。"
+    },
+    {
+      "type": "collection",
+      "slug": "founder-os",
+      "name": "Founder OS",
+      "name_zh": "创始人操作系统",
+      "url": "/collections/founder-os/",
+      "orig_url": "https://grokbot.dev/collections/founder-os/",
+      "tagline": "Stand up the company, then run it from one desk.",
+      "tagline_zh": "把公司立起来，然后从一张桌子上跑。",
+      "rationale": "A solo founder is a whole company wearing one hat. This bundle spreads the hat: one bot stands up the operating files, one sets the agenda and directs the rest, one runs the weekly GTM and onboarding grind, one watches the competition, and one keeps the books. It's an operating system for a company of one, with you making the calls.",
+      "rationale_zh": "采访式铸造公司文件，虚拟 CEO 定议程，SaaS 值班跑日常，竞品只在实质变化时叫，收据进账。一人公司的操作系统。",
+      "category": "work",
+      "category_zh": "办公",
+      "members": [
+        {
+          "type": "template",
+          "slug": "foundry",
+          "name": "Foundry",
+          "reason": "Interviews you about a new venture and writes the operating files it will run on.",
+          "reason_zh": "Interviews you about a new venture and writes the operating files it will run on.",
+          "url": "/marketplace/foundry/",
+          "orig_url": "https://grokbot.dev/marketplace/foundry/"
+        },
+        {
+          "type": "template",
+          "slug": "ceo",
+          "name": "CEO",
+          "reason": "A virtual CEO that sets the agenda and directs your other bots, so the roster actually pulls together.",
+          "reason_zh": "A virtual CEO that sets the agenda and directs your other bots, so the roster actually pulls together.",
+          "url": "/marketplace/ceo/",
+          "orig_url": "https://grokbot.dev/marketplace/ceo/"
+        },
+        {
+          "type": "template",
+          "slug": "saasbot",
+          "name": "SaaSbot",
+          "reason": "A weekday operator that runs GTM, outbound, QA and onboarding across the week.",
+          "reason_zh": "A weekday operator that runs GTM, outbound, QA and onboarding across the week.",
+          "url": "/marketplace/saasbot/",
+          "orig_url": "https://grokbot.dev/marketplace/saasbot/"
+        },
+        {
+          "type": "template",
+          "slug": "competitor-watching",
+          "name": "Competitor Watching",
+          "reason": "Snapshots you against three to eight competitors on pricing, features and messaging, and alerts only on material change.",
+          "reason_zh": "Snapshots you against three to eight competitors on pricing, features and messaging, and alerts only on material change.",
+          "url": "/marketplace/competitor-watching/",
+          "orig_url": "https://grokbot.dev/marketplace/competitor-watching/"
+        },
+        {
+          "type": "template",
+          "slug": "receipt-scanner-expense-tracking",
+          "name": "Receipt Scanner / Expense Tracking",
+          "reason": "Forward a receipt and it becomes a row in your expense sheet, the finance admin nobody wants to do.",
+          "reason_zh": "Forward a receipt and it becomes a row in your expense sheet, the finance admin nobody wants to do.",
+          "url": "/marketplace/receipt-scanner-expense-tracking/",
+          "orig_url": "https://grokbot.dev/marketplace/receipt-scanner-expense-tracking/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "founder os 创始人操作系统 stand up the company, then run it from one desk. 把公司立起来，然后从一张桌子上跑。 采访式铸造公司文件，虚拟 ceo 定议程，saas 值班跑日常，竞品只在实质变化时叫，收据进账。一人公司的操作系统。"
+    },
+    {
+      "type": "collection",
+      "slug": "get-found",
+      "name": "Get Found",
+      "name_zh": "被找到",
+      "url": "/collections/get-found/",
+      "orig_url": "https://grokbot.dev/collections/get-found/",
+      "tagline": "Rank in Google — and get named in the AI answers.",
+      "tagline_zh": "在 Google 排名——并在 AI 答案里被点名。",
+      "rationale": "Getting found is no longer one channel. You have to rank in Google and get named when someone asks an AI. This bundle runs the whole loop: research what people are actually saying, turn the gaps into briefs, keep the site technically clean, watch where rivals and the AI answers put you, and make the final copy read like a human wrote it. Start with Index for the briefs and add the rest as each gap shows up.",
+      "rationale_zh": "SEO 和 AEO 一起做：brief、答案引擎优化、竞品可见度、整站审计、再看三十日真实舆论。被搜到，也被模型点名。",
+      "category": "marketing",
+      "category_zh": "营销",
+      "members": [
+        {
+          "type": "template",
+          "slug": "index-seo-aeo-teammate",
+          "name": "Index (SEO/AEO Teammate)",
+          "reason": "Reads what you've already connected and turns the gaps into content briefs your writers can actually run with.",
+          "reason_zh": "Reads what you've already connected and turns the gaps into content briefs your writers can actually run with.",
+          "url": "/marketplace/index-seo-aeo-teammate/",
+          "orig_url": "https://grokbot.dev/marketplace/index-seo-aeo-teammate/"
+        },
+        {
+          "type": "template",
+          "slug": "aio-specialist-aeo-geo",
+          "name": "AIO Specialist (AEO/GEO)",
+          "reason": "Runs answer-engine and generative-engine optimisation as an ongoing program, not a one-off check of what a chatbot says today.",
+          "reason_zh": "Runs answer-engine and generative-engine optimisation as an ongoing program, not a one-off check of what a chatbot says today.",
+          "url": "/marketplace/aio-specialist-aeo-geo/",
+          "orig_url": "https://grokbot.dev/marketplace/aio-specialist-aeo-geo/"
+        },
+        {
+          "type": "template",
+          "slug": "scout-competitive-intelligence",
+          "name": "Scout (Competitive Intelligence)",
+          "reason": "Watches rival sites, your search rank and whether the AI answers mention you, and flags only the moves that need a response.",
+          "reason_zh": "Watches rival sites, your search rank and whether the AI answers mention you, and flags only the moves that need a response.",
+          "url": "/marketplace/scout-competitive-intelligence/",
+          "orig_url": "https://grokbot.dev/marketplace/scout-competitive-intelligence/"
+        },
+        {
+          "type": "template",
+          "slug": "site-audit",
+          "name": "Site Audit",
+          "reason": "One pass across SEO, speed, accessibility, CRO and schema, scored P0/P1/P2 with an evidence URL on every finding.",
+          "reason_zh": "One pass across SEO, speed, accessibility, CRO and schema, scored P0/P1/P2 with an evidence URL on every finding.",
+          "url": "/marketplace/site-audit/",
+          "orig_url": "https://grokbot.dev/marketplace/site-audit/"
+        },
+        {
+          "type": "template",
+          "slug": "last30days",
+          "name": "last30days",
+          "reason": "A social-listening sweep bounded to a month, so your angle starts from what people are saying now.",
+          "reason_zh": "A social-listening sweep bounded to a month, so your angle starts from what people are saying now.",
+          "url": "/marketplace/last30days/",
+          "orig_url": "https://grokbot.dev/marketplace/last30days/"
+        },
+        {
+          "type": "template",
+          "slug": "human-copywriter",
+          "name": "Human Copywriter",
+          "reason": "Rewrites the AI-sounding draft into copy that reads like a person, so the pages you publish don't get marked as slop.",
+          "reason_zh": "Rewrites the AI-sounding draft into copy that reads like a person, so the pages you publish don't get marked as slop.",
+          "url": "/marketplace/human-copywriter/",
+          "orig_url": "https://grokbot.dev/marketplace/human-copywriter/"
+        }
+      ],
+      "member_count": 6,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "get found 被找到 rank in google — and get named in the ai answers. 在 google 排名——并在 ai 答案里被点名。 seo 和 aeo 一起做：brief、答案引擎优化、竞品可见度、整站审计、再看三十日真实舆论。被搜到，也被模型点名。"
+    },
+    {
+      "type": "collection",
+      "slug": "household-hq",
+      "name": "Household HQ",
+      "name_zh": "家庭总部",
+      "url": "/collections/household-hq/",
+      "orig_url": "https://grokbot.dev/collections/household-hq/",
+      "tagline": "Run the family: meals, school, home and the thoughtful stuff.",
+      "tagline_zh": "把家里跑起来：饭、学校、家，以及那些费心思的事。",
+      "rationale": "A household is a small operation with no ops person. This bundle is that person: it watches the family calendar and inbox, plans and orders the week's meals, keeps an eye on the kids' schoolwork, drives the home robots, and remembers the thoughtful things before they slip. The admin runs itself so the family time doesn't get eaten by it.",
+      "rationale_zh": "家庭中台、一周菜单、作业检查、家用机器人，外加不让关系里体贴的部分溜走。家是一套运营。",
+      "category": "personal",
+      "category_zh": "个人",
+      "members": [
+        {
+          "type": "template",
+          "slug": "tradbot",
+          "name": "Tradbot",
+          "reason": "A household chief of staff that watches the family inbox and calendar so school and home items stop slipping.",
+          "reason_zh": "A household chief of staff that watches the family inbox and calendar so school and home items stop slipping.",
+          "url": "/marketplace/tradbot/",
+          "orig_url": "https://grokbot.dev/marketplace/tradbot/"
+        },
+        {
+          "type": "template",
+          "slug": "chef",
+          "name": "Chef",
+          "reason": "Plans the week's meals, turns the plan into a shopping list, and places the grocery order.",
+          "reason_zh": "Plans the week's meals, turns the plan into a shopping list, and places the grocery order.",
+          "url": "/marketplace/chef/",
+          "orig_url": "https://grokbot.dev/marketplace/chef/"
+        },
+        {
+          "type": "template",
+          "slug": "homework-checker",
+          "name": "Homework Checker",
+          "reason": "A weekday recap of a kid's missing assignments and grades, with a quick explainer when a score dips.",
+          "reason_zh": "A weekday recap of a kid's missing assignments and grades, with a quick explainer when a score dips.",
+          "url": "/marketplace/homework-checker/",
+          "orig_url": "https://grokbot.dev/marketplace/homework-checker/"
+        },
+        {
+          "type": "template",
+          "slug": "home-robots",
+          "name": "Home Robots",
+          "reason": "Runs the mower, the vacuum and the rest of your Matter home robots from a single chat.",
+          "reason_zh": "Runs the mower, the vacuum and the rest of your Matter home robots from a single chat.",
+          "url": "/marketplace/home-robots/",
+          "orig_url": "https://grokbot.dev/marketplace/home-robots/"
+        },
+        {
+          "type": "template",
+          "slug": "love",
+          "name": "Love ❤️",
+          "reason": "Keeps the thoughtful part of a relationship from slipping: dates, tables and presents, remembered and queued.",
+          "reason_zh": "Keeps the thoughtful part of a relationship from slipping: dates, tables and presents, remembered and queued.",
+          "url": "/marketplace/love/",
+          "orig_url": "https://grokbot.dev/marketplace/love/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "household hq 家庭总部 run the family: meals, school, home and the thoughtful stuff. 把家里跑起来：饭、学校、家，以及那些费心思的事。 家庭中台、一周菜单、作业检查、家用机器人，外加不让关系里体贴的部分溜走。家是一套运营。"
+    },
+    {
+      "type": "collection",
+      "slug": "look-after-yourself",
+      "name": "Look After Yourself",
+      "name_zh": "照顾你自己",
+      "url": "/collections/look-after-yourself/",
+      "orig_url": "https://grokbot.dev/collections/look-after-yourself/",
+      "tagline": "The nudges and coaching to actually take care of you.",
+      "tagline_zh": "那些真的会让你被照顾到的轻推和教练。",
+      "rationale": "Looking after yourself loses to everything more urgent. This bundle keeps it on the rails without becoming another chore: a coach that logs meals and adjusts, a bot that grabs the gym slots before they go, a weekly nudge toward a few changes you'll actually keep, and a straight health brief when you have a question. Small, survivable, consistent.",
+      "rationale_zh": "健身营养（含约束）、抢课、每周三件更开心的实事、三分钟健康简报。对自己好，也要具体。",
+      "category": "personal",
+      "category_zh": "个人",
+      "members": [
+        {
+          "type": "template",
+          "slug": "melissa-fitness-nutrition-coach",
+          "name": "Melissa (Fitness & Nutrition Coach)",
+          "reason": "A fitness and nutrition coach that logs meals and balances chasing you for updates against leaving you alone.",
+          "reason_zh": "A fitness and nutrition coach that logs meals and balances chasing you for updates against leaving you alone.",
+          "url": "/marketplace/melissa-fitness-nutrition-coach/",
+          "orig_url": "https://grokbot.dev/marketplace/melissa-fitness-nutrition-coach/"
+        },
+        {
+          "type": "template",
+          "slug": "gym-bod",
+          "name": "Gym Bod",
+          "reason": "Claims your spot in the busy gym classes the moment registration opens, so you never miss the good slots.",
+          "reason_zh": "Claims your spot in the busy gym classes the moment registration opens, so you never miss the good slots.",
+          "url": "/marketplace/gym-bod/",
+          "orig_url": "https://grokbot.dev/marketplace/gym-bod/"
+        },
+        {
+          "type": "template",
+          "slug": "be-happier",
+          "name": "Be Happier",
+          "reason": "Reads your mail and calendar and suggests three concrete, survivable changes each week, with no new habits to fail at.",
+          "reason_zh": "Reads your mail and calendar and suggests three concrete, survivable changes each week, with no new habits to fail at.",
+          "url": "/marketplace/be-happier/",
+          "orig_url": "https://grokbot.dev/marketplace/be-happier/"
+        },
+        {
+          "type": "template",
+          "slug": "cost-smart-health-brief",
+          "name": "Cost-Smart Health Brief",
+          "reason": "Turns one health question into a three-minute brief: what the evidence says, cheaper options, and when to see a doctor.",
+          "reason_zh": "Turns one health question into a three-minute brief: what the evidence says, cheaper options, and when to see a doctor.",
+          "url": "/marketplace/cost-smart-health-brief/",
+          "orig_url": "https://grokbot.dev/marketplace/cost-smart-health-brief/"
+        }
+      ],
+      "member_count": 4,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "look after yourself 照顾你自己 the nudges and coaching to actually take care of you. 那些真的会让你被照顾到的轻推和教练。 健身营养（含约束）、抢课、每周三件更开心的实事、三分钟健康简报。对自己好，也要具体。"
+    },
+    {
+      "type": "collection",
+      "slug": "never-overpay",
+      "name": "Never Overpay Again",
+      "name_zh": "再也不多付钱",
+      "url": "/collections/never-overpay/",
+      "orig_url": "https://grokbot.dev/collections/never-overpay/",
+      "tagline": "Shop smart, pick the right card, claw back what you're owed.",
+      "tagline_zh": "聪明地买、选对卡、把该你的钱要回来。",
+      "rationale": "Most overpaying is quiet: the wrong card, a missed refund, a warranty window that closed. This bundle decides whether to buy at all, compares the real landed cost, puts the spend on the card that pays you back, and then makes sure you claim every refund and never miss a return window. It never buys anything without you.",
+      "rationale_zh": "落地价比价、买/跳过判决、选卡、质保窗口、翻邮件找没追过的退款。少花、要回。",
+      "category": "personal",
+      "category_zh": "个人",
+      "members": [
+        {
+          "type": "template",
+          "slug": "deal-hunting",
+          "name": "Deal Hunting",
+          "reason": "Compares what you'll actually pay, shipping and tax in, across your preferred retailers rather than the sticker price.",
+          "reason_zh": "Compares what you'll actually pay, shipping and tax in, across your preferred retailers rather than the sticker price.",
+          "url": "/marketplace/deal-hunting/",
+          "orig_url": "https://grokbot.dev/marketplace/deal-hunting/"
+        },
+        {
+          "type": "template",
+          "slug": "review-this",
+          "name": "Review This",
+          "reason": "Name a product and get a straight buy, skip, or pick-this-instead verdict before you spend.",
+          "reason_zh": "Name a product and get a straight buy, skip, or pick-this-instead verdict before you spend.",
+          "url": "/marketplace/review-this/",
+          "orig_url": "https://grokbot.dev/marketplace/review-this/"
+        },
+        {
+          "type": "template",
+          "slug": "credit-card-max",
+          "name": "Credit Card Max",
+          "reason": "Tells you which card to put a purchase on for the most points and perks, and flags benefits you pay for but never use.",
+          "reason_zh": "Tells you which card to put a purchase on for the most points and perks, and flags benefits you pay for but never use.",
+          "url": "/marketplace/credit-card-max/",
+          "orig_url": "https://grokbot.dev/marketplace/credit-card-max/"
+        },
+        {
+          "type": "template",
+          "slug": "returns-warranties",
+          "name": "Returns & Warranties",
+          "reason": "Warns you before a return, refund or warranty window quietly closes.",
+          "reason_zh": "Warns you before a return, refund or warranty window quietly closes.",
+          "url": "/marketplace/returns-warranties/",
+          "orig_url": "https://grokbot.dev/marketplace/returns-warranties/"
+        },
+        {
+          "type": "template",
+          "slug": "bounty-hunter",
+          "name": "Bounty Hunter",
+          "reason": "Digs through your email and bills for refunds and credits that are already yours but never got chased.",
+          "reason_zh": "Digs through your email and bills for refunds and credits that are already yours but never got chased.",
+          "url": "/marketplace/bounty-hunter/",
+          "orig_url": "https://grokbot.dev/marketplace/bounty-hunter/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "never overpay again 再也不多付钱 shop smart, pick the right card, claw back what you're owed. 聪明地买、选对卡、把该你的钱要回来。 落地价比价、买/跳过判决、选卡、质保窗口、翻邮件找没追过的退款。少花、要回。"
+    },
+    {
+      "type": "collection",
+      "slug": "reclaim-your-inbox",
+      "name": "Inbox Zero, For Real",
+      "name_zh": "真正的收件箱归零",
+      "url": "/collections/reclaim-your-inbox/",
+      "orig_url": "https://grokbot.dev/collections/reclaim-your-inbox/",
+      "tagline": "Empty the inbox — and keep it empty.",
+      "tagline_zh": "清空收件箱——并保持空。",
+      "rationale": "Email runs most people's day instead of the other way round. This crew takes it back: one bot drives the inbox to zero, one surfaces what actually needs you, one drafts the replies with full thread context but never sends, one clears the newsletter noise, and one guards the money items buried in the pile. Read-and-draft first, so you stay on every send.",
+      "rationale_zh": "工作日归档噪音、把真正需要你的信浮上来、起草但不代发、周报排毒、续费看门狗。空，是一种维持。",
+      "category": "work",
+      "category_zh": "办公",
+      "members": [
+        {
+          "type": "template",
+          "slug": "inbox-zero",
+          "name": "Inbox Zero",
+          "reason": "Files the noise to zero every weekday, so the inbox is a to-do list again rather than a graveyard.",
+          "reason_zh": "Files the noise to zero every weekday, so the inbox is a to-do list again rather than a graveyard.",
+          "url": "/marketplace/inbox-zero/",
+          "orig_url": "https://grokbot.dev/marketplace/inbox-zero/"
+        },
+        {
+          "type": "template",
+          "slug": "dewey",
+          "name": "Dewey",
+          "reason": "Watches Gmail and surfaces only the mail that genuinely needs you, so nothing important hides in the pile.",
+          "reason_zh": "Watches Gmail and surfaces only the mail that genuinely needs you, so nothing important hides in the pile.",
+          "url": "/marketplace/dewey/",
+          "orig_url": "https://grokbot.dev/marketplace/dewey/"
+        },
+        {
+          "type": "template",
+          "slug": "loom",
+          "name": "loom",
+          "reason": "Gathers the related threads first, then drafts the reply with real context, and never sends, archives or deletes on its own.",
+          "reason_zh": "Gathers the related threads first, then drafts the reply with real context, and never sends, archives or deletes on its own.",
+          "url": "/marketplace/loom/",
+          "orig_url": "https://grokbot.dev/marketplace/loom/"
+        },
+        {
+          "type": "template",
+          "slug": "newsletter-cleanup",
+          "name": "Newsletter Cleanup",
+          "reason": "Audits months of newsletters into a review page and unsubscribes only from what you approve.",
+          "reason_zh": "Audits months of newsletters into a review page and unsubscribes only from what you approve.",
+          "url": "/marketplace/newsletter-cleanup/",
+          "orig_url": "https://grokbot.dev/marketplace/newsletter-cleanup/"
+        },
+        {
+          "type": "template",
+          "slug": "watchdog",
+          "name": "Watchdog",
+          "reason": "Sweeps the inbox weekly for renewals, receipts and expiring trials, so money items don't slip past.",
+          "reason_zh": "Sweeps the inbox weekly for renewals, receipts and expiring trials, so money items don't slip past.",
+          "url": "/marketplace/watchdog/",
+          "orig_url": "https://grokbot.dev/marketplace/watchdog/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "inbox zero, for real 真正的收件箱归零 empty the inbox — and keep it empty. 清空收件箱——并保持空。 工作日归档噪音、把真正需要你的信浮上来、起草但不代发、周报排毒、续费看门狗。空，是一种维持。"
+    },
+    {
+      "type": "collection",
+      "slug": "second-brain",
+      "name": "Build a Second Brain",
+      "name_zh": "造第二大脑",
+      "url": "/collections/second-brain/",
+      "orig_url": "https://grokbot.dev/collections/second-brain/",
+      "tagline": "Research that's sourced, filed, and findable months later.",
+      "tagline_zh": "有出处、归过档、几个月后还能找到的研究。",
+      "rationale": "Research only compounds if it's verified and findable later; otherwise it just scrolls past. This bundle gathers from real sources, checks the claims, files the dossiers with structure, and keeps your second brain briefed morning and night. Six months on you can still find what you learned and why it mattered.",
+      "rationale_zh": "短答案带引用、深挖并归档、Obsidian 日课、资源筛、会自检的研究台。第二大脑不是收藏夹。",
+      "category": "work",
+      "category_zh": "办公",
+      "members": [
+        {
+          "type": "template",
+          "slug": "research-bot",
+          "name": "Research Bot",
+          "reason": "Deep research that reasons from first principles and refuses to hand back an answer with an unverified source.",
+          "reason_zh": "Deep research that reasons from first principles and refuses to hand back an answer with an unverified source.",
+          "url": "/marketplace/research-bot/",
+          "orig_url": "https://grokbot.dev/marketplace/research-bot/"
+        },
+        {
+          "type": "template",
+          "slug": "thoth-researcher-archivist",
+          "name": "Thoth (Researcher & Archivist)",
+          "reason": "Does the deep dive, then files the dossier with enough structure that the work is still findable months later.",
+          "reason_zh": "Does the deep dive, then files the dossier with enough structure that the work is still findable months later.",
+          "url": "/marketplace/thoth-researcher-archivist/",
+          "orig_url": "https://grokbot.dev/marketplace/thoth-researcher-archivist/"
+        },
+        {
+          "type": "template",
+          "slug": "segundo-c-rebro",
+          "name": "Segundo Cérebro",
+          "reason": "Runs your Obsidian second brain with a morning brief and a nightly check-in, so notes turn into recall.",
+          "reason_zh": "Runs your Obsidian second brain with a morning brief and a nightly check-in, so notes turn into recall.",
+          "url": "/marketplace/segundo-c-rebro/",
+          "orig_url": "https://grokbot.dev/marketplace/segundo-c-rebro/"
+        },
+        {
+          "type": "template",
+          "slug": "ai-resource-sift",
+          "name": "AI Resource Sift",
+          "reason": "Sweeps papers, code, lectures and forums on one topic into a single filtered reading stack.",
+          "reason_zh": "Sweeps papers, code, lectures and forums on one topic into a single filtered reading stack.",
+          "url": "/marketplace/ai-resource-sift/",
+          "orig_url": "https://grokbot.dev/marketplace/ai-resource-sift/"
+        },
+        {
+          "type": "template",
+          "slug": "ethan",
+          "name": "Ethan",
+          "reason": "A research desk with five specialist skills that fact-checks its own findings before handing them over.",
+          "reason_zh": "A research desk with five specialist skills that fact-checks its own findings before handing them over.",
+          "url": "/marketplace/ethan/",
+          "orig_url": "https://grokbot.dev/marketplace/ethan/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "build a second brain 造第二大脑 research that's sourced, filed, and findable months later. 有出处、归过档、几个月后还能找到的研究。 短答案带引用、深挖并归档、obsidian 日课、资源筛、会自检的研究台。第二大脑不是收藏夹。"
+    },
+    {
+      "type": "collection",
+      "slug": "ship-while-you-sleep",
+      "name": "Ship While You Sleep",
+      "name_zh": "睡觉时交付",
+      "url": "/collections/ship-while-you-sleep/",
+      "orig_url": "https://grokbot.dev/collections/ship-while-you-sleep/",
+      "tagline": "Drop an idea at night, review the PR in the morning.",
+      "tagline_zh": "夜里丢一个想法，早晨审 PR。",
+      "rationale": "This is the loop a small team wishes it had: an idea becomes a pull request overnight, an agent iterates until the test passes, and two reviewers — one risk-first, one merge-gate — decide whether it ships, while a gardener quietly removes the dead code nobody gets to. It runs itself and stops at your gate, so you review decisions rather than type every line.",
+      "rationale_zh": "夜间开工、外循环直到测试过、tech lead 看 diff、风险优先的 PR 评审、再拔死代码。睡眠是构建时间。",
+      "category": "engineering",
+      "category_zh": "工程",
+      "members": [
+        {
+          "type": "template",
+          "slug": "overnight-shipper",
+          "name": "overnight shipper",
+          "reason": "Drop an idea before bed and it opens a pull request you can review over coffee.",
+          "reason_zh": "Drop an idea before bed and it opens a pull request you can review over coffee.",
+          "url": "/marketplace/overnight-shipper/",
+          "orig_url": "https://grokbot.dev/marketplace/overnight-shipper/"
+        },
+        {
+          "type": "template",
+          "slug": "agent-looper",
+          "name": "Agent Looper",
+          "reason": "Keeps a local coding agent iterating until your acceptance test actually passes, not just compiles.",
+          "reason_zh": "Keeps a local coding agent iterating until your acceptance test actually passes, not just compiles.",
+          "url": "/marketplace/agent-looper/",
+          "orig_url": "https://grokbot.dev/marketplace/agent-looper/"
+        },
+        {
+          "type": "template",
+          "slug": "tech-lead",
+          "name": "Tech Lead",
+          "reason": "Gates the merge on what the diff and the tests really show, so nothing lands on vibes.",
+          "reason_zh": "Gates the merge on what the diff and the tests really show, so nothing lands on vibes.",
+          "url": "/marketplace/tech-lead/",
+          "orig_url": "https://grokbot.dev/marketplace/tech-lead/"
+        },
+        {
+          "type": "template",
+          "slug": "pr-reviewer",
+          "name": "PR Reviewer",
+          "reason": "Reviews pull requests risk-first: what can break, what is untested, where the context is too thin to judge.",
+          "reason_zh": "Reviews pull requests risk-first: what can break, what is untested, where the context is too thin to judge.",
+          "url": "/marketplace/pr-reviewer/",
+          "orig_url": "https://grokbot.dev/marketplace/pr-reviewer/"
+        },
+        {
+          "type": "template",
+          "slug": "gardener",
+          "name": "Gardener",
+          "reason": "Pulls provable dead code in tiny, behaviour-preserving pull requests small enough to actually merge.",
+          "reason_zh": "Pulls provable dead code in tiny, behaviour-preserving pull requests small enough to actually merge.",
+          "url": "/marketplace/gardener/",
+          "orig_url": "https://grokbot.dev/marketplace/gardener/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "ship while you sleep 睡觉时交付 drop an idea at night, review the pr in the morning. 夜里丢一个想法，早晨审 pr。 夜间开工、外循环直到测试过、tech lead 看 diff、风险优先的 pr 评审、再拔死代码。睡眠是构建时间。"
+    },
+    {
+      "type": "collection",
+      "slug": "start-here",
+      "name": "New to Grok Bot? Start Here",
+      "name_zh": "Grok Bot 新手？从这里开始",
+      "url": "/collections/start-here/",
+      "orig_url": "https://grokbot.dev/collections/start-here/",
+      "tagline": "Set up your first bots — and learn to build your own.",
+      "tagline_zh": "装上第一批 Bot——并学会自己造。",
+      "rationale": "The hardest part of Grok Bot is the first hour. This bundle is the on-ramp: a guided start, a bot that spawns your first useful bots, one that builds new bots from a few answers, a coach that tunes what you've got, and a vet that checks anything you install. Get running, learn to build, and stay safe doing it.",
+      "rationale_zh": "第一小时教练、五分钟点火派生起步小队、造 Bot 的 Bot、审计已有 Bot、进门前的体检。从这里进目录。",
+      "category": "personal",
+      "category_zh": "个人",
+      "members": [
+        {
+          "type": "template",
+          "slug": "onboarding-coach",
+          "name": "Onboarding Coach",
+          "reason": "A guided first hour that shows a newcomer what Grok Bot can actually do for them.",
+          "reason_zh": "A guided first hour that shows a newcomer what Grok Bot can actually do for them.",
+          "url": "/marketplace/onboarding-coach/",
+          "orig_url": "https://grokbot.dev/marketplace/onboarding-coach/"
+        },
+        {
+          "type": "template",
+          "slug": "spark-onboarding",
+          "name": "Spark (Onboarding)",
+          "reason": "Asks a few questions and spawns the starter bots that match your answers, then nudges you to connect them.",
+          "reason_zh": "Asks a few questions and spawns the starter bots that match your answers, then nudges you to connect them.",
+          "url": "/marketplace/spark-onboarding/",
+          "orig_url": "https://grokbot.dev/marketplace/spark-onboarding/"
+        },
+        {
+          "type": "template",
+          "slug": "dr-eggbot",
+          "name": "Dr Eggbot",
+          "reason": "A bot that builds other bots: answer a handful of questions and it hands you a properly structured one.",
+          "reason_zh": "A bot that builds other bots: answer a handful of questions and it hands you a properly structured one.",
+          "url": "/marketplace/dr-eggbot/",
+          "orig_url": "https://grokbot.dev/marketplace/dr-eggbot/"
+        },
+        {
+          "type": "template",
+          "slug": "grok-bot-coach",
+          "name": "Grok Bot Coach",
+          "reason": "Audits and tunes the bots you already have, starting from a concrete job rather than a vague improvement.",
+          "reason_zh": "Audits and tunes the bots you already have, starting from a concrete job rather than a vague improvement.",
+          "url": "/marketplace/grok-bot-coach/",
+          "orig_url": "https://grokbot.dev/marketplace/grok-bot-coach/"
+        },
+        {
+          "type": "template",
+          "slug": "vet",
+          "name": "Vet",
+          "reason": "Audits a shared bot before you let it near your account, so 'add to Grok Bot' isn't a leap of faith.",
+          "reason_zh": "Audits a shared bot before you let it near your account, so 'add to Grok Bot' isn't a leap of faith.",
+          "url": "/marketplace/vet/",
+          "orig_url": "https://grokbot.dev/marketplace/vet/"
+        }
+      ],
+      "member_count": 5,
+      "added_at": "2026-08-30T15:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "new to grok bot? start here grok bot 新手？从这里开始 set up your first bots — and learn to build your own. 装上第一批 bot——并学会自己造。 第一小时教练、五分钟点火派生起步小队、造 bot 的 bot、审计已有 bot、进门前的体检。从这里进目录。"
+    },
+    {
+      "type": "collection",
+      "slug": "x-account-management",
+      "name": "X Account Management",
+      "name_zh": "X 账号运营",
+      "url": "/collections/x-account-management/",
+      "orig_url": "https://grokbot.dev/collections/x-account-management/",
+      "tagline": "Six shared Bots to run — and quietly read — your whole X account.",
+      "tagline_zh": "六只可分享 Bot，用来跑——并安静地读——你的整个 X 账号。",
+      "rationale": "X is now a first-class Grok Bot plugin: a Bot can read the timeline, follow accounts, watch mentions and post, without a scraper or a third-party bridge in the middle. That is raw access. It is not, on its own, a run account.\n\nThis is the crew that turns one into the other. Six Bots, each shared publicly by someone already doing the job, and each pointed at a different part of the week. The Account Crew is the hub — five roles inside one bot, so somebody owns finding the material, sharpening the line, holding the calendar, reading rivals and watching mentions. The Strategist works the slow half nobody schedules: which of the accounts in your replies are worth an actual relationship. The Brief reads your own posting history to work out what your beat is, then reports back on what moved in it. High Coach is the honest one — point it at any public account, yours or a competitor's, and it scores the thing and names what to change. Repost Everywhere closes the loop, relaying whatever you just published out to four other networks. And Pulse sits outside the loop entirely — a read-only concierge that never posts, likes or DMs; it samples your feed through the day and hands you one 7am brief, so keeping up stops meaning scrolling.\n\nStart with the Account Crew and add the rest as the gaps show up. Each one installs on its own, so this is a shopping list rather than a stack you have to commit to — and every one of them is somebody else's setup, copied into your account, which is exactly why the instructions are worth reading before you add them.",
+      "rationale_zh": "五人剧组、长线认识谁、从你自己的帖学习再盯那条线、公开账号审计、同步转发到其他号。运营加阅读。",
+      "category": "marketing",
+      "category_zh": "营销",
+      "members": [
+        {
+          "type": "template",
+          "slug": "x-account-crew",
+          "name": "X Account Crew",
+          "reason": "The hub. Five specialists split the day-to-day, so one Bot owns the whole account instead of you juggling five habits.",
+          "reason_zh": "The hub. Five specialists split the day-to-day, so one Bot owns the whole account instead of you juggling five habits.",
+          "url": "/marketplace/x-account-crew/",
+          "orig_url": "https://grokbot.dev/marketplace/x-account-crew/"
+        },
+        {
+          "type": "template",
+          "slug": "x-strategist",
+          "name": "X Strategist",
+          "reason": "Plays the long game on who is actually worth knowing, turning the feed into relationships rather than noise.",
+          "reason_zh": "Plays the long game on who is actually worth knowing, turning the feed into relationships rather than noise.",
+          "url": "/marketplace/x-strategist/",
+          "orig_url": "https://grokbot.dev/marketplace/x-strategist/"
+        },
+        {
+          "type": "template",
+          "slug": "x-brief",
+          "name": "X Brief",
+          "reason": "Works out what you care about from your own posts, then tells you what actually moved in that beat.",
+          "reason_zh": "Works out what you care about from your own posts, then tells you what actually moved in that beat.",
+          "url": "/marketplace/x-brief/",
+          "orig_url": "https://grokbot.dev/marketplace/x-brief/"
+        },
+        {
+          "type": "template",
+          "slug": "x-high-coach",
+          "name": "X High Coach",
+          "reason": "Audits any account - yours or a rival's - and hands back the specific changes that grow it.",
+          "reason_zh": "Audits any account - yours or a rival's - and hands back the specific changes that grow it.",
+          "url": "/marketplace/x-high-coach/",
+          "orig_url": "https://grokbot.dev/marketplace/x-high-coach/"
+        },
+        {
+          "type": "template",
+          "slug": "repost-x-posts-everywhere",
+          "name": "repost X posts everywhere",
+          "reason": "Once a post lands, the same thing goes out to LinkedIn, Bluesky, Facebook and Threads without you touching it.",
+          "reason_zh": "Once a post lands, the same thing goes out to LinkedIn, Bluesky, Facebook and Threads without you touching it.",
+          "url": "/marketplace/repost-x-posts-everywhere/",
+          "orig_url": "https://grokbot.dev/marketplace/repost-x-posts-everywhere/"
+        },
+        {
+          "type": "template",
+          "slug": "pulse",
+          "name": "Pulse — Your X Concierge",
+          "reason": "The one that never touches your account - a read-only concierge that samples your feed all day and hands you a single 7am brief, so keeping up doesn't mean scrolling.",
+          "reason_zh": "The one that never touches your account - a read-only concierge that samples your feed all day and hands you a single 7am brief, so keeping up doesn't mean scrolling.",
+          "url": "/marketplace/pulse/",
+          "orig_url": "https://grokbot.dev/marketplace/pulse/"
+        }
+      ],
+      "member_count": 6,
+      "added_at": "2026-08-30T09:00:00Z",
+      "added_zh": "2026年8月30日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "x account management x 账号运营 six shared bots to run — and quietly read — your whole x account. 六只可分享 bot，用来跑——并安静地读——你的整个 x 账号。 五人剧组、长线认识谁、从你自己的帖学习再盯那条线、公开账号审计、同步转发到其他号。运营加阅读。"
+    },
+    {
+      "type": "collection",
+      "slug": "research-you-can-trust",
+      "name": "Research You Can Trust",
+      "name_zh": "信得过的研究",
+      "url": "/collections/research-you-can-trust/",
+      "orig_url": "https://grokbot.dev/collections/research-you-can-trust/",
+      "tagline": "Three research Bots that find the signal and show their receipts.",
+      "tagline_zh": "三只研究 Bot，找到信号并出示收据。",
+      "rationale": "A research stack built around one rule: the Bot should show you where it looked. Each of these three takes a different beat of the same job — find what matters, and keep the receipt attached.\n\nStart with the scout that watches your niche on X and surfaces what is actually breaking out, so you are not researching a topic nobody is reading. Add the outlier researcher that scans YouTube for the videos performing far above their channel's baseline, with the view and engagement numbers that flag them, so \"worth studying\" is a measurement and not a vibe. Then layer the hourly brief that monitors the named topics you told it to watch and comes back on a schedule with a short readout — every line carrying the link it came from.\n\nTogether they cover the honest version of research: find the signal, rank it by something you can check, and never hand you a claim without its source. Each page ships a Curator reconstruction of the original build rather than the author's exact prompt, and each one says so above its prompt block.",
+      "rationale_zh": "病毒帖角度、YouTube 离群格式、小时级监测。研究要有出处，声称要有收据。",
+      "category": "work",
+      "category_zh": "办公",
+      "members": [
+        {
+          "type": "use-case",
+          "slug": "x-viral-tweet-scout",
+          "name": "Scout · Viral Tweet Finder",
+          "reason": "Scouts the posts actually breaking out in your niche, so your research starts from real signal, not a hunch.",
+          "reason_zh": "Scouts the posts actually breaking out in your niche, so your research starts from real signal, not a hunch.",
+          "url": "/use-cases/x-viral-tweet-scout/",
+          "orig_url": "https://grokbot.dev/use-cases/x-viral-tweet-scout/"
+        },
+        {
+          "type": "use-case",
+          "slug": "youtube-outlier-researcher",
+          "name": "Outlier · YouTube Researcher",
+          "reason": "Finds the YouTube outliers worth learning from and shows the numbers that make them outliers.",
+          "reason_zh": "Finds the YouTube outliers worth learning from and shows the numbers that make them outliers.",
+          "url": "/use-cases/youtube-outlier-researcher/",
+          "orig_url": "https://grokbot.dev/use-cases/youtube-outlier-researcher/"
+        },
+        {
+          "type": "use-case",
+          "slug": "hourly-political-brief",
+          "name": "Brief · Hourly Monitor",
+          "reason": "Monitors the named topics you care about and briefs you hourly, keeping the source link on every claim.",
+          "reason_zh": "Monitors the named topics you care about and briefs you hourly, keeping the source link on every claim.",
+          "url": "/use-cases/hourly-political-brief/",
+          "orig_url": "https://grokbot.dev/use-cases/hourly-political-brief/"
+        }
+      ],
+      "member_count": 3,
+      "added_at": "2026-08-21T00:00:00Z",
+      "added_zh": "2026年8月21日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "research you can trust 信得过的研究 three research bots that find the signal and show their receipts. 三只研究 bot，找到信号并出示收据。 病毒帖角度、youtube 离群格式、小时级监测。研究要有出处，声称要有收据。"
+    },
+    {
+      "type": "collection",
+      "slug": "grok-ship-firstmate",
+      "name": "Grok Ship + Firstmate",
+      "name_zh": "Grok Ship + Firstmate",
+      "url": "/collections/grok-ship-firstmate/",
+      "orig_url": "https://grokbot.dev/collections/grok-ship-firstmate/",
+      "tagline": "Firstmate at the helm, Grok Ship as the software factory.",
+      "tagline_zh": "Firstmate 掌舵，Grok Ship 当软件工厂。",
+      "rationale": "This is the designated launch pairing: one builder's progression from a chief Bot that manages other Bots to a full software factory with state, delegation, review and cloud agents behind it.\n\nStart with the captain, then ship with the crew. Firstmate is the control pattern, and it is the one you can understand — and copy — in an afternoon: one Bot that classifies work, routes it, tracks the handoff by task ID, and refuses to hold your secrets. Grok Ship is what that pattern turns into once it has a backlog, per-project crewmates, adversarial review and a rule that no pull request merges without you.\n\nRead them in that order and the second one stops looking like magic. The same charter is doing the work in both; Grok Ship just gives it a database, a crew and somewhere to put the results.",
+      "rationale_zh": "你只跟前门说话；软件工厂在后面交 PR。一人对话，一支工厂。",
+      "category": "engineering",
+      "category_zh": "工程",
+      "members": [
+        {
+          "type": "use-case",
+          "slug": "firstmate-front-door",
+          "name": "Firstmate · Front Door",
+          "reason": "Firstmate is the chief Bot pattern that creates, routes, and improves the rest of the crew.",
+          "reason_zh": "Firstmate is the chief Bot pattern that creates, routes, and improves the rest of the crew.",
+          "url": "/use-cases/firstmate-front-door/",
+          "orig_url": "https://grokbot.dev/use-cases/firstmate-front-door/"
+        },
+        {
+          "type": "use-case",
+          "slug": "grok-ship-factory",
+          "name": "Grok Ship · Software Factory",
+          "reason": "Grok Ship is the working software factory that turns the crew pattern into shipped work.",
+          "reason_zh": "Grok Ship is the working software factory that turns the crew pattern into shipped work.",
+          "url": "/use-cases/grok-ship-factory/",
+          "orig_url": "https://grokbot.dev/use-cases/grok-ship-factory/"
+        }
+      ],
+      "member_count": 2,
+      "added_at": "2026-08-20T22:45:00Z",
+      "added_zh": "2026年8月20日",
+      "author": {
+        "handle": "grokbot.dev",
+        "url": "https://grokbot.dev/",
+        "platform": "web"
+      },
+      "attribution": "合集由 grokbot.dev 策展。成员条目请分别署明其作者与 grokbot.dev。",
+      "search_blob": "grok ship + firstmate grok ship + firstmate firstmate at the helm, grok ship as the software factory. firstmate 掌舵，grok ship 当软件工厂。 你只跟前门说话；软件工厂在后面交 pr。一人对话，一支工厂。"
+    }
+  ]
+}

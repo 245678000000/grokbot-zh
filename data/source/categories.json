@@ -1,0 +1,560 @@
+{
+  "generated_at": "2026-08-31T10:32:55.172Z",
+  "api_version": "v1",
+  "schema_revision": "2026-08-28",
+  "status_url": "https://grokbot.dev/api/v1/status.json",
+  "count": 10,
+  "items": [
+    {
+      "slug": "work",
+      "name": "Work",
+      "url": "https://grokbot.dev/categories/work/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 34
+      },
+      "subcategories": [
+        {
+          "slug": "email",
+          "name": "Email",
+          "url": "https://grokbot.dev/categories/work/email/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 11
+          }
+        },
+        {
+          "slug": "meetings",
+          "name": "Meetings",
+          "url": "https://grokbot.dev/categories/work/meetings/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 4
+          }
+        },
+        {
+          "slug": "docs",
+          "name": "Docs",
+          "url": "https://grokbot.dev/categories/work/docs/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "scheduling",
+          "name": "Scheduling",
+          "url": "https://grokbot.dev/categories/work/scheduling/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "tasks",
+          "name": "Tasks",
+          "url": "https://grokbot.dev/categories/work/tasks/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 14
+          }
+        },
+        {
+          "slug": "research",
+          "name": "Research",
+          "url": "https://grokbot.dev/categories/work/research/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 4
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sales",
+      "name": "Sales",
+      "url": "https://grokbot.dev/categories/sales/",
+      "counts": {
+        "plugins": 5,
+        "use_cases": 9
+      },
+      "subcategories": [
+        {
+          "slug": "prospecting",
+          "name": "Prospecting",
+          "url": "https://grokbot.dev/categories/sales/prospecting/",
+          "counts": {
+            "plugins": 3,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "crm",
+          "name": "CRM",
+          "url": "https://grokbot.dev/categories/sales/crm/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "outreach",
+          "name": "Outreach",
+          "url": "https://grokbot.dev/categories/sales/outreach/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "calls",
+          "name": "Calls",
+          "url": "https://grokbot.dev/categories/sales/calls/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "pipeline",
+          "name": "Pipeline",
+          "url": "https://grokbot.dev/categories/sales/pipeline/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 3
+          }
+        }
+      ]
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "url": "https://grokbot.dev/categories/marketing/",
+      "counts": {
+        "plugins": 21,
+        "use_cases": 22
+      },
+      "subcategories": [
+        {
+          "slug": "seo",
+          "name": "SEO",
+          "url": "https://grokbot.dev/categories/marketing/seo/",
+          "counts": {
+            "plugins": 3,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "content",
+          "name": "Content",
+          "url": "https://grokbot.dev/categories/marketing/content/",
+          "counts": {
+            "plugins": 5,
+            "use_cases": 12
+          }
+        },
+        {
+          "slug": "social",
+          "name": "Social",
+          "url": "https://grokbot.dev/categories/marketing/social/",
+          "counts": {
+            "plugins": 10,
+            "use_cases": 6
+          }
+        },
+        {
+          "slug": "ads",
+          "name": "Ads",
+          "url": "https://grokbot.dev/categories/marketing/ads/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "analytics",
+          "name": "Analytics",
+          "url": "https://grokbot.dev/categories/marketing/analytics/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "competitive-intel",
+          "name": "Competitive Intel",
+          "url": "https://grokbot.dev/categories/marketing/competitive-intel/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "engineering",
+      "name": "Engineering",
+      "url": "https://grokbot.dev/categories/engineering/",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 18
+      },
+      "subcategories": [
+        {
+          "slug": "code-review",
+          "name": "Code Review",
+          "url": "https://grokbot.dev/categories/engineering/code-review/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "ci-cd",
+          "name": "CI/CD",
+          "url": "https://grokbot.dev/categories/engineering/ci-cd/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "issues",
+          "name": "Issues",
+          "url": "https://grokbot.dev/categories/engineering/issues/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "docs",
+          "name": "Docs",
+          "url": "https://grokbot.dev/categories/engineering/docs/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "agents-ops",
+          "name": "Agents Ops",
+          "url": "https://grokbot.dev/categories/engineering/agents-ops/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 15
+          }
+        }
+      ]
+    },
+    {
+      "slug": "support",
+      "name": "Support",
+      "url": "https://grokbot.dev/categories/support/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 6
+      },
+      "subcategories": [
+        {
+          "slug": "triage",
+          "name": "Triage",
+          "url": "https://grokbot.dev/categories/support/triage/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "replies",
+          "name": "Replies",
+          "url": "https://grokbot.dev/categories/support/replies/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "knowledge-base",
+          "name": "Knowledge Base",
+          "url": "https://grokbot.dev/categories/support/knowledge-base/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "escalation",
+          "name": "Escalation",
+          "url": "https://grokbot.dev/categories/support/escalation/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        }
+      ]
+    },
+    {
+      "slug": "finance-ops",
+      "name": "Finance & Ops",
+      "url": "https://grokbot.dev/categories/finance-ops/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 8
+      },
+      "subcategories": [
+        {
+          "slug": "bookkeeping",
+          "name": "Bookkeeping",
+          "url": "https://grokbot.dev/categories/finance-ops/bookkeeping/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "invoicing",
+          "name": "Invoicing",
+          "url": "https://grokbot.dev/categories/finance-ops/invoicing/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "reporting",
+          "name": "Reporting",
+          "url": "https://grokbot.dev/categories/finance-ops/reporting/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "subscriptions",
+          "name": "Subscriptions",
+          "url": "https://grokbot.dev/categories/finance-ops/subscriptions/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 4
+          }
+        },
+        {
+          "slug": "compliance",
+          "name": "Compliance",
+          "url": "https://grokbot.dev/categories/finance-ops/compliance/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        }
+      ]
+    },
+    {
+      "slug": "data",
+      "name": "Data",
+      "url": "https://grokbot.dev/categories/data/",
+      "counts": {
+        "plugins": 6,
+        "use_cases": 3
+      },
+      "subcategories": [
+        {
+          "slug": "scraping",
+          "name": "Scraping",
+          "url": "https://grokbot.dev/categories/data/scraping/",
+          "counts": {
+            "plugins": 2,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "monitoring",
+          "name": "Monitoring",
+          "url": "https://grokbot.dev/categories/data/monitoring/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "alerts",
+          "name": "Alerts",
+          "url": "https://grokbot.dev/categories/data/alerts/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "dashboards",
+          "name": "Dashboards",
+          "url": "https://grokbot.dev/categories/data/dashboards/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "enrichment",
+          "name": "Enrichment",
+          "url": "https://grokbot.dev/categories/data/enrichment/",
+          "counts": {
+            "plugins": 4,
+            "use_cases": 2
+          }
+        }
+      ]
+    },
+    {
+      "slug": "personal",
+      "name": "Personal",
+      "url": "https://grokbot.dev/categories/personal/",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 30
+      },
+      "subcategories": [
+        {
+          "slug": "home",
+          "name": "Home",
+          "url": "https://grokbot.dev/categories/personal/home/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 12
+          }
+        },
+        {
+          "slug": "travel",
+          "name": "Travel",
+          "url": "https://grokbot.dev/categories/personal/travel/",
+          "counts": {
+            "plugins": 2,
+            "use_cases": 4
+          }
+        },
+        {
+          "slug": "health",
+          "name": "Health",
+          "url": "https://grokbot.dev/categories/personal/health/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "learning",
+          "name": "Learning",
+          "url": "https://grokbot.dev/categories/personal/learning/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 5
+          }
+        },
+        {
+          "slug": "family",
+          "name": "Family",
+          "url": "https://grokbot.dev/categories/personal/family/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "money",
+          "name": "Money",
+          "url": "https://grokbot.dev/categories/personal/money/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 7
+          }
+        }
+      ]
+    },
+    {
+      "slug": "trading-crypto",
+      "name": "Trading & Crypto",
+      "url": "https://grokbot.dev/categories/trading-crypto/",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 2
+      },
+      "subcategories": [
+        {
+          "slug": "markets",
+          "name": "Markets",
+          "url": "https://grokbot.dev/categories/trading-crypto/markets/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "portfolio",
+          "name": "Portfolio",
+          "url": "https://grokbot.dev/categories/trading-crypto/portfolio/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "alerts",
+          "name": "Alerts",
+          "url": "https://grokbot.dev/categories/trading-crypto/alerts/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "fun",
+      "name": "Fun",
+      "url": "https://grokbot.dev/categories/fun/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 6
+      },
+      "subcategories": [
+        {
+          "slug": "creative",
+          "name": "Creative",
+          "url": "https://grokbot.dev/categories/fun/creative/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 3
+          }
+        },
+        {
+          "slug": "games",
+          "name": "Games",
+          "url": "https://grokbot.dev/categories/fun/games/",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "roleplay",
+          "name": "Roleplay",
+          "url": "https://grokbot.dev/categories/fun/roleplay/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "media",
+          "name": "Media",
+          "url": "https://grokbot.dev/categories/fun/media/",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        }
+      ]
+    }
+  ]
+}

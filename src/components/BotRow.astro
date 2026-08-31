@@ -1,0 +1,34 @@
+---
+const { item, href, votes = 0 } = Astro.props;
+const title = item.name_zh || item.name;
+const line = item.tagline_zh || item.tagline || '';
+const handle = item.sharer?.handle || item.author?.handle;
+const rawTags = item.tags_zh || item.categories_zh || item.tags || item.categories || [];
+const tags = rawTags.map((t: any) => (typeof t === 'object' && t !== null ? t.zh || t.name || t.en : t)).slice(0, 3);
+
+---
+<a class="botRowCard" href={href}>
+  <div class="botCardHeader">
+    <div class="botAvatar">
+      <span class="botAvatarLetter">{title.slice(0, 1).toUpperCase()}</span>
+    </div>
+    <div class="botHeadText">
+      <h3 class="botCardTitle">{title}</h3>
+      {handle && <span class="botAuthorBadge">@{handle}</span>}
+    </div>
+  </div>
+
+  <p class="botCardDesc">{line}</p>
+
+  <div class="botCardFooter">
+    <div class="botCardTags">
+      {tags.map((t: string) => <span class="chip">{t}</span>)}
+    </div>
+    <span class="botActionBtn">
+      <span>接入</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </span>
+  </div>
+</a>

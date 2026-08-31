@@ -1,0 +1,77 @@
+---
+import MarkGlyph from './MarkGlyph.astro';
+interface Props { currentPath: string; }
+const { currentPath } = Astro.props;
+const isCurrent = (href: string) =>
+  href === '/' ? currentPath === '/' : currentPath.startsWith(href);
+const nav = [
+  { href: '/bots/', label: '机器人' },
+  { href: '/use-cases/', label: '用例' },
+  { href: '/collections/', label: '合集' },
+  { href: '/wall/', label: '墙' },
+];
+---
+<header class="siteHeader">
+  <div class="container-page siteHeader__row">
+    <a class="brand" href="/" aria-label="Grok Bot 中文目录 首页">
+      <MarkGlyph />
+      <span class="brand-word">Grok Bot 中文目录</span>
+    </a>
+    <nav class="siteHeader__nav" aria-label="主导航">
+      {nav.map((item) => (
+        <a class:list={['navLink', { 'is-current': isCurrent(item.href) }]} href={item.href}>{item.label}</a>
+      ))}
+    </nav>
+    <div class="siteHeader__cluster">
+      <a class="navLink" href="/agent/">/agent</a>
+      <a class="navLink" href="/submit/">投稿</a>
+      <button class="themeToggle" type="button" data-theme-toggle title="切换深色/浅色模式">
+        <svg class="themeIcon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M6.5 6.5 5 5M19 19l-1.5-1.5M17.5 6.5 19 5M5 19l1.5-1.5"/></svg>
+        <span class="themeText">主题</span>
+      </button>
+      <a class="headerConnect" href="#install-site">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+          <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+        </svg>
+        <span>接入 Bot</span>
+      </a>
+    </div>
+    <details class="navDrawer">
+      <summary aria-label="打开导航菜单"><span></span><span></span><span></span></summary>
+      <div class="navDrawer__panel">
+        {nav.map((item) => (
+          <a class:list={['navDrawer__link', 'navLink', { 'is-current': isCurrent(item.href) }]} href={item.href}>{item.label}</a>
+        ))}
+        <a class="navLink" href="/agent/">/agent</a>
+        <a class="navLink" href="/submit/">投稿</a>
+        <a class="headerConnect" href="#install-site" style="margin-top:0.75rem">接入 Bot</a>
+      </div>
+    </details>
+  </div>
+</header>
+<script>
+  const buttons = document.querySelectorAll('[data-theme-toggle]');
+  const root = document.documentElement;
+
+  const updateLabel = () => {
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    buttons.forEach((button) => {
+      const text = button.querySelector('.themeText');
+      if (text) text.textContent = isDark ? '深色' : '浅色';
+      button.setAttribute('aria-label', isDark ? '切换到浅色模式' : '切换到深色模式');
+    });
+  };
+
+  if (buttons.length) {
+    updateLabel();
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('gb-theme', next); } catch {}
+        updateLabel();
+      });
+    });
+  }
+</script>

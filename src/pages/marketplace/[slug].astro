@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Attribution from '../../components/Attribution.astro';
+import { templates, templateBySlug } from '../../lib/data';
+export function getStaticPaths() {
+  return templates.map((t: any) => ({ params: { slug: t.slug } }));
+}
+const t = templateBySlug(Astro.params.slug!);
+if (!t) throw new Error('missing template');
+const src = t.source || {};
+---
+<Base title={t.name} description={t.tagline_zh}>
+  <div class="container-page entryHero" style="padding-bottom:3rem">
+    <nav class="crumb"><a href="/">首页</a> · <a href="/marketplace/">可分享机器人</a> · {t.name}</nav>
+    <p class="kicker">可分享机器人</p>
+    <h1>{t.name}</h1>
+    <p class="tagline">{t.tagline_zh}</p>
+    <div class="metaRow">
+      {t.tags_zh.map((tag: any) => <a class="chip" href={`/marketplace/?tag=${tag.slug}`}>{tag.zh}</a>)}
+      <span class="mono muted">{t.added_zh}</span>
+      {t.sharer?.handle && <a class="mono" href={t.sharer.url} rel="noopener">@{t.sharer.handle}</a>}
+    </div>
+    <div class="metaRow">
+      {t.share_url && <a class="btn-accent" href={t.share_url} rel="noopener">加到 Grok Bot</a>}
+      <a class="btn-ghost" href={t.orig_url} rel="noopener">查看原文</a>
+      {src.url && <a class="btn-ghost" href={src.url} rel="noopener">来源帖</a>}
+    </div>
+    <div class="prose">
+      <h2>它能做什么</h2>
+      <p>{t.description_zh}</p>
+      {src.excerpt && <p class="muted">来源帖摘录（引用，非转载）：「{src.excerpt}」</p>}
+    </div>
+    <Attribution authorHandle={t.sharer?.handle} authorUrl={t.sharer?.url} origUrl={t.orig_url} extra="这是可分享机器人：请用分享链接安装，不要让别人的指令在未过目的情况下跑起来。" />
+  </div>
+</Base>

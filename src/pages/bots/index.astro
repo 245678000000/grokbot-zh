@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import BotRow from '../../components/BotRow.astro';
+import { templates } from '../../lib/data';
+const items = templates;
+---
+<Base title="可分享机器人">
+  <p class="crumb"><a href="/">首页</a> / 可分享机器人</p>
+  <div class="pageLead">
+    <h1>可分享机器人</h1>
+    <p class="lede">现成的 Grok Bot 配置。一个链接装进你自己的 Bot。</p>
+    <p class="statsLine">{items.length} 条</p>
+  </div>
+  <input class="searchBox" type="search" placeholder="搜索名称、简介、标签…" data-filter-input />
+  <div class="dropList" data-filter-list>
+    {items.map((item: any) => (
+      <div data-filter-row data-hay={`${item.name} ${item.name_zh||''} ${item.tagline||''} ${item.tagline_zh||''} ${(item.tags||[]).join(' ')}`}>
+        <BotRow item={item} href={`${item.slug}/`} />
+      </div>
+    ))}
+  </div>
+  <p class="empty hidden" data-filter-empty>没有匹配的条目。</p>
+</Base>
+<script>
+  const input = document.querySelector('[data-filter-input]');
+  const rows = [...document.querySelectorAll('[data-filter-row]')];
+  const empty = document.querySelector('[data-filter-empty]');
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let n = 0;
+    rows.forEach((r) => {
+      const on = !q || (r.getAttribute('data-hay')||'').toLowerCase().includes(q);
+      r.classList.toggle('hidden', !on);
+      if (on) n++;
+    });
+    empty?.classList.toggle('hidden', n !== 0);
+  });
+</script>

@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import BotRow from '../../components/BotRow.astro';
+import { integrations, integrationBySlug, byIntegration } from '../../lib/data';
+export function getStaticPaths() {
+  return integrations.map((i: any) => ({ params: { slug: i.slug } }));
+}
+const i = integrationBySlug(Astro.params.slug);
+if (!i) throw new Error('missing integration');
+const group = byIntegration(i.slug);
+---
+<Base title={i.name_zh || i.name}>
+  <p class="crumb"><a href="/">首页</a> / <a href="/integrations/">集成</a> / {i.name}</p>
+  <h1>{i.name_zh || i.name}</h1>
+  <div class="dropList">
+    {group.templates.map((t: any) => <BotRow item={t} href={`/bots/${t.slug}/`} />)}
+    {group.useCases.map((u: any) => <BotRow item={u} href={`/use-cases/${u.slug}/`} />)}
+    {group.plugins.map((p: any) => <BotRow item={p} href={`/plugins/${p.slug}/`} />)}
+  </div>
+</Base>

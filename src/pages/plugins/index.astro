@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import { plugins, stats } from '../../lib/data';
+---
+<Base title="插件">
+  <p class="crumb"><a href="/">首页</a> / 插件</p>
+  <h1>插件</h1>
+  <p class="lede">开放登记处。每个插件一页，带项目、仓库和作者的 dofollow 链接。</p>
+  <p class="statsLine">{stats.plugins} 个 · 分类可点</p>
+  <input class="searchBox" type="search" placeholder="搜索插件…" data-filter-input />
+  <div class="tableWrap">
+    <table class="dir">
+      <thead><tr><th>插件</th><th>它做什么</th><th>分类</th></tr></thead>
+      <tbody data-filter-list>
+        {plugins.map((p: any) => (
+          <tr data-filter-row data-hay={`${p.name} ${p.tagline} ${p.tagline_zh||''} ${p.category}`}>
+            <td><a class="pluginName" href={`/plugins/${p.slug}/`}>{p.name}</a></td>
+            <td>{p.tagline_zh || p.tagline}</td>
+            <td><a class="chip" href={`/categories/${p.category}/`}>{p.category_zh || p.category}</a></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="empty hidden" data-filter-empty>没有匹配的插件。</p>
+</Base>
+<script>
+  const input = document.querySelector('[data-filter-input]');
+  const rows = [...document.querySelectorAll('[data-filter-row]')];
+  const empty = document.querySelector('[data-filter-empty]');
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let n = 0;
+    rows.forEach((r) => {
+      const on = !q || (r.getAttribute('data-hay')||'').toLowerCase().includes(q);
+      r.classList.toggle('hidden', !on);
+      if (on) n++;
+    });
+    empty?.classList.toggle('hidden', n !== 0);
+  });
+</script>

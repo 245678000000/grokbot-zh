@@ -1,0 +1,75 @@
+---
+import MarkGlyph from './MarkGlyph.astro';
+import { stats } from '../lib/data';
+const columns = [
+  {
+    title: '浏览',
+    links: [
+      { href: '/plugins/', label: '插件' },
+      { href: '/use-cases/', label: '精选用例' },
+      { href: '/marketplace/', label: '可分享机器人' },
+      { href: '/collections/', label: '合集' },
+      { href: '/categories/', label: '分类' },
+      { href: '/integrations/', label: '集成' },
+        ],
+  },
+  {
+    title: '机器可读',
+    links: [
+      { href: '/agent/', label: 'agent 约定' },
+      { href: 'https://grokbot.dev/api/v1/index.json', label: '原文 API', external: true },
+      { href: 'https://grokbot.dev/rss.xml', label: '原文 RSS', external: true },
+      { href: 'https://mcp.grokbot.dev/mcp', label: 'MCP', external: true },
+    ],
+  },
+  {
+    title: '本项目',
+    links: [
+      { href: '/about/', label: '关于' },
+      { href: '/privacy/', label: '隐私' },
+      { href: '/contribute/', label: '贡献' },
+      { href: '/submit/', label: '投稿' },
+      { href: '/plugin-builder/', label: '插件建造 Bot' },
+      { href: 'https://grokbot.dev/', label: 'grokbot.dev 原文', external: true },
+      { href: 'https://github.com/ZeroPointRepo/GrokBotDev', label: '原文 GitHub', external: true },
+    ],
+  },
+];
+---
+<footer class="siteFooter">
+  <div class="container-page">
+    <div class="footGrid">
+      <div class="footBrand">
+        <MarkGlyph />
+        <p>独立社区维护的 Grok Bot 简体中文索引。内容译自 grokbot.dev，提示词保持英文原文。</p>
+      </div>
+      {columns.map((col) => (
+        <div>
+          <h3>{col.title}</h3>
+          {col.links.map((l) =>
+            l.external ? (
+              <a href={l.href} target="_blank" rel="noopener">{l.label}</a>
+            ) : (
+              <a href={l.href}>{l.label}</a>
+            )
+          )}
+        </div>
+      ))}
+    </div>
+    <div class="footBar">
+      <p class="disclaimer">
+        Grok Bot 中文目录是独立社区本地化，由 CRHQ 原站 <a href="https://grokbot.dev/">grokbot.dev</a> 内容译出，<strong>不隶属于 xAI</strong>。
+        条目按 CC BY 4.0 复用，须署明作者与 grokbot.dev。代码 MIT。
+        {stats.plugins} 插件 · {stats.templates} 可分享机器人 · {stats.use_cases} 精选用例 · {stats.collections} 合集。
+      </p>
+      <span class="bookmarkNudge">
+        <kbd>ctrl</kbd> + <kbd>d</kbd> 收藏本站
+      </span>
+      <button class="themeToggle" type="button" data-theme-toggle>
+        <svg class="themeIcon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M6.5 6.5 5 5M19 19l-1.5-1.5M17.5 6.5 19 5M5 19l1.5-1.5"/></svg>
+        <span class="themeText">浅色</span>
+      </button>
+      <span>编于 {stats.generated_zh}</span>
+    </div>
+  </div>
+</footer>

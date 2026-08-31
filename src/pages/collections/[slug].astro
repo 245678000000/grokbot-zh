@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import Attribution from '../../components/Attribution.astro';
+import { collections, collectionBySlug } from '../../lib/data';
+export function getStaticPaths() {
+  return collections.map((c: any) => ({ params: { slug: c.slug } }));
+}
+const c = collectionBySlug(Astro.params.slug);
+if (!c) throw new Error('missing collection');
+---
+<Base title={c.name_zh || c.name} description={c.tagline_zh || c.tagline}>
+  <p class="crumb"><a href="/">首页</a> / <a href="/collections/">合集</a> / {c.name_zh || c.name}</p>
+  <article class="entryHero">
+    <p class="kicker">合集</p>
+    <h1>{c.name_zh || c.name}</h1>
+    <p class="tagline">{c.tagline_zh || c.tagline}</p>
+  </article>
+  {c.rationale && <div class="prose"><p>{c.rationale}</p></div>}
+  <p><a class="moreLink" href={c.url}>查看原文 →</a></p>
+  <Attribution origUrl={c.url} />
+</Base>

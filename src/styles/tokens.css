@@ -1,0 +1,147 @@
+:root {
+  --color-bg: #F7F5F1;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #F2F0EA;
+  --color-text: #1A1815;
+  --color-text-muted: #6E6A62;
+  --color-border: #E4E0D7;
+  --color-border-interactive: #D2CDC1;
+  --color-border-strong: #A9A297;
+
+  --color-accent: #3B3B8F;
+  --accent-rgb: 59, 59, 143;
+  --color-accent-text: #33337E;
+  --color-accent-ink: #33337E;
+  --color-accent-strong: #2B2B6B;
+  --color-accent-contrast: #FFFFFF;
+  --color-youtube: #A8402F;
+  --color-accent-tint: #ECEBF3;
+  --color-clay: #B0693C;
+  --color-success: #4E7A5E;
+  --color-warn: #B4763A;
+  --color-danger: #A8402F;
+  --color-focus: #3B3B8F;
+
+  --color-partner-sage-tint: #EDF1EA;
+  --color-partner-sand-tint: #F6EFE1;
+  --color-partner-lilac-tint: #EEEDF4;
+  --color-partner-sky-tint: #EAEFF2;
+  --color-partner-blush-tint: #F6ECE8;
+
+  --color-cat-bg: #F0EEE8;
+  --color-cat-text: #5F5B53;
+  --color-cat-border: #E3DFD5;
+  --color-cat-solid: #33312C;
+  --color-cat-on-solid: #FFFFFF;
+
+  --font-display: "Geist", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-sans: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1rem;
+  --text-xs--font-weight: 400;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.25rem;
+  --text-sm--font-weight: 400;
+  --text-base: 1rem;
+  --text-base--line-height: 1.625rem;
+  --text-base--font-weight: 400;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.75rem;
+  --text-lg--font-weight: 500;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.875rem;
+  --text-xl--font-weight: 600;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2rem;
+  --text-2xl--font-weight: 600;
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: 2.375rem;
+  --text-3xl--font-weight: 700;
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: 2.75rem;
+  --text-4xl--font-weight: 700;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 3.25rem;
+  --text-5xl--font-weight: 700;
+
+  --container-site: 1200px;
+  --radius-xs: 3px;
+  --radius-sm: 7px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px rgba(43, 34, 22, 0.05);
+  --shadow-md: 0 4px 12px -3px rgba(43, 34, 22, 0.07), 0 2px 5px -2px rgba(43, 34, 22, 0.05);
+  --shadow-lg: 0 14px 30px -8px rgba(43, 34, 22, 0.11), 0 4px 10px -3px rgba(43, 34, 22, 0.05);
+  --shadow-glow: 0 8px 20px -8px rgba(43, 34, 22, 0.18);
+  --shadow-none: none;
+}
+
+:root {
+  color-scheme: light;
+  --cat-bg: var(--color-cat-bg);
+  --cat-text: var(--color-cat-text);
+  --cat-border: var(--color-cat-border);
+  --cat-solid: var(--color-cat-solid);
+  --cat-on-solid: var(--color-cat-on-solid);
+  --container-max: 1200px;
+  --measure: 68ch;
+  --section-gap-desktop: 64px;
+  --section-gap-mobile: 48px;
+  --page-gutter: 16px;
+  --page-gutter-desktop: 24px;
+  --border-width: 1px;
+  --tracking-display: -0.025em;
+
+  --glass-bg: rgba(247, 245, 241, 0.86);
+  --glass-border: rgba(43, 34, 22, 0.07);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #121110;
+  --color-surface: #1B1A18;
+  --color-surface-raised: #232120;
+  --color-text: #F6F4F0;
+  --color-text-muted: #9C978E;
+  --color-border: rgba(255, 248, 236, 0.09);
+  --color-border-interactive: rgba(255, 248, 236, 0.17);
+  --color-border-strong: rgba(255, 248, 236, 0.27);
+
+  --color-accent: #9695D8;
+  --accent-rgb: 150, 149, 216;
+  --color-accent-text: #AFAEE8;
+  --color-accent-ink: #AFAEE8;
+  --color-accent-strong: #6C6BC0;
+  --color-accent-contrast: #14131A;
+  --color-accent-tint: #23224A;
+  --color-clay: #C9884F;
+  --color-success: #7FAE8C;
+  --color-warn: #D2A05F;
+  --color-danger: #D48373;
+  --color-focus: #9695D8;
+
+  --color-partner-sage-tint: #23301F;
+  --color-partner-sand-tint: #33240F;
+  --color-partner-lilac-tint: #23224A;
+  --color-partner-sky-tint: #17282F;
+  --color-partner-blush-tint: #331F1B;
+
+  --color-cat-bg: rgba(255, 248, 236, 0.055);
+  --color-cat-text: #C6C0B6;
+  --color-cat-border: rgba(255, 248, 236, 0.11);
+  --color-cat-solid: #6C6BC0;
+  --color-cat-on-solid: #FFFFFF;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.34);
+  --shadow-md: 0 4px 16px -3px rgba(0, 0, 0, 0.45), 0 2px 6px -2px rgba(0, 0, 0, 0.32);
+  --shadow-lg: 0 14px 32px -6px rgba(0, 0, 0, 0.55), 0 4px 12px -3px rgba(0, 0, 0, 0.32);
+  --shadow-glow: 0 10px 26px -10px rgba(0, 0, 0, 0.6);
+
+  --glass-bg: rgba(18, 17, 16, 0.82);
+  --glass-border: rgba(255, 248, 236, 0.09);
+}

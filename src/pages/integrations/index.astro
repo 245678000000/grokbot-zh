@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import { integrations } from '../../lib/data';
+---
+<Base title="集成">
+  <p class="crumb"><a href="/">首页</a> / 集成</p>
+  <h1>集成</h1>
+  <div class="gridCards">
+    {integrations.map((i: any) => (
+      <a class="card" href={`/integrations/${i.slug}/`}>
+        <h3>{i.name_zh || i.name}</h3>
+        <p>{i.tagline_zh || i.tagline || ''}</p>
+      </a>
+    ))}
+  </div>
+</Base>

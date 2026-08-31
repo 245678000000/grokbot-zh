@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import BotRow from '../../components/BotRow.astro';
+import { categories, categoryBySlug, byCategory } from '../../lib/data';
+export function getStaticPaths() {
+  return categories.map((c: any) => ({ params: { slug: c.slug } }));
+}
+const c = categoryBySlug(Astro.params.slug);
+if (!c) throw new Error('missing cat');
+const group = byCategory(c.slug);
+---
+<Base title={c.name_zh || c.name}>
+  <p class="crumb"><a href="/">首页</a> / <a href="/categories/">分类</a> / {c.name_zh || c.name}</p>
+  <h1>{c.name_zh || c.name}</h1>
+  <p class="hubIntro">{c.intro_zh || c.tagline_zh || ''}</p>
+  <h2>插件</h2>
+  <div class="tableWrap">
+    <table class="dir">
+      <tbody>
+        {group.plugins.map((p: any) => (
+          <tr><td><a class="pluginName" href={`/plugins/${p.slug}/`}>{p.name}</a></td><td>{p.tagline_zh || p.tagline}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <h2>机器人</h2>
+  <div class="dropList">
+    {group.templates.map((t: any) => <BotRow item={t} href={`/bots/${t.slug}/`} />)}
+  </div>
+  <h2>用例</h2>
+  <div class="dropList">
+    {group.useCases.map((u: any) => <BotRow item={u} href={`/use-cases/${u.slug}/`} />)}
+  </div>
+</Base>

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+.ui-audit/
+.DS_Store
+*.log
+.env
+.vercel
+__pycache__/
+*.py[cod]
+*$py.class

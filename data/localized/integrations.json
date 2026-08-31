@@ -1,0 +1,314 @@
+{
+  "count": 18,
+  "items": [
+    {
+      "slug": "devtune",
+      "name": "DevTune",
+      "name_zh": "DevTune",
+      "aliases": [
+        "devtune.ai"
+      ],
+      "url": "/integrations/devtune/",
+      "orig_url": "https://grokbot.dev/integrations/devtune/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      },
+      "intro_zh": "DevTune 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "discord",
+      "name": "Discord",
+      "name_zh": "Discord",
+      "aliases": [
+        "discord.com",
+        "discord server"
+      ],
+      "url": "/integrations/discord/",
+      "orig_url": "https://grokbot.dev/integrations/discord/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 1
+      },
+      "intro_zh": "Discord 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "name_zh": "GitHub",
+      "aliases": [
+        "github.com",
+        "gh",
+        "git hub"
+      ],
+      "url": "/integrations/github/",
+      "orig_url": "https://grokbot.dev/integrations/github/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 20
+      },
+      "intro_zh": "GitHub 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "gmail",
+      "name": "Gmail",
+      "name_zh": "Gmail",
+      "aliases": [
+        "google mail",
+        "gmail.com",
+        "google email"
+      ],
+      "url": "/integrations/gmail/",
+      "orig_url": "https://grokbot.dev/integrations/gmail/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 3,
+        "use_cases": 39
+      },
+      "intro_zh": "Gmail 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "google-calendar",
+      "name": "Google Calendar",
+      "name_zh": "Google 日历",
+      "aliases": [
+        "gcal",
+        "google cal",
+        "calendar"
+      ],
+      "url": "/integrations/google-calendar/",
+      "orig_url": "https://grokbot.dev/integrations/google-calendar/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 17
+      },
+      "intro_zh": "Google 日历 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "google-docs",
+      "name": "Google Docs",
+      "name_zh": "Google 文档",
+      "aliases": [
+        "gdocs",
+        "docs",
+        "google doc"
+      ],
+      "url": "/integrations/google-docs/",
+      "orig_url": "https://grokbot.dev/integrations/google-docs/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 5
+      },
+      "intro_zh": "Google 文档 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "google-drive",
+      "name": "Google Drive",
+      "name_zh": "Google 云端硬盘",
+      "aliases": [
+        "gdrive",
+        "drive"
+      ],
+      "url": "/integrations/google-drive/",
+      "orig_url": "https://grokbot.dev/integrations/google-drive/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 6
+      },
+      "intro_zh": "Google 云端硬盘 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "name_zh": "HubSpot",
+      "aliases": [
+        "hub spot",
+        "hubspot crm"
+      ],
+      "url": "/integrations/hubspot/",
+      "orig_url": "https://grokbot.dev/integrations/hubspot/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      },
+      "intro_zh": "HubSpot 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "name_zh": "Linear",
+      "aliases": [
+        "linear.app"
+      ],
+      "url": "/integrations/linear/",
+      "orig_url": "https://grokbot.dev/integrations/linear/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      },
+      "intro_zh": "Linear 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "name_zh": "Notion",
+      "aliases": [
+        "notion.so",
+        "notion database"
+      ],
+      "url": "/integrations/notion/",
+      "orig_url": "https://grokbot.dev/integrations/notion/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 4
+      },
+      "intro_zh": "Notion 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "quickbooks",
+      "name": "QuickBooks",
+      "name_zh": "QuickBooks",
+      "aliases": [
+        "quick books",
+        "qbo",
+        "intuit quickbooks"
+      ],
+      "url": "/integrations/quickbooks/",
+      "orig_url": "https://grokbot.dev/integrations/quickbooks/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      },
+      "intro_zh": "QuickBooks 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "name_zh": "Salesforce",
+      "aliases": [
+        "sfdc",
+        "salesforce.com"
+      ],
+      "url": "/integrations/salesforce/",
+      "orig_url": "https://grokbot.dev/integrations/salesforce/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      },
+      "intro_zh": "Salesforce 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "shopify",
+      "name": "Shopify",
+      "name_zh": "Shopify",
+      "aliases": [
+        "shopify.com",
+        "shopify store"
+      ],
+      "url": "/integrations/shopify/",
+      "orig_url": "https://grokbot.dev/integrations/shopify/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      },
+      "intro_zh": "Shopify 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "slack",
+      "name": "Slack",
+      "name_zh": "Slack",
+      "aliases": [
+        "slack.com",
+        "slack workspace"
+      ],
+      "url": "/integrations/slack/",
+      "orig_url": "https://grokbot.dev/integrations/slack/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 11
+      },
+      "intro_zh": "Slack 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "stripe",
+      "name": "Stripe",
+      "name_zh": "Stripe",
+      "aliases": [
+        "stripe.com"
+      ],
+      "url": "/integrations/stripe/",
+      "orig_url": "https://grokbot.dev/integrations/stripe/",
+      "auth": "api-key",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 7
+      },
+      "intro_zh": "Stripe 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "telegram",
+      "name": "Telegram",
+      "name_zh": "Telegram",
+      "aliases": [
+        "telegram.org",
+        "telegram bot"
+      ],
+      "url": "/integrations/telegram/",
+      "orig_url": "https://grokbot.dev/integrations/telegram/",
+      "auth": "api-key",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 3
+      },
+      "intro_zh": "Telegram 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "whatsapp",
+      "name": "WhatsApp",
+      "name_zh": "WhatsApp",
+      "aliases": [
+        "whats app",
+        "whatsapp business"
+      ],
+      "url": "/integrations/whatsapp/",
+      "orig_url": "https://grokbot.dev/integrations/whatsapp/",
+      "auth": "api-key",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 0
+      },
+      "intro_zh": "WhatsApp 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    },
+    {
+      "slug": "x",
+      "name": "X",
+      "name_zh": "X",
+      "aliases": [
+        "twitter",
+        "x.com",
+        "twitter.com"
+      ],
+      "url": "/integrations/x/",
+      "orig_url": "https://grokbot.dev/integrations/x/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 9,
+        "use_cases": 20
+      },
+      "intro_zh": "X 在本目录中的插件与用例。名称保持英文专有名词。条目均来自 grokbot.dev。"
+    }
+  ]
+}

@@ -1,0 +1,1669 @@
+{
+  "plugins": {
+    "x-for-grok-bot": {
+      "tagline": "官方 X 插件：搜帖、读时间线、拉热搜、管理收藏。"
+    },
+    "postonce": {
+      "tagline": "把 Grok Bot 接到你已在用的社交账号，在对话里起草帖子。"
+    },
+    "contentdrips": {
+      "tagline": "让智能体按品牌规范，从对话里做出 LinkedIn / Instagram 轮播图。"
+    },
+    "bulkpublish": {
+      "tagline": "让智能体在 15 个社交网络上排期并发布。"
+    },
+    "sightkick": {
+      "tagline": "SEO 全流程：AI 答案可见度、写稿、发布，并用 Search Console 验证。"
+    },
+    "aituber": {
+      "tagline": "给智能体一套视频工作室：脚本、配音、字幕和发布。"
+    },
+    "pdf-ai": {
+      "tagline": "把任意 PDF 变成机器人能用的结构化数据——解析、抽取、拆分，一把 API key。"
+    },
+    "pallyy": {
+      "tagline": "通过 Pallyy 的 REST API 让智能体起草、排期并发布社交帖。"
+    },
+    "phonezero": {
+      "tagline": "用 Grok Voice Agents 和 Telnyx 在 Grok Bot 里打电话。零基础设施。"
+    },
+    "composio": {
+      "tagline": "一个连接器，经 MCP 给 Grok Bot 接入 1000+ 应用。"
+    },
+    "affonso": {
+      "tagline": "给 Grok Bot 联盟数据，以及需你批准的项目操作。"
+    },
+    "bland": {
+      "tagline": "给 Grok Bot 一个真电话号码，能开口打真实电话。"
+    },
+    "amplemarket": {
+      "tagline": "给 Grok Bot 完整销售栈：线索数据、信号和外联。"
+    },
+    "appllama": {
+      "tagline": "让 Grok Bot 研究 App Store 头部应用的 39,000+ 个界面。"
+    },
+    "omnisocials": {
+      "tagline": "一个 API，在 12 个平台上排期、发布并分析帖子。"
+    },
+    "search1api": {
+      "tagline": "给 Grok Bot 实时网页搜索、新闻、读页和趋势。"
+    },
+    "cribble": {
+      "tagline": "把你的 Grok（以及另外 47 个 AI 工具）用量排上全球排行榜。"
+    },
+    "tubealfred": {
+      "tagline": "只读接入任意公开 YouTube 视频、频道或播放列表。"
+    },
+    "sequenzy": {
+      "tagline": "用 Grok Bot 跑邮件营销：订阅者、活动、自动化序列。"
+    },
+    "fretwork": {
+      "tagline": "本地优先的自由职业管理：工时、发票、开支、CRM。"
+    },
+    "agentmail": {
+      "tagline": "给 Grok Bot 自己的电子邮箱和网上身份。"
+    },
+    "2chat": {
+      "tagline": "给 Grok Bot 一套 WhatsApp + 短信的消息和通讯录系统。"
+    },
+    "marketbetter": {
+      "tagline": "把网站访问和购买意向变成智能体每天执行的销售剧本。"
+    },
+    "gojiberry": {
+      "tagline": "从购买信号里找出温热的 B2B 线索，并起草外联。"
+    },
+    "mediafast": {
+      "tagline": "让智能体做 Reddit 营销，同时尽量不被封。"
+    },
+    "mentions-so": {
+      "tagline": "追踪品牌在 ChatGPT、Perplexity、Grok 等 AI 回答里怎么出现。"
+    },
+    "tiiny-host": {
+      "tagline": "让智能体在几秒内把静态站或文件发到一个可访问的 URL。"
+    },
+    "zernio": {
+      "tagline": "面向开发者的 API 和 MCP，用来排期和分析各平台社交帖。"
+    },
+    "adkit": {
+      "tagline": "让智能体起草并投放 Meta、Google 和 TikTok 广告。"
+    },
+    "bannerbear": {
+      "tagline": "给智能体一套 API，自动生成带品牌的图和视频。"
+    },
+    "breakcold": {
+      "tagline": "让智能体在邮件、LinkedIn 和 WhatsApp 上跑 CRM。"
+    },
+    "distribb": {
+      "tagline": "让智能体做 SEO：关键词、文章和外链。"
+    },
+    "post-bridge": {
+      "tagline": "一个 API，发到 10+ 个社交平台。"
+    },
+    "postiz": {
+      "tagline": "让智能体在 30+ 个社交平台上排期和发帖。"
+    },
+    "revid-ai": {
+      "tagline": "让智能体写脚本、渲染并发布 AI 视频。"
+    },
+    "screenshotone": {
+      "tagline": "给智能体任意 URL 或 HTML 的截图 API。"
+    },
+    "stayingapi": {
+      "tagline": "让智能体查预订网站的空房和比价。"
+    },
+    "superx": {
+      "tagline": "给智能体你的 X 数据分析，外加 5000 万帖的选题库。"
+    },
+    "transcriptapi": {
+      "tagline": "给智能体任意音频或视频的准确转写。"
+    },
+    "zillapi": {
+      "tagline": "按需给智能体快速、结构化的数据。"
+    }
+  },
+  "collections": {
+    "team-you-didnt-hire": {
+      "name": "你没雇的那支团队",
+      "tagline": "五个机器人，干的是创业公司以前要招一整支团队的活。"
+    },
+    "award-travel": {
+      "name": "积分旅行",
+      "tagline": "用积分订行程，把真实价值用到最深处。"
+    },
+    "content-machine": {
+      "name": "一条视频，一周内容",
+      "tagline": "把一段录像切成短视频、切片，发到所有平台。"
+    },
+    "fill-the-pipeline": {
+      "name": "把管道灌满",
+      "tagline": "从一份新线索名单，一直做到约上会。"
+    },
+    "founder-os": {
+      "name": "创始人操作系统",
+      "tagline": "把公司搭起来，然后从一张桌子上运转它。"
+    },
+    "get-found": {
+      "name": "被找到",
+      "tagline": "在 Google 里排上名，也在 AI 回答里被点名。"
+    },
+    "household-hq": {
+      "name": "家庭指挥部",
+      "tagline": "把家里跑起来：吃饭、上学、房子，还有那些贴心的小事。"
+    },
+    "look-after-yourself": {
+      "name": "照顾好自己",
+      "tagline": "真正让你把自己照顾好的提醒和教练。"
+    },
+    "never-overpay": {
+      "name": "再也不多付钱",
+      "tagline": "聪明地买、选对卡，把该拿回来的钱拿回来。"
+    },
+    "reclaim-your-inbox": {
+      "name": "真正的收件箱清零",
+      "tagline": "把收件箱清空，并保持清空。"
+    },
+    "second-brain": {
+      "name": "搭一个第二大脑",
+      "tagline": "有出处、归档好、几个月后还能找到的研究。"
+    },
+    "ship-while-you-sleep": {
+      "name": "睡着也能交付",
+      "tagline": "晚上丢一个想法，早上审 pull request。"
+    },
+    "start-here": {
+      "name": "刚用 Grok Bot？从这里开始",
+      "tagline": "搭好第一批机器人，并学会自己做。"
+    },
+    "x-account-management": {
+      "name": "X 账号运营",
+      "tagline": "六个共享机器人，把你的整个 X 账号跑起来，也安静地读它。"
+    },
+    "research-you-can-trust": {
+      "name": "信得过的研究",
+      "tagline": "三个研究机器人，找到信号并出示凭据。"
+    },
+    "grok-ship-firstmate": {
+      "name": "Grok Ship + Firstmate",
+      "tagline": "Firstmate 掌舵，Grok Ship 当软件工厂。"
+    }
+  },
+  "news": {},
+  "categories": {},
+  "use-cases": {
+    "herd-your-bots": {
+      "name": "一个对话里管好整支 Grok Bot 舰队",
+      "tagline": "机器人一多，盯着它们本身就成了一份工作。把牧羊人机器人和 herdr 工具配在一起，看整支舰队、只把真正需要你的事拎出来。"
+    },
+    "reply-guard": {
+      "name": "筛掉 X 回复里的小号和辱骂",
+      "tagline": "审你帖子下的回复，把信号和噪音分开：粉少、号新，以及开口就骂的，都会被标出来。"
+    },
+    "topic-to-branded-carousel": {
+      "name": "一个主题做出一套品牌轮播图",
+      "tagline": "给 Grok Bot 一个主题，接上 ContentDrips MCP，按你存好的品牌风格做出多页轮播。"
+    },
+    "faceless-youtube-channel-automation": {
+      "name": "无人出镜 YouTube 频道：找料、剪、字幕、排期",
+      "tagline": "无人出镜频道就是一条产线——找素材、剪短片、加字幕、做封面、上传。"
+    },
+    "pitch-deck-analyzer-bot": {
+      "name": "按你自己的标准筛每一份路演材料",
+      "tagline": "每周被路演 5–10 次，就做一个会按你的口味打分的机器人，把不对盘的先滤掉。"
+    },
+    "build-a-crm-from-your-calendar": {
+      "name": "十年日历自动变成 Notion CRM",
+      "tagline": "把十年日历交给 Grok Bot，做成每个见过的人的 Notion 库，带上 LinkedIn 和见面上下文。"
+    },
+    "market-expectations-desk": {
+      "name": "在人群反应之前，看见市场在定价什么",
+      "tagline": "不当「该不该买 NVDA」的算命，而当预期台：读平值跨式等，看市场已经计入了什么。"
+    },
+    "build-a-one-person-hedge-fund": {
+      "name": "八个具名机器人跑完整支基金",
+      "tagline": "研究、交易、风控和中后台，映射到一台共享云上的八个具名机器人。"
+    },
+    "stock-valuation-levels-agent": {
+      "name": "教会机器人一套估值方法，然后只丢代码",
+      "tagline": "让 Grok Bot 学一位分析师的目标价方法，拉公开数据，给股票标估值档。"
+    },
+    "replicate-social-analytics-follower-cleanup": {
+      "name": "用 X 数据归档替代每月 50 刀的粉丝分析",
+      "tagline": "把 following.js 和 follower.js 交给机器人，它按你的规则整理关注关系。"
+    },
+    "track-the-grok-bot-team": {
+      "name": "第一时间知道 Grok Bot 新功能",
+      "tagline": "与其你去跟工程师，不如让机器人每天盯建造它的那支团队。"
+    },
+    "ai-search-lead": {
+      "name": "塑造 AI 怎么谈论你",
+      "tagline": "读引擎回答和引用，结合 Search Console 和 GA4，起草下一篇有证据排序的页面。"
+    },
+    "personal-cfo-bank-access": {
+      "name": "给他的 Grok Bot 完整银行权限，当私人 CFO",
+      "tagline": "个人和对公账户、信用卡都接上，一个问题就能回答早上那句：账上够不够。"
+    },
+    "house-memory-bot": {
+      "name": "这个机器人只干一件事：当房子的长期记忆",
+      "tagline": "家电铭牌、电箱、滤芯尺寸、油漆罐拍一次，它替你归档，以后再也不翻。"
+    },
+    "daily-youtube-summary": {
+      "name": "早上 7 点，你真正在看的频道一日回顾",
+      "tagline": "先问清兴趣、锁定 7–10 个频道，再经 TranscriptAPI 每天早检查一遍。"
+    },
+    "newsletter-unsubscribe-audit": {
+      "name": "通讯排毒：它审计，你审一页，它退订",
+      "tagline": "两阶段收件箱排毒，中间有你把关。机器人扫邮件，做成保留/退订的审阅页。"
+    },
+    "composio-connector-hack": {
+      "name": "连接器妙招：一个 Composio MCP 换 1000+ 工具",
+      "tagline": "Grok Bot 自带连接器偏少时，先接 Composio，再经它接那 1000+ 集成。"
+    },
+    "seven-bot-content-team": {
+      "name": "七个机器人跑内容日历，他只审",
+      "tagline": "发现、调研、写作、视觉、分发，七个具名机器人在一台共享机器上。"
+    },
+    "affiliate-program-manager": {
+      "name": "用 AI 联盟经理自动跑联盟计划",
+      "tagline": "基于 Affonso 的 Grok Bot 做每周联盟管理：对比表现、找增长和风险、准备伙伴动作。"
+    },
+    "be-happier-bot": {
+      "name": "Lenny 的「更开心」机器人",
+      "tagline": "分析邮件、日历和 Slack，每周建议三件能让你更开心的具体事。"
+    },
+    "give-your-grok-bot-a-phone-number": {
+      "name": "给 Grok Bot 一个电话号码",
+      "tagline": "在 Bland 买号、给 API key，你下指令它打电话，打完向你汇报。"
+    },
+    "find-customers-complaining-about-competitors": {
+      "name": "在 X 上找到已经说想换的客户",
+      "tagline": "搜人们抱怨竞品或找替代的帖，补全资料，按购买意向排序。"
+    },
+    "bargain-hunter-bot-buys-within-budget": {
+      "name": "给规格和最高价，出现划算货就出价",
+      "tagline": "精确规格、成色、最高价——列出的每一项都满足时，机器人购买或出价。"
+    },
+    "exact-chief-of-staff-prompt": {
+      "name": "首席参谋那条分成两段的原话提示词",
+      "tagline": "描述里锁死三个优先级、默认行动、从不擅自发送或编数字。"
+    },
+    "ai-tools-maintainer": {
+      "name": "工作日机器人，只更新你已经装过的工具",
+      "tagline": "每个工作日早上清点电脑上的真实二进制，只在原渠道更新已装工具。"
+    },
+    "harden-your-email-bot-against-prompt-injection": {
+      "name": "加固会读邮件的 Grok Bot，防提示注入",
+      "tagline": "把邮件的正文、主题、发件人、附件甚至隐形白字，都当成不可信输入。"
+    },
+    "amazon-cart-builder-grok-bot": {
+      "name": "按历史订单给 Amazon 购物车加货",
+      "tagline": "登录 Amazon，读「再次购买」和历史订单，把你要的商品放进车里。"
+    },
+    "workforce-checker-for-stuck-bots": {
+      "name": "「劳动力检查员」：抓住悄悄停工的智能体",
+      "tagline": "每 15 分钟扫其他机器人有没有卡住的活，催一次，再升级。"
+    },
+    "give-grok-bot-reliable-youtube-access": {
+      "name": "用 TranscriptAPI 给 Grok Bot 可靠的 YouTube 访问",
+      "tagline": "测新智能体的第一项往往是 YouTube；浏览器操控会把试用额度烧光。"
+    },
+    "cancel-subscriptions-with-grok-bot": {
+      "name": "让 Grok Bot 替你退订，连变通办法一起",
+      "tagline": "登不进去也不卡死，会去点「管理套餐」一类入口，把退订办完。"
+    },
+    "one-bad-grok-bot-devils-advocate": {
+      "name": "团队里留一个故意唱反调的 Disruptor",
+      "tagline": "在对话里点到它，它就来找茬：反对、挑战、逼你把想法说清楚。"
+    },
+    "clip-youtube-podcasts-with-grok-bot": {
+      "name": "按时间戳切开 YouTube 播客，再让团队写成帖",
+      "tagline": "丢链接、说「从 16:43 剪到 18:17」，几分钟后高清切片就在对话里。"
+    },
+    "vision-md-so-agents-self-triage": {
+      "name": "给每个仓库一份 VISION.md，让机器人替你分诊",
+      "tagline": "影响力往上提一层：用一份明确的愿景文件，让机器人自己分拣 issue。"
+    },
+    "run-a-business-with-grok-bot-agent-teams": {
+      "name": "用一支 Grok Bot 智能体团队跑一人公司",
+      "tagline": "一个账号一个项目，首席参谋审计业务，其余机器人执行。"
+    },
+    "connect-deepseek-to-grok-bot": {
+      "name": "把 DeepSeek（或任意 LLM）接到 Grok Bot，按成本分流",
+      "tagline": "把 DeepSeek 登记成可调用工具，密钥安全存放，再按成本把活分出去。"
+    },
+    "give-your-grok-bot-its-own-email-inbox": {
+      "name": "一条提示词，给 Grok Bot 自己的邮箱和身份",
+      "tagline": "它会解释为什么不该用你的私人 Gmail，并一步步用 AgentMail 配好。"
+    },
+    "food-shopping-agent-team": {
+      "name": "三智能体小队：计划、加车、做饭",
+      "tagline": "膳食统筹按你的饮食做菜单，采购往网上超市加车，第三人管做。"
+    },
+    "make-your-grok-bot-elon-musk": {
+      "name": "让你的 Grok Bot 像 Elon Musk 那样想、做、吐槽",
+      "tagline": "把人设贴进 Instructions：第一性原理、干幽默，套用「算法」。"
+    },
+    "overwatch-keep-your-bot-vm-clean-and-backed-up": {
+      "name": "Overwatch：让共享虚拟机干净并有备份",
+      "tagline": "整理 /workspace，把整棵树备份到私有目标，别让共享机器烂掉。"
+    },
+    "agent-run-directory-business": {
+      "name": "用一支 Grok Bot 团队跑目录站生意",
+      "tagline": "挑你有品味的细分，用 Astro 建站，设研究智能体去填内容。"
+    },
+    "grade-bookmarks-into-skills": {
+      "name": "把一个月的收藏打成分级、能说出口的技能",
+      "tagline": "一行论点、链接、高/中/噪音评级，以及你为什么该记住它。"
+    },
+    "odyssey-visuals-grok-imagine": {
+      "name": "一部《奥德赛》，由一个机器人分镜并拍完",
+      "tagline": "调研故事、规划场景人物服装，再跑完整条视觉流水线。"
+    },
+    "bot-with-its-own-email": {
+      "name": "给机器人自己的邮箱，抄送即可行动",
+      "tagline": "经 AgentMail 给它独立地址，webhook 唤醒；你抄送并在第二行写指令。"
+    },
+    "close-inbound-sponsorships": {
+      "name": "四小时内从收件箱谈成一万美元赞助",
+      "tagline": "给它业务邮箱权限，让它回复并和正经公司谈条件。"
+    },
+    "extract-art-prompts": {
+      "name": "抽出并整理 13,425 条绘画提示词",
+      "tagline": "翻遍 557 个对话，把每条绘画提示按主题归进一个可搜索的库。"
+    },
+    "find-local-website-leads": {
+      "name": "五十家需要新网站的本地生意",
+      "tagline": "ChatGPT 和 Gemini 找了几个月都一般；Grok Bot 跑一轮就给出能跟的名单。"
+    },
+    "instagram-bug-to-pr": {
+      "name": "Instagram 里的缺陷反馈，自己转去 QA",
+      "tagline": "网站故障投诉被转给 Ship 频道的 QA 机器人，测完再往下走。"
+    },
+    "marketplace-flipper": {
+      "name": "你睡觉时，它在二手市场倒货",
+      "tagline": "登录第二个市场账号，标出低于 30 日中位价 35% 的listing，再决定是否下手。"
+    },
+    "photos-to-3d-printed-materials": {
+      "name": "四张照片做成 3D 打印材料实验",
+      "tagline": "三机器人团队把参考图变成可迁移的设计原则、模拟器和实验。"
+    },
+    "teach-a-chore-by-recording": {
+      "name": "用屏幕录像教会机器人一项杂务",
+      "tagline": "一边整理桌面文件一边口述，首席参谋学会的不只是做什么，还有怎么做、为什么。"
+    },
+    "dangerously-good-at-grok-bot": {
+      "name": "从新手到危险地擅长 Grok Bot",
+      "tagline": "安装决策、五段任务简报，以及简报→观察→修正的循环。"
+    },
+    "one-prompt-agent-team": {
+      "name": "一个机器人，一条提示词——它自己雇了团队",
+      "tagline": "把一条提示词贴进名为 Atlas 的首席参谋。它采访你、写操作手册，再规格化并拉起四个队友。"
+    },
+    "ai-research-desk": {
+      "name": "你睡觉时仍在研究市场的研究台",
+      "tagline": "一队智能体全天候研究市场，给自己的预测打分，第二天交给你。"
+    },
+    "grok-bot-masterclass": {
+      "name": "让 Grok Bot 一下通的大师课",
+      "tagline": "从理解、搭起来，到真的用它干活的端到端指南。"
+    },
+    "solo-newsletter-business": {
+      "name": "睡着也能跑完一份通讯生意",
+      "tagline": "非技术的独立创始人用一支 Grok Bot 团队跑研究、起草和编辑。"
+    },
+    "role-based-agent-team": {
+      "name": "用协作智能体跑每天的 GTM 和开发",
+      "tagline": "销售负责人和产品营销负责人跑日常 GTM，开发侧同样按角色分工。"
+    },
+    "team-in-10-minutes": {
+      "name": "十分钟内，一家没有雇员的公司",
+      "tagline": "先做一个叫首席参谋的入口机器人，描述里写清它怎么分派。"
+    },
+    "marketing-os": {
+      "name": "整支营销团队，开源出来",
+      "tagline": "十四个模块覆盖 0–100 分审计、18 个战术，作为一项技能打包。"
+    },
+    "mine-my-machine-into-a-team": {
+      "name": "把乱糟糟的电脑挖成一支真正的智能体团队",
+      "tagline": "从配置、重复任务和你一直在做的纠正里，挖出该存在的机器人。"
+    },
+    "account-expert": {
+      "name": "问成交卡在哪，得到日期和链接",
+      "tagline": "每个战略客户一个智能体，看 Slack、Gmail、Gong，从运行记录里回答。"
+    },
+    "aeo-content-autopilot": {
+      "name": "旧销售通话变成下一篇能排上名的文章",
+      "tagline": "摄入通话、播客、YouTube，结合 GA4 等，写成面向答案引擎的稿。"
+    },
+    "always-on-x-presence": {
+      "name": "一台 Mac 和我的 X 账号，单独待 48 小时",
+      "tagline": "给它完整 macOS、Gmail 和 X。它发了两天帖、进了群聊。"
+    },
+    "amazon-tasks-via-telegram": {
+      "name": "沙发上发一条差事，批准购物车",
+      "tagline": "Amazon 任务接上 Telegram，手机上点一下就能让机器人干活。"
+    },
+    "arduino-live-ticker": {
+      "name": "桌上的灯带滚动 SPCX 价格",
+      "tagline": "Grok Bot 接到 Arduino，LED 变成带折线的实时行情，外加 SpaceX 头条。"
+    },
+    "article-newsletter-writer": {
+      "name": "用我的语气起草，并标出自己的弱主张",
+      "tagline": "Writey 会写通讯/文章，并自己标出站不住的句子。"
+    },
+    "attention-inbox-email-slack": {
+      "name": "五个邮箱、六个 Slack，除非需要你否则安静",
+      "tagline": "只在指定地址和服务器里、真的需要你时才叫醒你。"
+    },
+    "autonomous-trading-agent": {
+      "name": "只做模拟盘，直到你亲自打开保险",
+      "tagline": "完全用 Grok Bot 搭的自主交易智能体；先纸上谈兵。"
+    },
+    "award-tickets-japan": {
+      "name": "六万积分拿到三张去日本的头等舱",
+      "tagline": "经允许登录航司账户，找到三张头等舱奖励票。"
+    },
+    "back-to-school-mental-load": {
+      "name": "开学收件箱，按每个孩子拆成清单",
+      "tagline": "处理多个孩子的开学邮件和待办，以及那一周家里其它独立完成的活。"
+    },
+    "bot-team-manager": {
+      "name": "唯一的工作是去催其它机器人",
+      "tagline": "教程的起点：一个经理/顾问，去协调 YouTube 研究员、X 侦察兵等。"
+    },
+    "ca-unclaimed-funds": {
+      "name": "属于你的 300 刀，还躺在州政府",
+      "tagline": "24 小时账单的第一项：加州无人认领财产里找到 300 美元。"
+    },
+    "calendar-conflict-fixer": {
+      "name": "双重预约送达时，已经带着改期方案",
+      "tagline": "日历冲突调度由机器人处理，带着一份已经写好的修复。"
+    },
+    "call-follow-up-drafter": {
+      "name": "跟进信来自笔记，而不是客套",
+      "tagline": "根据 Granola 或 Gong 笔记起草会后跟进，只写实际谈过的。"
+    },
+    "churn-exit-feedback": {
+      "name": "他们离开的五个原因，本周该做的五件事",
+      "tagline": "赢回邮件之后，隔夜分析流失原因，变成五步计划。"
+    },
+    "churn-winback": {
+      "name": "赢回机器人，自己赚回了订阅费",
+      "tagline": "找出过去 6 个月离开的人、发邮件、赢回几个，并收集退出反馈。"
+    },
+    "company-brain-cos": {
+      "name": "一个比我更懂这家公司的对话",
+      "tagline": "接上 Slack、邮件、会议笔记、Notion 和 Stripe，一个对话里问公司的事。"
+    },
+    "content-pipeline": {
+      "name": "一篇文章，四个表面，规范链接从不丢",
+      "tagline": "用技能写、发到自己的站、联合到 Dev.to 并带上 canonical。"
+    },
+    "cut-monthly-subs": {
+      "name": "每月少 50 刀，还有取消截图为证",
+      "tagline": "头 24 小时就砍掉每月 50 美元订阅，让 Grok Bot 对自己值回票价。"
+    },
+    "deal-desk": {
+      "name": "卡住的单子，每天都有下一步草稿",
+      "tagline": "成交台机器人每天推动停滞、丢失和相似单，而不是每周写一首管道诗。"
+    },
+    "debs-chief-of-staff": {
+      "name": "审计你已经做好的那些机器人",
+      "tagline": "看着我、看着我已经建的机器人，告诉我改什么、怎么带这支队。"
+    },
+    "dmv-errand": {
+      "name": "车辆续期，在真正的车管所网站上填好",
+      "tagline": "处理 DMV 注册这种无聊的政务差事，正是智能体擅长的。"
+    },
+    "email-triage-partner": {
+      "name": "每天早上自己分诊的收件箱",
+      "tagline": "三阶段：归档你永不必看的、摘要低注意力的、对剩下的做全上下文分诊。"
+    },
+    "enterprise-gtm-workflows": {
+      "name": "真正的经营者每周在跑的 GTM 环",
+      "tagline": "企业市场工作流的实操，而不是玩具演示。"
+    },
+    "firstmate-front-door": {
+      "name": "丢进一团乱的需求，拿回白话结果",
+      "tagline": "一个你什么都跟它说的 Grok Bot。它创建、委派、调度其它机器人。"
+    },
+    "freight-dispatch-tms": {
+      "name": "调度台几小时内给 100+ 司机发短信",
+      "tagline": "供应链 CEO 几小时内搭起调度机器人：跟踪上百票货、发短信、订舱。"
+    },
+    "game-art-png-pipeline": {
+      "name": "游戏素材，风格跟上次批准的一致",
+      "tagline": "驱动自制生图页，产出透明 PNG，并保持风格一致。"
+    },
+    "gmail-mass-purge": {
+      "name": "九万封邮件分诊，银行和法律一封不动",
+      "tagline": "两个 Gmail 账号里的垃圾清掉，银行和法律邮件不动。"
+    },
+    "grill-me-interview": {
+      "name": "被盘问到计划真正具体为止",
+      "tagline": "Grill Me 会不停采访你的业务、目标和计划，直到够具体。"
+    },
+    "grinder-subscription-killer": {
+      "name": "它和 Restream 客服争到了一个方案",
+      "tagline": "邮件机器人把约 13 项订阅表交给 Grinder 去砍。"
+    },
+    "grocery-autopilot": {
+      "name": "永远记得「不要橄榄」的购物车",
+      "tagline": "专属杂货对话记住偏好，浏览并下单，是智能体好用的标尺之一。"
+    },
+    "grok-bot-cto": {
+      "name": "会雇子机器人来交 PR 的机器人",
+      "tagline": "把 GitHub 仓库交给它，让它拉起云端智能体、跟 PR、雇子机器人。"
+    },
+    "grok-ship-factory": {
+      "name": "一天上百个 PR，每个都带着证据关上",
+      "tagline": "Grok Bot 里的软件工厂。昨天一天，仓库里上百 issue 和 PR 被它做完。"
+    },
+    "help-center-from-prs": {
+      "name": "PR 一合并，文档自己更新",
+      "tagline": "盯每个已合并 PR，判断帮助中心要不要改，然后起草并发布。"
+    },
+    "hourly-political-brief": {
+      "name": "没变化时就什么也不说的整点简报",
+      "tagline": "按工作主题整点更新；没变化就闭嘴，重大动作先问你。"
+    },
+    "inbox-classifier": {
+      "name": "每封赞助邮件，打开前就已经打分",
+      "tagline": "站岗分类器给邮件打标签；垃圾赞助自动归档，其余变成线索分。"
+    },
+    "inbox-delete-unsub": {
+      "name": "删掉 6000 封，退订 40 个名单",
+      "tagline": "作为 24 小时内值回票价的一部分：清理收件箱。"
+    },
+    "inbox-marie-kondo": {
+      "name": "每天断舍离，最多十件、要你批准",
+      "tagline": "审计 Gmail、Drive 和付费订阅，提出清理计划，退订前必须你点头。"
+    },
+    "inbox-receipt-sorter": {
+      "name": "先找到开支，再让另一个机器人去砍",
+      "tagline": "第一个有 Gmail，把收据和账单邮件归位，好让第二个去取消。"
+    },
+    "inbox-zero-operator": {
+      "name": "每天两次分诊，并汇报自己的未读数",
+      "tagline": "收件箱清零（日历、车管所、Amazon 另外拆开）。"
+    },
+    "jesse-cos-briefing": {
+      "name": "它发现我在冷落谁，并约上了电话",
+      "tagline": "首席参谋读 Gmail、日历、Slack/Discord，凌晨 5 点出带火情的摘要。"
+    },
+    "jesse-saas-cfo": {
+      "name": "说不清跑道时，CFO 报告就留空",
+      "tagline": "接 Stripe、Xero/QuickBooks 和 Gmail。每周开支扫描、COGS 审计、月度 CFO 报告。"
+    },
+    "jesse-support-autopilot": {
+      "name": "用短信回复，它替你跑客服台",
+      "tagline": "对着客服台每天扫几遍，摘要已分配的，你回一句它就去办。"
+    },
+    "junk-purge-150k": {
+      "name": "15 万封垃圾邮件，干跑一次后再删",
+      "tagline": "清理 15 万封垃圾并退订从不读的发件人。"
+    },
+    "lenny-support-replies": {
+      "name": "你坐下时，客服回复已经拟好",
+      "tagline": "自动回复客服邮件，用他的语气起草，发送键仍在他手上。"
+    },
+    "linkedin-poster": {
+      "name": "一段语音变成一篇上线的 LinkedIn",
+      "tagline": "在机器人的电脑上登录（它看不见密码），学你的旧帖，把一团语音变成帖。"
+    },
+    "mass-unsubscribe": {
+      "name": "120 天营销邮件，一轮退订完",
+      "tagline": "退订 120 天营销邮件，同一条推文里还审计了付费订阅。"
+    },
+    "math-explainer-video": {
+      "name": "一篇稠密的优化论文，变成 4 分钟动画",
+      "tagline": "生成 4 分 22 秒动画，讲秩、谱功率，以及相对 Adam/Muon/Aurora 的优化。"
+    },
+    "meeting-prep-brief": {
+      "name": "明天的会，各一页能在手机上读完",
+      "tagline": "从 Salesforce、Gmail、Slack、Granola、Gong 抽成短简报。"
+    },
+    "meeting-summary-splitter": {
+      "name": "每次会议拆成你答应的和对方答应的",
+      "tagline": "摄入转写，写摘要和待办，并明确分开双方承诺。"
+    },
+    "merchant-refund-hunter": {
+      "name": "五家悄悄没退款的商家",
+      "tagline": "扫邮件找丢失的钱，给五家没退货的商家发信——已经比月费正收益。"
+    },
+    "nate-cos-front-door": {
+      "name": "一个线程进去，对的机器人接住",
+      "tagline": "Klaus 是他唯一对话的机器人。干活前先看这活是不是别人的，委派，再把结果带回来。"
+    },
+    "org-chart-bot-company": {
+      "name": "八个机器人、一张组织图，没有任务清单",
+      "tagline": "给 Grok Bot 的是组织图而不是任务。八个机器人在跑公司。"
+    },
+    "overnight-media-buyer": {
+      "name": "醒来时 CPA 飙升已经被诊断完",
+      "tagline": "接广告账户、表格、分析，当媒体采购，夜间异常早上已有结论。"
+    },
+    "phoenix-plumbing-content-planner": {
+      "name": "月费两千的营销瓶颈，被一个机器人接走",
+      "tagline": "管道公司老板雇了名为 Mary 的 Grok Bot 当营销经理。"
+    },
+    "phone-site-and-domain": {
+      "name": "手机上两条提示词：站点、域名、重定向",
+      "tagline": "装 Convex 和 Cloudflare 插件，做出演示站、买域名、配重定向。"
+    },
+    "playwright-issue-closer": {
+      "name": "它读了测试，发现 bug 已不在，然后关掉",
+      "tagline": "检查 issue 29，发现测试已用 waitForURL、没有硬等待，问可否关闭。"
+    },
+    "plumbing-work-order-intake": {
+      "name": "每张工单十分钟，在五个系统里订好",
+      "tagline": "管道公司老板用试用做工单录入，跨五个系统预订。"
+    },
+    "podcast-guest-briefer": {
+      "name": "嘉宾简报：三条线索和一个第一问",
+      "tagline": "即将到来的播客嘉宾简报，被说成「真的很好」。"
+    },
+    "podcast-summarizer": {
+      "name": "15 秒做出来，比付费工具更好",
+      "tagline": "在 Grok Bot 里大约 15 秒做出的播客摘要器，胜过正在付费的那个。"
+    },
+    "remote-lawn-mower": {
+      "name": "五十英里外割草",
+      "tagline": "远程控制自动割草机，离家 50 英里。两分钟配好。"
+    },
+    "robot-vacuum-from-chat": {
+      "name": "一个机器人为我的扫地机搭了桥",
+      "tagline": "「首席工程师」机器人做了功能，让他能从 Grok Bot 给 Matic 扫地机发指令。"
+    },
+    "roofing-lead-to-proposal": {
+      "name": "屋顶量好、方案备好、变更单签上",
+      "tagline": "给新线索拉屋顶尺寸，做好完整报价/合同，等他批准。"
+    },
+    "roofing-permit-and-inspection": {
+      "name": "把市政许可表填完，验证码也一起",
+      "tagline": "在真实工地上：填并拉取在线屋顶许可，再预约检查。"
+    },
+    "roofing-sub-coi-and-po": {
+      "name": "开工前就抓住了保险缺口",
+      "tagline": "发现分包保险证明不符，起草邮件给经纪；再从模板写工单。"
+    },
+    "social-shame-extension": {
+      "name": "不录那支羞耻视频，X 就一直锁着",
+      "tagline": "一发做出的 Chrome 扩展：打开 X 或 LinkedIn 就砖掉屏幕，直到他录自己说那句话。"
+    },
+    "southwest-flight-credit": {
+      "name": "一笔以为弄丢的 150 刀西南航学分",
+      "tagline": "在 Gmail 里找到 150 美元西南航空飞行学分。凭据，不是通用「旅行代理」提示词。"
+    },
+    "starlink-flight-finder": {
+      "name": "订机票，Wi-Fi 比价格更优先",
+      "tagline": "找/订航班时偏向有 Starlink 的。"
+    },
+    "subscription-cancellation-audit": {
+      "name": "每个订阅分成保留、取消或问我",
+      "tagline": "退订之后，审计所有订阅并建议该取消哪些。"
+    },
+    "support-stripe-refunds": {
+      "name": "符合政策的退款，直接打到 Stripe",
+      "tagline": "客服邮件接 Stripe API，常规退款按智能体工作流跑。"
+    },
+    "support-ticket-fixer": {
+      "name": "一张工单、一个找到根因的 PR、一封早上的回复",
+      "tagline": "进票 → 读文档和代码 → 开 PR → 起草回复。"
+    },
+    "taxes-from-gmail": {
+      "name": "四万封邮件里拼出的税表",
+      "tagline": "非程序员接上 Gmail（约 4 万封），让 Grok Bot 报税。它在邮件里找到文件并组装申报。"
+    },
+    "tee-time-from-group-chat": {
+      "name": "群聊一同意，开球时间就订上了",
+      "tagline": "私密群聊 → 他的 Grok Bot → 订上一个真实开球时间。"
+    },
+    "telegram-inbox-bridge": {
+      "name": "从一条 Telegram 线程调度整支机器人舰队",
+      "tagline": "用你自己的 BotFather 机器人做入站 Telegram 桥，随时跟 Grok Bot 说话。"
+    },
+    "trip-concierge": {
+      "name": "预订邮件一到，找更便宜票就开始",
+      "tagline": "个人礼宾读 Gmail 里的预订确认，找更便宜的航班、住宿和活动。"
+    },
+    "weekly-disk-cleanup": {
+      "name": "标出 380GB，仍然什么也不删",
+      "tagline": "每周扫文件、找出删除候选，分成可删/该问你；它不擅自删。"
+    },
+    "x-content-engine": {
+      "name": "整条 X 闭环，从调研到发布时间",
+      "tagline": "用 Grok Bot 端到端自动化 X：调研、设计、文案、分析和时机。"
+    },
+    "x-viral-tweet-scout": {
+      "name": "在你动笔前，抓住正在传开的角度",
+      "tagline": "盯着开始爆发的推文，好让你看清哪些角度在走，再写自己的。"
+    },
+    "youtube-outlier-researcher": {
+      "name": "达到频道中位数 3 倍的视频，用来挖格式",
+      "tagline": "YouTube 异常值研究员——找远超频道基线的视频，学格式而不是抄选题。"
+    }
+  },
+  "templates": {
+    "grok-vm-maintenance": {
+      "tagline": "机器人背后那台 Linux 虚拟机的系统管理员：健康、磁盘、服务、软件包"
+    },
+    "developer": {
+      "tagline": "把写代码的活分给 build labs，并在 Linear 板上镜像每一项任务"
+    },
+    "grok-deck": {
+      "tagline": "把你的要点变成浏览器里就能放的 HTML 幻灯片"
+    },
+    "revenuedog": {
+      "tagline": "醒来就看到昨天的订阅数字，外加一个值得一试的改进"
+    },
+    "errol": {
+      "tagline": "一天两次带孩子背教理问答，用于家庭敬拜"
+    },
+    "flora": {
+      "tagline": "记下你养的每盆植物，渴了之前提醒你"
+    },
+    "blockchain-data-expert": {
+      "tagline": "直接查询 The Graph 的子图，回答链上问题"
+    },
+    "bouncer": {
+      "tagline": "在放进舰队之前，先审查另一个机器人的分享链接"
+    },
+    "collins": {
+      "tagline": "一天一问，过 Hercules Collins 1680 年的教理问答"
+    },
+    "keach": {
+      "tagline": "每天早上过 Keach 1693 年教理问答，一次一问"
+    },
+    "sterling": {
+      "tagline": "低调的金钱助手，盯着余额，不多插手"
+    },
+    "watch-later-deck": {
+      "tagline": "把臃肿的 YouTube 稍后再看拆成四叠可滑的牌"
+    },
+    "github-trending-scout": {
+      "tagline": "每天早上扫 GitHub 趋势页，写出真正值得看的仓库"
+    },
+    "claudey": {
+      "tagline": "把前端和架构活交给 Claude Code CLI，然后打开 PR"
+    },
+    "feedback": {
+      "tagline": "把你已经确认的缺陷写成干净报告，交给对的团队"
+    },
+    "mercury": {
+      "tagline": "常驻技术负责人，握住系统全貌，把写代码的活派出去"
+    },
+    "home-front": {
+      "tagline": "帮退伍军人家庭跟上 VA 申请、就诊和该有的福利"
+    },
+    "subcut": {
+      "tagline": "审计邮件里悄悄流失的订阅，点名该砍掉什么"
+    },
+    "copywriter": {
+      "tagline": "把排好序的故事写成一页页轮播文案和一条配文"
+    },
+    "engenheiro-audiovisual": {
+      "tagline": "根据写好的文案简报，做出轮播和单帖配图"
+    },
+    "minerador-de-conteudo": {
+      "tagline": "挖一天的 AI 新闻，并排序出真正值得发的"
+    },
+    "social-media": {
+      "tagline": "把做好的帖排进队列，在当地合适的整点发出去"
+    },
+    "4-panez": {
+      "tagline": "一个场景想法，切成四格可滑的宽幅画面"
+    },
+    "austin-parent": {
+      "tagline": "奥斯汀带孩子家庭的首席参谋"
+    },
+    "clipmaker": {
+      "tagline": "从 YouTube 视频里切你要的那段，并转成文字"
+    },
+    "nyc-parent": {
+      "tagline": "跑纽约带孩子的学校和活动后勤"
+    },
+    "wholefoods": {
+      "tagline": "按 Whole Foods 当周折扣来计划一周买菜"
+    },
+    "theta-vantage-desk": {
+      "tagline": "期权简报台：一只标的上的 gamma、资金流和波动"
+    },
+    "researchy": {
+      "tagline": "对照实时网页核对主张，带回带日期的引用"
+    },
+    "chief-health": {
+      "tagline": "每日签到，训练周某次课滑掉时把整周拉回轨道"
+    },
+    "shepherd": {
+      "tagline": "元机器人，搭配 herdr 工具，牧管你整支 Grok Bot 舰队"
+    },
+    "whatsapp-digest": {
+      "tagline": "最忙的那些 WhatsApp 群的每日摘要，不用打开它们"
+    },
+    "action-loop": {
+      "tagline": "给那些交付一次就停住、等自己感觉准备好的人"
+    },
+    "stuck-cycle": {
+      "tagline": "让一项技能反复跑：尝试、卡住、针对性学习"
+    },
+    "connection-audit": {
+      "tagline": "分诊积压的稍后读，把留下的每一条接到一个活问题上"
+    },
+    "retrieval-exam": {
+      "tagline": "闭卷追问，把真记住和「眼熟」分开"
+    },
+    "just-in-time-curriculum": {
+      "tagline": "丢掉学习积压，只教你下一件任务需要的"
+    },
+    "struggle-gate": {
+      "tagline": "把答案扣住十分钟，逼你先自己做一回"
+    },
+    "feedback-clock": {
+      "tagline": "把一次尝试和它的判定之间的滞后关掉"
+    },
+    "doing-gap": {
+      "tagline": "数你看过多少、交付过多少，然后逼你去造"
+    },
+    "consumption-autopsy": {
+      "tagline": "复盘学习习惯，把一项被动输入换成练习"
+    },
+    "steward": {
+      "tagline": "追踪你这支机器人舰队的 Cursor 花费，找出能省的"
+    },
+    "product-idea-stress-test": {
+      "tagline": "找出创业想法里那个错不起的信念"
+    },
+    "commercial-taste": {
+      "tagline": "给数据不全时仍要拍板的技术创始人，商业判断"
+    },
+    "grok-bot-knower": {
+      "tagline": "回答 Grok Bot 到底能做什么，是查过的而不是凭记忆"
+    },
+    "lina": {
+      "tagline": "把每次 YouTube 上传规划成视频必须守住的一个承诺"
+    },
+    "grokart": {
+      "tagline": "描述一次购买，拿到短名单外加结账链接"
+    },
+    "patch": {
+      "tagline": "按你这块英国地的季节，做草坪和花境养护"
+    },
+    "se-call-bot": {
+      "tagline": "解决方案工程师客户通话时的现场备份"
+    },
+    "review-this": {
+      "tagline": "报一个产品，直接给买、跳过、或改买这个的判断"
+    },
+    "workshop-facilitator": {
+      "tagline": "主持工作会，任何问题没主人就不散会"
+    },
+    "pulse": {
+      "tagline": "只读的 X 礼宾，把一天信息流收成早上 7 点可扫的简报"
+    },
+    "tech-lead": {
+      "tagline": "合并与否，看 diff 和测试实际显示了什么"
+    },
+    "rewardsmaxxing": {
+      "tagline": "每笔消费放到回馈最多的那张卡上"
+    },
+    "rentals": {
+      "tagline": "从询盘到带看，跟进 Facebook Marketplace 的租房线索"
+    },
+    "teslascope": {
+      "tagline": "用白话问你 Tesla 的行程、充电和状态"
+    },
+    "raily": {
+      "tagline": "在不碰你账号的前提下，审可能的新连接"
+    },
+    "receipt-scanner-expense-tracking": {
+      "tagline": "转发一张收据，它就变成开支表里的一行"
+    },
+    "alexis-grail-scout": {
+      "tagline": "在大型拍卖行猎顶级未拆封复古卡带"
+    },
+    "situation-monitor": {
+      "tagline": "把一周的 X 收藏变成拟好的回顾串帖"
+    },
+    "funhouse": {
+      "tagline": "用主题、宠物和叠层重新打扮 Grok Bot 应用本身"
+    },
+    "agent-looper": {
+      "tagline": "让本地编程智能体迭代到你的验收测试通过为止"
+    },
+    "dewey": {
+      "tagline": "盯着 Gmail，只把真正需要你的邮件拎出来"
+    },
+    "eg4-monitor": {
+      "tagline": "追踪家用 EG4 太阳能和电池系统，故障早报"
+    },
+    "george": {
+      "tagline": "一份简报，换成全套合品牌的创意资产"
+    },
+    "fantasy-football-advisor": {
+      "tagline": "像总经理一样管你的 ESPN 梦幻球队，动作要你签字"
+    },
+    "apps": {
+      "tagline": "一句话描述一个应用，拿回一个能跑的构建"
+    },
+    "bot-inbox": {
+      "tagline": "每个有新消息的机器人和群聊，一行摘要"
+    },
+    "ralph": {
+      "tagline": "把简历重做成可点开的作品演示作品集"
+    },
+    "watchdog": {
+      "tagline": "每周扫收件箱，找续费、收据和快到期的试用"
+    },
+    "linkedin-leads": {
+      "tagline": "按你的关键词，每天从帖子和评论里扫 LinkedIn 线索"
+    },
+    "chief": {
+      "tagline": "工作日早上分流：收件箱、日历和该回的话"
+    },
+    "gym-bod": {
+      "tagline": "健身房热门课一开放报名，就替你占上位子"
+    },
+    "ship-note": {
+      "tagline": "一次完成的发布，变成更新日志条目和一封邮件"
+    },
+    "milybot": {
+      "tagline": "查澳大利亚公司记录，并帮你接上 Milypay"
+    },
+    "runtimewire": {
+      "tagline": "有出处的每日阅读：AI 融资、上线和创始人动向"
+    },
+    "shop": {
+      "tagline": "搜 Shopify 店铺，交回短名单，批准才继续"
+    },
+    "tally-desk": {
+      "tagline": "建 Tally 表单、读回复、需要时替你填一份"
+    },
+    "sap-technical-consultant": {
+      "tagline": "S/4HANA 顾问，帮你做清洁核心设计决策"
+    },
+    "aoty": {
+      "tagline": "每周三张新专辑，按聚合分数来挑"
+    },
+    "vet": {
+      "tagline": "在放进你的账户之前，先审计一个机器人"
+    },
+    "betree": {
+      "tagline": "把分散在几个机器人上的计划，收成一张活的图"
+    },
+    "time-keeper": {
+      "tagline": "用早间议程和夜间预告给一天做书档"
+    },
+    "content-growth-coach": {
+      "tagline": "告诉创作者哪个修复会先拉动数字"
+    },
+    "design-expert": {
+      "tagline": "像设计负责人那样审 AI 做的界面"
+    },
+    "shane-hunter": {
+      "tagline": "把桌面应用里你不再要的机器人清掉"
+    },
+    "vinted-seller": {
+      "tagline": "一堆衣橱照片，变成完成的 Vinted 商品页"
+    },
+    "bandit": {
+      "tagline": "贫嘴的前端，用来协调你已经在跑的那些机器人"
+    },
+    "qubits-toy-bot": {
+      "tagline": "用 Qubits 积木拼出循环的 3D 结构"
+    },
+    "rockman": {
+      "tagline": "先核对装备规格，再告诉你该买什么"
+    },
+    "gtm-chief-of-staff": {
+      "tagline": "扛企业成交周围的行政，好让你去卖"
+    },
+    "prospecting-sheet-builder": {
+      "tagline": "让你醒来就看到一张新的合格 B2B 客户表"
+    },
+    "x-account-crew": {
+      "tagline": "五个专家分担运营你的 X 账号"
+    },
+    "x-strategist": {
+      "tagline": "在 X 上玩长线：谁值得认识"
+    },
+    "onboarding-coach": {
+      "tagline": "给 Grok Bot 新人的第一小时向导"
+    },
+    "pain-in-the-task": {
+      "tagline": "找出吃掉你一周的乏味工作，并把它交出去"
+    },
+    "love": {
+      "tagline": "别让一段关系里那些贴心的部分滑掉"
+    },
+    "flowsery": {
+      "tagline": "把会话录像变成一份排好序的待修清单"
+    },
+    "redreplier": {
+      "tagline": "找到在谈论你产品的人，按购买意向排序"
+    },
+    "adm-account-bot": {
+      "tagline": "每周一份客户计划，用来保住并做大客户"
+    },
+    "adaptlypost": {
+      "tagline": "一个机器人写、排、发到九个社交网络"
+    },
+    "alchemist": {
+      "tagline": "用实验摸出没有文档的问题的方法"
+    },
+    "icebreaker": {
+      "tagline": "AI 信任与安全岗位求职的僚机"
+    },
+    "repost-x-posts-everywhere": {
+      "tagline": "每条新 X 帖复制到你另外四个账号"
+    },
+    "ai-pm-os": {
+      "tagline": "打包成一套可复用配置的产品管理操作系统"
+    },
+    "rutin": {
+      "tagline": "每周一给舰队里每条例行事务做一次检修"
+    },
+    "adler": {
+      "tagline": "以阿德勒心理学为根基的决策导师"
+    },
+    "steal-this-business": {
+      "tagline": "把你欣赏的公司逆向成你能做的那一家"
+    },
+    "skill-bot": {
+      "tagline": "机器人技能的图书管理员，去重并保持不过期"
+    },
+    "saasbot": {
+      "tagline": "工作日运营者：GTM、外呼、QA 和入驻"
+    },
+    "youtube": {
+      "tagline": "给一个主题的 YouTube 视频排序，并写出简报"
+    },
+    "segundo-c-rebro": {
+      "tagline": "Obsidian 第二大脑，早间简报加夜间签到"
+    },
+    "paddy": {
+      "tagline": "把整支 YouTube 视频当成一个承诺来评判，而不只是标题"
+    },
+    "dbs": {
+      "tagline": "斜杠命令工具箱：商务、内容和下一步做什么"
+    },
+    "ads-operator": {
+      "tagline": "给本地工匠做出可直接投放的搜索和社交广告计划"
+    },
+    "paperwork": {
+      "tagline": "搞清一份无聊文件是什么、你得对它做什么"
+    },
+    "appointment-finder": {
+      "tagline": "找到最好的预约空档，从此不用再打电话问一圈"
+    },
+    "returns-warranties": {
+      "tagline": "退货、退款或质保窗口关掉之前提醒你"
+    },
+    "quote-collector": {
+      "tagline": "为一项指定工作收集本地工匠的可比报价"
+    },
+    "foundry": {
+      "tagline": "采访你的新事业，并写出运营文件"
+    },
+    "thefounder": {
+      "tagline": "握住登录态和共享机器。你点发送之后才加载。"
+    },
+    "tutor": {
+      "tagline": "任何科目，小课讲授，锚在一张日常图上"
+    },
+    "japanese-travel-booking-agent": {
+      "tagline": "比较又便宜又省事的路线，再订机票、铁路和酒店"
+    },
+    "ezra": {
+      "tagline": "把一篇讲道变成小组笔记和完整教案（印尼语）"
+    },
+    "brief": {
+      "tagline": "辅导第一次做机器人的人写出第一份简报"
+    },
+    "x-high-coach": {
+      "tagline": "审计任意公开 X 账号，告诉你到底该改什么"
+    },
+    "fantasy-football": {
+      "tagline": "全年梦幻足球台：首发、坐板和交易判断"
+    },
+    "negotiator": {
+      "tagline": "走进谈判之前，先带你过一遍"
+    },
+    "freebots-lol": {
+      "tagline": "让你的机器人加入公共网格，拥有自己的密钥和页面"
+    },
+    "website-agency-lead-scout": {
+      "tagline": "每天早上交出五家需要新网站的、筛过的生意"
+    },
+    "job-interview-hunter": {
+      "tagline": "按工作日节奏起草量身申请和内推便条"
+    },
+    "dadprotech-brand-manager": {
+      "tagline": "每天建议一条帖加回复，用主人自己的语气"
+    },
+    "family-wordpress-helpdesk": {
+      "tagline": "给那个在跑家庭 WordPress 的亲戚的服务台"
+    },
+    "overnight-shipper": {
+      "tagline": "睡前丢一个想法，早上审 pull request"
+    },
+    "facebook-group-scout": {
+      "tagline": "盯你点名的 Facebook 群，找值得回复的帖"
+    },
+    "freelance-manager": {
+      "tagline": "替独立接案人追提案、发票和里程碑"
+    },
+    "gonzalo-s-smb-manager": {
+      "tagline": "赢回客户、填满明天，每一步要老板批准"
+    },
+    "construction-office-manager": {
+      "tagline": "一家正在长大的建筑公司的中后台经理"
+    },
+    "remind-bot": {
+      "tagline": "接住那些永远进不了日历的小提醒"
+    },
+    "critiquito": {
+      "tagline": "设计批评家，只审你的界面截图，而且只有意见"
+    },
+    "helidon-engineer": {
+      "tagline": "在现代 Java 上写和审 Helidon 4 代码"
+    },
+    "chief-of-staff-igor": {
+      "tagline": "把活分给六个机器人，只为决策叫醒你"
+    },
+    "kerf": {
+      "tagline": "交付型项目经理，把已售工作切成工单并往前推"
+    },
+    "travel-guru": {
+      "tagline": "按你的主机场、积分和身份规划奖励旅行"
+    },
+    "growth-desk": {
+      "tagline": "为一个 X 账号起草帖子和增长战术，从不代发"
+    },
+    "friend-finders": {
+      "tagline": "扫你自己的 X 私信，告诉你现在该回哪些线程"
+    },
+    "openrobot": {
+      "tagline": "协作接待台，把兴趣变成一封介绍邮件"
+    },
+    "den": {
+      "tagline": "坐在家长和家里其余机器人之间"
+    },
+    "bookworm": {
+      "tagline": "用创始人语气起草并发送阅读应用的内测邀请"
+    },
+    "club-sponsor-bot": {
+      "tagline": "替学生社团做赞助、招聘和演讲嘉宾外联"
+    },
+    "koala": {
+      "tagline": "开发者产品上市的发布助手"
+    },
+    "bond": {
+      "tagline": "接一份机密工作，做完，并记下做了什么"
+    },
+    "loom": {
+      "tagline": "通读 Gmail 线程并起草回复，从不发送"
+    },
+    "travel-agent": {
+      "tagline": "维护 Notion 旅行日志，并从你自己的行程里回答问题"
+    },
+    "porshe": {
+      "tagline": "找出别人已经欠你、你却还没去收的钱"
+    },
+    "stank": {
+      "tagline": "面无表情地提醒你去洗澡"
+    },
+    "jobs": {
+      "tagline": "功能编辑，提出几个锋利想法，也提出该砍掉的"
+    },
+    "wing": {
+      "tagline": "约会软件僚机，用你的语气起草开场白和回复"
+    },
+    "product-ops": {
+      "tagline": "把冻结清单变成团队每周的交付核对表"
+    },
+    "off-balance-atlas": {
+      "tagline": "写有源链接的科技、机器学习和安全深潜"
+    },
+    "icon": {
+      "tagline": "把任意主题变成黏土风 3D 机器人头像"
+    },
+    "ceo": {
+      "tagline": "虚拟 CEO，定议程并指挥你其它的机器人"
+    },
+    "yolk": {
+      "tagline": "侧栏里的电子小鸡，一天要喂四次"
+    },
+    "sanity": {
+      "tagline": "Sanity 内容模型、schema 和 GROQ 的专家"
+    },
+    "agent-smith": {
+      "tagline": "多机器人工作区的清洁工，不让垃圾堆起来"
+    },
+    "box-inspector": {
+      "tagline": "在放进账户之前，检查一个 Grok Bot 分享链接"
+    },
+    "marketboxscan": {
+      "tagline": "写作者上班前的科技新闻和收件箱简报"
+    },
+    "sylvia-style": {
+      "tagline": "个人造型师，买现货单品并给你做造型册"
+    },
+    "chatprd": {
+      "tagline": "产品经理，每份规格和发现文档都放在 ChatPRD 里"
+    },
+    "holly-helpdesk": {
+      "tagline": "一线智能体，跑支持收件箱和帮助台"
+    },
+    "lockdown": {
+      "tagline": "工作日 SOC 2 看门狗，只有出事才开口"
+    },
+    "lgtm-the-pr-closer": {
+      "tagline": "每天早上醒来，消化掉你未关的 pull request"
+    },
+    "echo": {
+      "tagline": "客户通话之后，按实际说过的话做幻灯片"
+    },
+    "speed-lab": {
+      "tagline": "对站点渲染速度做研究循环，并保住赢下来的"
+    },
+    "inbox-zero": {
+      "tagline": "每个工作日把噪音归档，让 Gmail 保持为零"
+    },
+    "pika-bot": {
+      "tagline": "盯着 Pokemon Center 美国店的新品投放"
+    },
+    "jester": {
+      "tagline": "按需做出图片和视频迷因"
+    },
+    "canvas": {
+      "tagline": "从 Canvas 里抽出大学课程和截止日期"
+    },
+    "tradbot": {
+      "tagline": "家庭计划、学校和家务的首席参谋"
+    },
+    "shopper": {
+      "tagline": "在官方店里找正品，并把购物车推到结账"
+    },
+    "shorty": {
+      "tagline": "从已经验证过的长视频里切 YouTube Shorts"
+    },
+    "neuroscience": {
+      "tagline": "神经科学和脑机接口专家"
+    },
+    "webby": {
+      "tagline": "网站管理员：重建、做仪表盘、让通讯继续转"
+    },
+    "gardener": {
+      "tagline": "用微小的、行为不变的 PR 拉掉可证明的死代码"
+    },
+    "point-peddler": {
+      "tagline": "让积分优化变得省心的奖励旅行大脑"
+    },
+    "yc-podcast-notes": {
+      "tagline": "整点盯 Y Combinator 播客，写出对创始人有用的笔记"
+    },
+    "walt": {
+      "tagline": "执行制片，质检另一个电影机器人直到成片"
+    },
+    "pitch-deck-coach": {
+      "tagline": "告诉你投资人真正会听懂、会记住什么"
+    },
+    "outbid-mania": {
+      "tagline": "用每日看板追踪一个病毒竞价站趋势和它的仿品"
+    },
+    "mystery-snack-agent": {
+      "tagline": "每周五七点，门口一份惊喜甜点"
+    },
+    "sharenow-feed-bot": {
+      "tagline": "整点盯五个社交平台，并发布一块活看板"
+    },
+    "keywire-comic-week-brief": {
+      "tagline": "每周拉单提醒，外加按你口味调的漫画摘要"
+    },
+    "last30days": {
+      "tagline": "呈现过去 30 天里人们关于一个话题实际说过的话"
+    },
+    "clip-bot": {
+      "tagline": "从任意 YouTube 播客切出带字幕的 16:9 高光"
+    },
+    "publish-work-as-a-private-link": {
+      "tagline": "把机器人做的任何东西变成私密链接上的活页面"
+    },
+    "cold-open": {
+      "tagline": "一个想法先写成剧本，再变成情景喜剧式短片"
+    },
+    "ai-resource-sift": {
+      "tagline": "把论文、代码、讲座和论坛扫进一个阅读栈"
+    },
+    "teslrbot": {
+      "tagline": "从对话里控制 Tesla 的充电、空调、锁和导航"
+    },
+    "marketing-bot-cmo": {
+      "tagline": "CMO 机器人，把产品变成围绕它的营销"
+    },
+    "human-copywriter": {
+      "tagline": "把 AI 腔草稿改写成读起来像人写的文案"
+    },
+    "aio-specialist-aeo-geo": {
+      "tagline": "把 AI Overviews 和答案引擎优化当成一项常设计划"
+    },
+    "kirk-enterprise-crew": {
+      "tagline": "安装 Kirk，输入 START，一支舰桥专家机器人就出现"
+    },
+    "disney-ride-strategist": {
+      "tagline": "按你想坐的项目，做一份逐日的华特迪士尼世界计划"
+    },
+    "best-video-editor": {
+      "tagline": "从你的素材规划整段剪辑，交回可审的成片"
+    },
+    "grant-general-manager": {
+      "tagline": "工匠公司的总经理，把中后台立起来"
+    },
+    "yieldsentinel-a2h": {
+      "tagline": "按你设的规则检查一笔 DeFi 收益仓位，再让你下手"
+    },
+    "google-agent": {
+      "tagline": "Gmail、Drive 和日历的先读后动操作员"
+    },
+    "shopbot": {
+      "tagline": "搜 Shopify 目录、找优惠券、挑最合适的卡"
+    },
+    "lucy-creative-companion": {
+      "tagline": "开放式创作伴侣：艺术、世界、诗和电影"
+    },
+    "be-happier": {
+      "tagline": "每周建议三件真能让你更开心的具体事"
+    },
+    "lennybot": {
+      "tagline": "从 Lenny Rachitsky 自己的档案里回答产品和增长问题"
+    },
+    "talent-matchmaker": {
+      "tagline": "把找工作的人，匹配到藏在你收件箱里的岗位"
+    },
+    "ai-harness-assistant": {
+      "tagline": "让你各台机器上的每个 AI 编程工具保持最新"
+    },
+    "mappy-talent-map": {
+      "tagline": "画出目标公司里当前在职的每一个人"
+    },
+    "life-life-door": {
+      "tagline": "个人事务的常设入口，并派生你需要的机器人"
+    },
+    "work-work-door": {
+      "tagline": "Life 在工作一侧的对应物，专业任务的一扇门"
+    },
+    "cursor-agent-local": {
+      "tagline": "在本地跑 cursor-agent CLI，做实验和车间活"
+    },
+    "homework-checker": {
+      "tagline": "工作日回顾学生缺交的作业和成绩"
+    },
+    "forge-template-foundry": {
+      "tagline": "一个关键词进去，一份可上线的 Grok Bot 配方出来"
+    },
+    "ai-orchestrator-jp": {
+      "tagline": "日语指挥官，把活分给专家"
+    },
+    "wedding-photo-hunter": {
+      "tagline": "把每张婚礼照片和视频收进一个文件夹"
+    },
+    "storiesbot": {
+      "tagline": "检索 17 年的 MacStories，可按时间和作者过滤"
+    },
+    "clipper": {
+      "tagline": "把视频切成短片和带字幕的 GIF，笑话由它自己挑"
+    },
+    "travel-event-agency": {
+      "tagline": "找实时机票和活动票，并比较真实票价"
+    },
+    "linkedin-desk": {
+      "tagline": "每天按你定的政策审查 LinkedIn 邀请"
+    },
+    "socials-short-form-scout": {
+      "tagline": "整点侦察，交给你可拍摄的短内容套件"
+    },
+    "contra-job-scraper": {
+      "tagline": "每 6 小时查 Contra 自由职业信息流，有变化才发邮件"
+    },
+    "research-bot": {
+      "tagline": "深度研究，交回简洁答案和经过核对的引用"
+    },
+    "leader-1-1-bot": {
+      "tagline": "走进每周一对一，带着上周线程和三句值得说的"
+    },
+    "peekaboo-mac": {
+      "tagline": "给你登记的 Mac 加上屏幕录制、截图和界面输入"
+    },
+    "lease-finder": {
+      "tagline": "全国找当前汽车租赁优惠，相对 MSRP 折扣最深的"
+    },
+    "melissa-fitness-nutrition-coach": {
+      "tagline": "围绕 1 型糖尿病约束来的健身和营养教练"
+    },
+    "mr-laser": {
+      "tagline": "一人激光雕刻店的项目负责人"
+    },
+    "clark-kent-daily-diary": {
+      "tagline": "每天写下店里实际发生的事"
+    },
+    "thoth-researcher-archivist": {
+      "tagline": "做深度研究并把档案归档，让你还能再找到"
+    },
+    "data-science-querie": {
+      "tagline": "拥有分析查询、表格抽取和指标定义"
+    },
+    "chicken-joe-surf-report": {
+      "tagline": "每天早上看北加州浪报和摄像头，告诉你去哪"
+    },
+    "learn-math-ml-video-teacher": {
+      "tagline": "从第一性原理做课，并渲染成动画讲解"
+    },
+    "ethan": {
+      "tagline": "有五项专家技能的研究台，会核对自家发现"
+    },
+    "freelance-prospector": {
+      "tagline": "扫自由职业市场，并用你的语气约会议"
+    },
+    "imogen-alt-text": {
+      "tagline": "回复你发的图，给出干净、可复制的替代文本"
+    },
+    "grok-bot-coach": {
+      "tagline": "审计并调校你已经有的那些 Grok Bot"
+    },
+    "dispatch": {
+      "tagline": "夜间扫邮件、Slack、LinkedIn 和 X 私信，把缺的电话约上"
+    },
+    "linky": {
+      "tagline": "给它任何文件、文件夹或机器人产出，它交回可分享的 URL"
+    },
+    "local-deals": {
+      "tagline": "每天的本地市场优惠，它还会替你讲价"
+    },
+    "x-brief": {
+      "tagline": "从你自己的帖子学习你在意什么，然后盯那条线"
+    },
+    "fixer-uzi": {
+      "tagline": "真正干活的操作员，计划不对时会顶回来"
+    },
+    "grimoire-s-tome-the-grim-council": {
+      "tagline": "50 项技能的编程巫师，外加 20 人顾问团"
+    },
+    "frontier-model-watch": {
+      "tagline": "十家前沿 AI 实验室发布的一份核对过的每日摘要"
+    },
+    "deal-hunting": {
+      "tagline": "落地成本购物，把运费和税算进真实价格再比"
+    },
+    "fenrir-paper-trading": {
+      "tagline": "在 NSE 或 NASDAQ 上跑模拟交易锦标赛"
+    },
+    "invoice-hunter": {
+      "tagline": "在 Gmail 里找发票 PDF，把一个月打进 CSV"
+    },
+    "stitchy-personal-stylist": {
+      "tagline": "每天早上建议一套新穿搭，夜里再去找便宜货"
+    },
+    "newsletter-cleanup": {
+      "tagline": "审计六个月通讯，只退订你批准的那些"
+    },
+    "lurk-reddit-researcher": {
+      "tagline": "在 Reddit 里挖原话，归档成一份痛点包"
+    },
+    "competitor-watching": {
+      "tagline": "把你和 3–8 个对手拍快照，只在实质变化时告警"
+    },
+    "grok-bot-use-case-scout": {
+      "tagline": "一份短的早间清单：值得搭的新 Grok Bot 用例"
+    },
+    "site-audit": {
+      "tagline": "一遍过完 SEO、速度、无障碍、CRO 和 schema"
+    },
+    "daily-youtube-recap": {
+      "tagline": "你在看的 YouTube 频道早间回顾，没更新就闭嘴"
+    },
+    "overwatch": {
+      "tagline": "Grok Bot 虚拟机管家，别让共享机器烂掉"
+    },
+    "chef": {
+      "tagline": "计划一周饭、列清单、下单买菜"
+    },
+    "chief-router": {
+      "tagline": "纯路由：每件活一个主人，此外不插手"
+    },
+    "phonezero-operator": {
+      "tagline": "让你的机器人能拨打和接听真实电话"
+    },
+    "pr-reviewer": {
+      "tagline": "按风险优先审 pull request"
+    },
+    "alfred-bot-chief-advisor": {
+      "tagline": "设计并不断重组你整份机器人名册"
+    },
+    "chieeeeefy-chief-of-staff": {
+      "tagline": "现场工程师的首席参谋，日历和工作收件箱优先"
+    },
+    "dr-eggbot": {
+      "tagline": "替你做其它 Grok Bot 的机器人"
+    },
+    "blair-personal-shopper": {
+      "tagline": "私人买手，找二手设计师单品，并且能买"
+    },
+    "credit-card-max": {
+      "tagline": "告诉你这笔消费该用哪张卡，好把积分和权益用满"
+    },
+    "illo": {
+      "tagline": "把想法和帖子变成吉祥物主导的编辑插画"
+    },
+    "housebot": {
+      "tagline": "每 12 小时在六个房源站猎租房和住宅"
+    },
+    "post-call-assistant": {
+      "tagline": "每次会后丢出待办和一封跟进草稿"
+    },
+    "chief-of-staff-avid": {
+      "tagline": "一张桌子上的首席参谋，同时跑你的一天和你的公司"
+    },
+    "scout-competitive-intelligence": {
+      "tagline": "盯对手站点、搜索排名和 AI 回答可见度"
+    },
+    "news-scout": {
+      "tagline": "按你自己时区的工作日早间新闻摘要"
+    },
+    "index-seo-aeo-teammate": {
+      "tagline": "SEO 和 AEO 队友，给写作者出简报"
+    },
+    "1000x-product-engineer": {
+      "tagline": "全栈产品工程师，交付 Convex、TanStack 和 React 应用"
+    },
+    "x-top-100-fans-weekly": {
+      "tagline": "每周排出和你 X 帖互动最多的 100 人"
+    },
+    "x-top-500-fans-monthly": {
+      "tagline": "每月排出你 500 个最大的 X 支持者，存进私密名单"
+    },
+    "ai-usage-meter": {
+      "tagline": "追踪每项 AI 订阅你实际用了多少"
+    },
+    "decklens-pitch-deck-analyzer": {
+      "tagline": "采访你做成评审量表，再按它给路演材料打分"
+    },
+    "cost-smart-health-brief": {
+      "tagline": "一个健康问题，变成三分钟简报"
+    },
+    "chief-of-staff-aryaman": {
+      "tagline": "低噪音首席参谋，覆盖工位、Slack、收件箱和日历"
+    },
+    "interview-prep": {
+      "tagline": "选一个主题和级别，陪你爬到真正准备好"
+    },
+    "home-robots": {
+      "tagline": "从一个对话控制割草机、扫地机和其它 Matter 家用机器人"
+    },
+    "master-orchestrator": {
+      "tagline": "精瘦的编排者：每件活分给对的专家，自己从不干活"
+    },
+    "john-wick": {
+      "tagline": "画出目标公司，并往上走到决策人"
+    },
+    "examiner": {
+      "tagline": "东西一坏，它指出就在之前改过什么"
+    },
+    "reaper": {
+      "tagline": "找出该杀掉的订阅、会议和流程"
+    },
+    "interrogator": {
+      "tagline": "找出你一直当成事实的那些假设"
+    },
+    "witness": {
+      "tagline": "记下你为什么做每个重要决定"
+    },
+    "bodyguard": {
+      "tagline": "按值不值得你花时间，给进来的请求分类"
+    },
+    "gatekeeper": {
+      "tagline": "在你对新事说好之前，先让你看见得放下什么"
+    },
+    "bounty-hunter": {
+      "tagline": "翻邮件和账单，找你从没去追的退款和余额"
+    },
+    "fixer-liam": {
+      "tagline": "把你一直拖着的那件行政事交给它，它能办到差不多解决"
+    },
+    "morpheus": {
+      "tagline": "卡在选项之间时，它选一个并为这个选择辩护"
+    },
+    "sherlock-holmes": {
+      "tagline": "给它一个症状，它找出数字下滑真正的原因"
+    },
+    "spark-onboarding": {
+      "tagline": "五分钟入驻机器人，派生你需要的起步机器人"
+    },
+    "harvey-specter": {
+      "tagline": "谈一笔交易、续约或报价，拿到现实里最好的条件"
+    },
+    "shikamaru": {
+      "tagline": "在一个命名世界里招聘并管理专家的首席参谋"
+    },
+    "sable-game-art": {
+      "tagline": "按你选的风格生成 2D 游戏美术和精灵表"
+    },
+    "projects-manager": {
+      "tagline": "把一支 Grok Bot 团队当项目组织来跑，Notion 为事实来源"
+    },
+    "kody": {
+      "tagline": "把你的优先级变成协同行动的首席参谋"
+    },
+    "jess-executive-assistant": {
+      "tagline": "在你打开之前，先摘要邮件、日历、Notion 和 Slack"
+    },
+    "loops": {
+      "tagline": "坐在编程智能体之上的工程外环"
+    },
+    "inbot": {
+      "tagline": "跨你实际在用的每个收件箱的清零机器人"
+    },
+    "pg-prospecting": {
+      "tagline": "研究客户，并从播客里挖出真正的外联钩子"
+    }
+  }
+}

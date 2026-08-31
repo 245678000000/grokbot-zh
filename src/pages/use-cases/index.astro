@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import BotRow from '../../components/BotRow.astro';
+import { useCases } from '../../lib/data';
+const items = useCases;
+---
+<Base title="精选用例">
+  <p class="crumb"><a href="/">首页</a> / 精选用例</p>
+  <div class="pageLead">
+    <h1>精选用例</h1>
+    <p class="lede">人们真正让 Grok Bot 干成的事，带设置、完整提示词和来源。</p>
+    <p class="statsLine">{items.length} 条</p>
+  </div>
+  <input class="searchBox" type="search" placeholder="搜索名称、简介、标签…" data-filter-input />
+  <div class="dropList" data-filter-list>
+    {items.map((item: any) => (
+      <div data-filter-row data-hay={`${item.name} ${item.name_zh||''} ${item.tagline||''} ${item.tagline_zh||''} ${(item.tags||[]).join(' ')}`}>
+        <BotRow item={item} href={`${item.slug}/`} />
+      </div>
+    ))}
+  </div>
+  <p class="empty hidden" data-filter-empty>没有匹配的条目。</p>
+</Base>
+<script>
+  const input = document.querySelector('[data-filter-input]');
+  const rows = [...document.querySelectorAll('[data-filter-row]')];
+  const empty = document.querySelector('[data-filter-empty]');
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let n = 0;
+    rows.forEach((r) => {
+      const on = !q || (r.getAttribute('data-hay')||'').toLowerCase().includes(q);
+      r.classList.toggle('hidden', !on);
+      if (on) n++;
+    });
+    empty?.classList.toggle('hidden', n !== 0);
+  });
+</script>

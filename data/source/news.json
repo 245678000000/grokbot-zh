@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-08-31T10:32:55.430Z",
+  "api_version": "v1",
+  "schema_revision": "2026-08-28",
+  "status_url": "https://grokbot.dev/api/v1/status.json",
+  "count": 2,
+  "items": [
+    {
+      "slug": "grok-bot-templates-explained",
+      "title": "Everything you need to know about Grok Bot templates",
+      "summary": "A Grok Bot template is a shareable blueprint for a Bot. Open one link and Grok Bot creates a new copy with the original role, skills, routines, and supported integrations. Your chats, logins, and secrets stay private.",
+      "kind": "announcement",
+      "important": true,
+      "external_url": null,
+      "cta_label": null,
+      "published_at": "2026-08-29T02:00:00Z",
+      "detail_url": "https://grokbot.dev/api/v1/news/grok-bot-templates-explained.json"
+    },
+    {
+      "slug": "lennys-newsletter-free-month-grok-bot",
+      "title": "Free month of Grok Bot for Lenny's Newsletter subscribers",
+      "summary": "Lenny Rachitsky is partnering with SpaceXAI - the first deal of its kind - to give every Lenny's Newsletter annual subscriber a free month of Grok Bot (included in Cursor Pro+). Existing subscribers redeem via Lenny's Product Pass; new subscribers get the link in their welcome email.",
+      "kind": "deal",
+      "important": true,
+      "external_url": "https://www.lennysproductpass.com/",
+      "cta_label": "grab the free month",
+      "published_at": "2026-08-26T00:00:00.000Z",
+      "detail_url": "https://grokbot.dev/api/v1/news/lennys-newsletter-free-month-grok-bot.json"
+    }
+  ]
+}

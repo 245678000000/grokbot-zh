@@ -1,0 +1,23 @@
+---
+interface Props {
+  authorHandle?: string;
+  authorUrl?: string;
+  origUrl: string;
+  extra?: string;
+}
+const { authorHandle, authorUrl, origUrl, extra } = Astro.props;
+---
+<aside class="attrBox">
+  <p>
+    本条目按 <strong>CC BY 4.0</strong> 译自
+    <a href={origUrl} rel="noopener">grokbot.dev 原文</a>
+    {authorHandle && (
+      <>
+        ，作者
+        {authorUrl ? <a href={authorUrl} rel="noopener">@{authorHandle}</a> : <span>@{authorHandle}</span>}
+      </>
+    )}
+    。复用时请同时署明作者与 grokbot.dev。
+    {extra}
+  </p>
+</aside>

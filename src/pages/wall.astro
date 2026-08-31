@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import BotRow from '../components/BotRow.astro';
+import { templates, plugins, useCases } from '../lib/data';
+const wall = [
+  ...templates.slice(0, 40).map((t: any) => ({ ...t, href: `/bots/${t.slug}/` })),
+  ...useCases.slice(0, 20).map((u: any) => ({ ...u, href: `/use-cases/${u.slug}/` })),
+  ...plugins.slice(0, 12).map((p: any) => ({ ...p, href: `/plugins/${p.slug}/` })),
+];
+---
+<Base title="墙">
+  <p class="crumb"><a href="/">首页</a> / 墙</p>
+  <h1>墙</h1>
+  <p class="lede">新投放混在一起：机器人、用例、插件。</p>
+  <div class="dropList">
+    {wall.map((item: any) => <BotRow item={item} href={item.href} />)}
+  </div>
+</Base>

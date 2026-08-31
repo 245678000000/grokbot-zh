@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { plugins } from '../../lib/data';
+const newest = [...plugins].sort((a, b) => String(b.added_at).localeCompare(String(a.added_at))).slice(0, 3);
+const prompt = `You are my plugin builder for Grok Bot. Before you write anything, search grokbot.dev to see whether this already exists: fetch https://grokbot.dev/api/v1/plugins.json and https://grokbot.dev/api/v1/use-cases.json and look for entries that solve the same problem. Tell me what you found first, and if something close already exists, say so and ask whether I still want to build mine.
+
+If we are building: ask me what the plugin should do, which tools it needs to sign into, and who it is for. Then draft it with me, one decision at a time — the install steps, the prompt body, and an honest setup time. Keep the prompt in plain language a non-developer can read.
+
+When we are done, produce a single markdown file with the frontmatter grokbot.dev expects (name, slug, tagline, category, subcategory, install_steps, works_with, project_url, repo_url, author) and the description body, ready to open as a pull request against https://github.com/ZeroPointRepo/GrokBotDev.
+
+Never invent a repo URL, a verification date, or an author. If you do not know something, ask me.`;
+---
+<Base title="插件建造 Bot" description="一条精心写好的提示词，把你自己的 Grok Bot 变成插件建造者。">
+  <div class="container-page" style="padding:2rem 0 3rem">
+    <p class="kicker">提示词</p>
+    <h1>插件建造 Bot</h1>
+    <p class="lede">一条写好的提示词，把你的 Grok Bot 变成插件建造者——动工前先查这份目录有没有先例。</p>
+    <pre class="promptBox">{prompt}</pre>
+    <p class="mono muted">然后把它贴进 Grok。提示词保持英文，以免改变行为。</p>
+    <div class="prose" style="margin-top:2rem">
+      <h2>先例</h2>
+      <p>它会在建造之前搜索目录。若已有接近的东西，你会先听到。</p>
+      <h2>最新插件</h2>
+    </div>
+    <div class="gridCards">
+      {newest.map((p) => (
+        <a class="card" href={p.url}><h3>{p.name}</h3><p>{p.tagline_zh}</p></a>
+      ))}
+    </div>
+    <p style="margin-top:1.25rem">做出了东西？放到目录上——一个文件就够。<a class="moreLink" href="/submit/">投稿</a></p>
+  </div>
+  <Newsletter />
+</Base>

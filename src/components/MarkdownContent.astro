@@ -1,0 +1,15 @@
+---
+import { micromark } from 'micromark';
+
+interface Props {
+  content: string;
+  lang?: string;
+}
+
+const { content, lang = 'en' } = Astro.props;
+// micromark escapes raw HTML by default. Keep that safety boundary because
+// directory copy is imported content rather than trusted application markup.
+const rendered = micromark(content || '', { allowDangerousHtml: false });
+---
+
+<div class="markdownContent" lang={lang} set:html={rendered} />

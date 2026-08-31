@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-08-31T10:32:55.415Z",
+  "api_version": "v1",
+  "schema_revision": "2026-08-28",
+  "status_url": "https://grokbot.dev/api/v1/status.json",
+  "count": 18,
+  "items": [
+    {
+      "slug": "devtune",
+      "name": "DevTune",
+      "aliases": [
+        "devtune.ai"
+      ],
+      "url": "https://devtune.ai",
+      "page_url": "https://grokbot.dev/integrations/devtune/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      }
+    },
+    {
+      "slug": "discord",
+      "name": "Discord",
+      "aliases": [
+        "discord.com",
+        "discord server"
+      ],
+      "url": "https://discord.com",
+      "page_url": "https://grokbot.dev/integrations/discord/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 1
+      }
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "aliases": [
+        "github.com",
+        "gh",
+        "git hub"
+      ],
+      "url": "https://github.com",
+      "page_url": "https://grokbot.dev/integrations/github/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 20
+      }
+    },
+    {
+      "slug": "gmail",
+      "name": "Gmail",
+      "aliases": [
+        "google mail",
+        "gmail.com",
+        "google email"
+      ],
+      "url": "https://mail.google.com",
+      "page_url": "https://grokbot.dev/integrations/gmail/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 3,
+        "use_cases": 39
+      }
+    },
+    {
+      "slug": "google-calendar",
+      "name": "Google Calendar",
+      "aliases": [
+        "gcal",
+        "google cal",
+        "calendar"
+      ],
+      "url": "https://calendar.google.com",
+      "page_url": "https://grokbot.dev/integrations/google-calendar/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 17
+      }
+    },
+    {
+      "slug": "google-docs",
+      "name": "Google Docs",
+      "aliases": [
+        "gdocs",
+        "docs",
+        "google doc"
+      ],
+      "url": "https://docs.google.com",
+      "page_url": "https://grokbot.dev/integrations/google-docs/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 5
+      }
+    },
+    {
+      "slug": "google-drive",
+      "name": "Google Drive",
+      "aliases": [
+        "gdrive",
+        "drive"
+      ],
+      "url": "https://drive.google.com",
+      "page_url": "https://grokbot.dev/integrations/google-drive/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 6
+      }
+    },
+    {
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "aliases": [
+        "hub spot",
+        "hubspot crm"
+      ],
+      "url": "https://hubspot.com",
+      "page_url": "https://grokbot.dev/integrations/hubspot/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      }
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "aliases": [
+        "linear.app"
+      ],
+      "url": "https://linear.app",
+      "page_url": "https://grokbot.dev/integrations/linear/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      }
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "aliases": [
+        "notion.so",
+        "notion database"
+      ],
+      "url": "https://notion.so",
+      "page_url": "https://grokbot.dev/integrations/notion/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 4
+      }
+    },
+    {
+      "slug": "quickbooks",
+      "name": "QuickBooks",
+      "aliases": [
+        "quick books",
+        "qbo",
+        "intuit quickbooks"
+      ],
+      "url": "https://quickbooks.intuit.com",
+      "page_url": "https://grokbot.dev/integrations/quickbooks/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      }
+    },
+    {
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "aliases": [
+        "sfdc",
+        "salesforce.com"
+      ],
+      "url": "https://salesforce.com",
+      "page_url": "https://grokbot.dev/integrations/salesforce/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      }
+    },
+    {
+      "slug": "shopify",
+      "name": "Shopify",
+      "aliases": [
+        "shopify.com",
+        "shopify store"
+      ],
+      "url": "https://shopify.com",
+      "page_url": "https://grokbot.dev/integrations/shopify/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 1
+      }
+    },
+    {
+      "slug": "slack",
+      "name": "Slack",
+      "aliases": [
+        "slack.com",
+        "slack workspace"
+      ],
+      "url": "https://slack.com",
+      "page_url": "https://grokbot.dev/integrations/slack/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 11
+      }
+    },
+    {
+      "slug": "stripe",
+      "name": "Stripe",
+      "aliases": [
+        "stripe.com"
+      ],
+      "url": "https://stripe.com",
+      "page_url": "https://grokbot.dev/integrations/stripe/",
+      "auth": "api-key",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 7
+      }
+    },
+    {
+      "slug": "telegram",
+      "name": "Telegram",
+      "aliases": [
+        "telegram.org",
+        "telegram bot"
+      ],
+      "url": "https://telegram.org",
+      "page_url": "https://grokbot.dev/integrations/telegram/",
+      "auth": "api-key",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 3
+      }
+    },
+    {
+      "slug": "whatsapp",
+      "name": "WhatsApp",
+      "aliases": [
+        "whats app",
+        "whatsapp business"
+      ],
+      "url": "https://whatsapp.com",
+      "page_url": "https://grokbot.dev/integrations/whatsapp/",
+      "auth": "api-key",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 0
+      }
+    },
+    {
+      "slug": "x",
+      "name": "X",
+      "aliases": [
+        "twitter",
+        "x.com",
+        "twitter.com"
+      ],
+      "url": "https://x.com",
+      "page_url": "https://grokbot.dev/integrations/x/",
+      "auth": "oauth",
+      "counts": {
+        "plugins": 9,
+        "use_cases": 20
+      }
+    }
+  ]
+}

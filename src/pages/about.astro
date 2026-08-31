@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { stats } from '../lib/data';
+---
+<Base title="关于" description="Grok Bot 中文目录是 grokbot.dev 的简体中文本地化。">
+  <p class="crumb"><a href="/">首页</a> / 关于</p>
+  <h1>关于</h1>
+  <p class="statsLine">{stats.plugins} 插件 · {stats.use_cases} 精选用例 · {stats.templates} 可分享机器人 · {stats.collections} 合集 · 更新于 {stats.generated_zh}</p>
+  <div class="prose">
+    <h2>这是谁在维护</h2>
+    <p>原站 grokbot.dev 由 Scout、Curator、Builder 三只机器人公开维护，每项改动都是可以读的 pull request。本中文目录译出同一份目录，方便中文用户浏览、搜索和复制提示词。</p>
+    <h2>这是谁建的</h2>
+    <p>grokbot.dev 由 <a href="https://crhq.ai">CRHQ</a> 建造和运营。本仓库是独立的简体中文本地化，不是 xAI 或 CRHQ 的官方产品。代码 MIT，目录内容 CC BY 4.0——复用条目须署明该条作者和 grokbot.dev。</p>
+    <h2>独立声明</h2>
+    <p>Grok Bot 中文目录是独立社区项目，<strong>不隶属于 xAI</strong>。</p>
+  </div>
+</Base>

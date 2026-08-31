@@ -1,0 +1,1699 @@
+{
+  "generated_at": "2026-08-31T10:32:55.434Z",
+  "api_version": "v1",
+  "schema_revision": "2026-08-28",
+  "status_url": "https://grokbot.dev/api/v1/status.json",
+  "count": 40,
+  "items": [
+    {
+      "type": "plugin",
+      "slug": "x-for-grok-bot",
+      "url": "https://grokbot.dev/plugins/x-for-grok-bot/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/x-for-grok-bot.json",
+      "name": "X for Grok Bot",
+      "tagline": "The official X plugin: search posts, read timelines, pull trends, manage bookmarks.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-30T10:00:00Z",
+      "updated_at": "2026-08-30T10:00:00Z",
+      "verified_at": "2026-08-30T10:00:00Z",
+      "author": {
+        "handle": "grok",
+        "url": "https://x.ai",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://x.ai/bot/plugin/49086599",
+      "repo_url": null,
+      "source_url": "https://x.ai/news/grok-bot-and-x",
+      "install_steps": [
+        "In Grok Bot, open the plugin directory and add X — or just connect your X profile. Grok Bot creates a developer account for you automatically, with some included API credits.",
+        "Once connected, ask your Bot in plain language: search posts, read your timeline and mentions, pull trending topics, or turn your bookmarks into a reading list.",
+        "Paste the prompt below to turn it into a standing X desk that briefs you each morning and drafts — but never posts — without your say-so."
+      ],
+      "prompt": "You have the official X plugin connected. Use it to run my X presence as a standing job. Each morning: summarize what actually happened overnight in the topics and accounts I follow, surface a few new accounts worth following based on who my network is engaging with, and turn my best recent bookmarks into a short reading list. When I ask, search posts and read timelines to answer with real data rather than guesses. Rules: read and draft freely, but never post, reply, like, follow, or change my account without showing me first and getting an explicit yes.",
+      "pricing_note": "Free with your X account; connecting auto-creates a developer account with included X API credits.",
+      "setup_minutes": 2,
+      "description": "## What it does\n\nX for Grok Bot is the official first-party connector between your Bot and your X account. Connect once — Grok Bot spins up a developer account for you automatically, with included API credits — and your Bot can then search posts with advanced operators, read your timeline, mentions and likes, pull trending topics, look up any public account's recent posts, and manage your bookmarks.\n\nIt is read-and-research first: the high-value uses are summarising what moved in the topics you follow, finding accounts worth knowing, and turning a messy bookmarks pile into something you actually read. Posting and other write actions should stay behind your explicit approval.\n\n## Use it in Grok Bot\n\nConnect the plugin, then paste the prompt on this page. It sets your Bot up as a standing X desk: a morning summary of your beat, a few new accounts worth following based on who your network engages with, and your best bookmarks turned into a short reading list — all from real X data, and with a hard stop before anything is posted on your behalf."
+    },
+    {
+      "type": "plugin",
+      "slug": "postonce",
+      "url": "https://grokbot.dev/plugins/postonce/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/postonce.json",
+      "name": "PostOnce",
+      "tagline": "Connect a Grok bot to the socials you already run and draft posts from chat.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-29T07:37:00Z",
+      "updated_at": "2026-08-29T07:37:00Z",
+      "verified_at": "2026-08-29T10:00:00Z",
+      "author": {
+        "handle": "Svanst23",
+        "url": "https://github.com/Svanst23",
+        "platform": "github"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://postonce.app",
+      "repo_url": null,
+      "source_url": "https://postonce.app/docs/mcp-connect",
+      "install_steps": [
+        "Open https://postonce.app/docs/mcp-connect and copy the Grok Bot MCP URL shown there.",
+        "In Grok Bot, add a custom MCP server and paste only https://postonce.app/api/mcp?ref=grokbot",
+        "Sign in if asked and hit Allow. Do not paste API keys into the chat.",
+        "Tell the bot which Instagram, Facebook page, TikTok, LinkedIn, or Pinterest you already run, then connect those. Drafts first. Nothing goes live until you say yes."
+      ],
+      "prompt": "You are connecting PostOnce as an MCP server for this Grok Bot. First read the official setup page at https://postonce.app/docs/mcp-connect and follow only what that page and the live MCP tools actually expose. Add the server URL https://postonce.app/api/mcp?ref=grokbot if it is not already connected. Sign in if asked. Then help me connect the Instagram, Facebook, TikTok, LinkedIn, or Pinterest accounts I already run. Rules: never invent an endpoint, field, or tool the server does not provide; never ask me to paste an API key into chat; never create new brand pages unless I have none; always draft first and wait for an explicit yes before anything publishes or schedules.",
+      "pricing_note": "Grok Bot connect URL on the docs page is a month free with no card. The URL without the grokbot ref is 7 days.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nPostOnce is a remote MCP server for drafting and publishing social posts from a Grok Bot. You add one URL, sign in, and connect the Instagram, Facebook, TikTok, LinkedIn, or Pinterest accounts you already run. The bot drafts in chat. Nothing publishes until you say yes. The official connect page is https://postonce.app/docs/mcp-connect. The Grok Bot URL is https://postonce.app/api/mcp?ref=grokbot.\n\n## Use it in Grok Bot\n\nAdd that MCP URL as a custom server, allow the sign-in, then paste the prompt on this page. The bot reads the docs first, connects only the accounts you name, and keeps a draft gate on every publish. Do not paste keys into chat."
+    },
+    {
+      "type": "plugin",
+      "slug": "contentdrips",
+      "url": "https://grokbot.dev/plugins/contentdrips/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/contentdrips.json",
+      "name": "ContentDrips",
+      "tagline": "Let your agent design on-brand LinkedIn and Instagram carousels from chat.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "content",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-29T07:14:51Z",
+      "updated_at": "2026-08-29T07:14:51Z",
+      "verified_at": "2026-08-29T10:00:00Z",
+      "author": {
+        "handle": "CONTENTDRIPS",
+        "url": "https://github.com/CONTENTDRIPS",
+        "platform": "github"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://contentdrips.com",
+      "repo_url": "https://github.com/CONTENTDRIPS/Contentdrips-MCP",
+      "source_url": null,
+      "install_steps": [
+        "Create a ContentDrips account at contentdrips.com, then open app.contentdrips.com → Settings → API Tokens and create a token.",
+        "In Grok Bot, add the hosted MCP server at https://mcp.contentdrips.com/mcp with header Authorization: Bearer YOUR_API_KEY.",
+        "Optionally copy the skill from github.com/CONTENTDRIPS/Contentdrips-MCP/tree/main/skills/contentdrips so the agent already knows Design Agent vs template fill.",
+        "Paste the prompt below into your Grok Bot so ContentDrips becomes a standing design and publish capability."
+      ],
+      "prompt": "You are setting up a ContentDrips integration for me inside Grok Bot. First, read the ContentDrips MCP README at https://github.com/CONTENTDRIPS/Contentdrips-MCP and the skill at https://github.com/CONTENTDRIPS/Contentdrips-MCP/blob/main/skills/contentdrips/SKILL.md so you understand the hosted MCP at https://mcp.contentdrips.com/mcp (Authorization: Bearer my API token), the tools it actually exposes (workspaces, brand styles, AI Design Agent, AI carousel/graphic maker, posts, schedule, publish), and the rules: always fetch profile_id, ask which brand style if I have more than one, do not auto-export after Design Agent, and never publish without naming platforms. Then connect that MCP server with my API token from app.contentdrips.com → Settings → API Tokens. Whenever I give a topic, blog URL, YouTube URL, TikTok URL, or a template ID, design the carousel or graphic through ContentDrips and share the editor link. Rules: follow those docs exactly, never invent a tool, field, or endpoint, and if I ask for something the MCP does not list, say so. Confirm the connection first with a read-only call such as listing my workspaces. Scheduling or publishing is a public action — show me the caption, platforms, and time and get my explicit approval first, and only set linkedin_publish/instagram_publish for platforms I named.",
+      "pricing_note": "Requires a ContentDrips account and API token; AI jobs use workspace credits.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nContentDrips is a hosted MCP for designing LinkedIn and Instagram carousels and graphics from chat. Point Grok Bot at https://mcp.contentdrips.com/mcp with a Bearer API token. If you do not name a template, it runs the AI Design Agent on a blank canvas in a saved brand style and returns an editor link. If you name a template or paste a template ID, it keeps that layout and fills it from a topic, blog, YouTube URL, or TikTok URL. It can attach exports to a draft and schedule or publish only to LinkedIn and/or Instagram after you confirm the platforms.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it your ContentDrips API token plus the MCP URL. The bot reads the README and skill first, lists your workspaces, and asks which brand style to lock in if you have more than one. From then on you drive it in plain language — topic, blog, or video in, editor link out — and it follows the docs, never invents a tool, and does not publish until you name the platforms and say yes."
+    },
+    {
+      "type": "plugin",
+      "slug": "bulkpublish",
+      "url": "https://grokbot.dev/plugins/bulkpublish/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/bulkpublish.json",
+      "name": "BulkPublish",
+      "tagline": "Let your agent schedule and publish social posts across 15 networks.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        },
+        {
+          "slug": "discord",
+          "name": "Discord",
+          "page_url": "https://grokbot.dev/integrations/discord/"
+        },
+        {
+          "slug": "telegram",
+          "name": "Telegram",
+          "page_url": "https://grokbot.dev/integrations/telegram/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-29T00:00:00Z",
+      "updated_at": "2026-08-29T00:00:00Z",
+      "verified_at": "2026-08-29T10:00:00Z",
+      "author": {
+        "handle": "azeemkafridi",
+        "url": "https://github.com/azeemkafridi",
+        "platform": "github"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://www.bulkpublish.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a BulkPublish account at bulkpublish.com and connect the social accounts you want the bot to post to.",
+        "Generate an API key at app.bulkpublish.com/developer — every plan including the free tier has API and MCP access.",
+        "Point your bot at the hosted MCP server https://mcp.bulkpublish.com/mcp with that key, or call the REST API documented at app.bulkpublish.com/docs.",
+        "Paste the prompt below into your Grok Bot so scheduling and publishing become a standing capability."
+      ],
+      "prompt": "You are setting up a BulkPublish integration for me inside Grok Bot. First, read the BulkPublish API reference at https://app.bulkpublish.com/docs and the machine-readable spec at https://app.bulkpublish.com/openapi.json so you understand how it actually works — authentication with an API key from app.bulkpublish.com/developer, and the operations it exposes: listing my connected channels and their health, checking each platform's posting rules and limits, uploading media, creating drafts, scheduling posts for a future time, publishing immediately, and reading back analytics and quota. Then connect to my BulkPublish account — either through the hosted MCP server at https://mcp.bulkpublish.com/mcp or the REST API — so that whenever I ask you to draft, schedule, or publish across my social accounts, you use BulkPublish to do it. Rules: follow the documentation exactly and never invent an endpoint, parameter, or platform that BulkPublish does not list; per-platform requirements are real constraints, so check them before composing (YouTube and TikTok require video, Pinterest and YouTube require a title, and every network has its own character limit). If I ask for something BulkPublish cannot do, tell me instead of guessing. Confirm the connection first by listing my connected channels, and always show me the exact post text, the target accounts, and the scheduled time before anything is published.",
+      "pricing_note": "Free tier with API and MCP access; paid plans from $13.99/mo.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nBulkPublish is a social media scheduler built to be driven by an agent as easily as by a human. It publishes to 15 networks — Facebook, Instagram, X, TikTok, YouTube, Threads, Bluesky, Pinterest, Google Business Profile, LinkedIn, Mastodon, Discord, Telegram, Tumblr and Snapchat — from one composer, one queue and one API.\n\nThe whole product surface is reachable programmatically: a REST API with a published OpenAPI spec, and a hosted MCP server at `mcp.bulkpublish.com/mcp` exposing tools for posts, channels, media, labels, recurring schedules, analytics and quota. API and MCP access are on every plan, including the free one, so a bot can be wired up without a subscription.\n\nWhat makes it practical for an agent rather than just possible: the API reports each platform's real constraints — character limits, required fields, which networks demand video — so a bot can check the rules before it composes instead of discovering them in a rejection. Posts can be held for human approval before they go out, recurring schedules and RSS feeds can post on their own, and analytics come back per platform, including outbound link clicks that the social networks themselves no longer report.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a BulkPublish API key. The bot reads the BulkPublish documentation and OpenAPI spec first, connects through the hosted MCP server or the REST API, and from then on you drive your whole posting workflow in plain language — \"draft this for LinkedIn and X, schedule it for Tuesday morning, and show me before it goes.\"\n\nIt follows the documented contract rather than guessing, respects each platform's posting rules, lists your connected channels to confirm the connection works, and shows you the exact text, accounts and time before publishing anything. If you would rather a human sign off on every post, turn on approvals and the bot's posts wait for review instead of going straight out."
+    },
+    {
+      "type": "plugin",
+      "slug": "sightkick",
+      "url": "https://grokbot.dev/plugins/sightkick/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/sightkick.json",
+      "name": "Sightkick",
+      "tagline": "Run SEO end to end: AI-answer visibility, articles, publishing, Search Console proof.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "seo",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-28T17:11:54Z",
+      "updated_at": "2026-08-28T17:11:54Z",
+      "verified_at": "2026-08-29T10:00:00Z",
+      "author": {
+        "handle": "sightkick",
+        "url": "https://sightkick.so",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://sightkick.so/mcp",
+      "repo_url": "https://github.com/sightkick-so/mcp",
+      "source_url": null,
+      "install_steps": [
+        "Create a Sightkick workspace at sightkick.so and add your website — the free analysis seeds your tracked prompts and keywords.",
+        "Connect Google Search Console in Settings, so the agent reads real impressions, clicks and positions instead of estimates.",
+        "Add the server to your MCP client — 'claude mcp add --transport http sightkick https://app.sightkick.so/mcp', or paste that URL into any client's custom-connector field. There is no API key: the first call opens an OAuth sign-in where you pick which workspace the grant binds to.",
+        "Paste the prompt below into your Grok Bot so 'how are we showing up in AI answers, and what should we publish next?' becomes a standing question."
+      ],
+      "prompt": "You are setting up a Sightkick integration for me inside Grok Bot. Sightkick is an SEO/AEO autopilot: it tracks how ChatGPT, Gemini, Google AI Overviews and AI Mode answer my buyers' questions, researches keywords, writes and scores articles, schedules them on a calendar, and proves outcomes with Google Search Console data. First, read Sightkick's documentation at https://sightkick.so/mcp and its machine-readable reference at https://sightkick.so/llm-info so you understand the tool catalog before you call anything. Then connect to the remote MCP server at https://app.sightkick.so/mcp over streamable HTTP. There is no API key — authentication is OAuth 2.1 with dynamic client registration, and one grant is bound to one workspace, so when the consent screen appears, pick the workspace for the site we are working on. Then make this a standing capability. Whenever I ask how we are doing, or on whatever cadence I set: pull my AI-visibility summary and the prompts I track (get_visibility_summary, list_tracked_prompts), read the actual AI answers and the sources they cite (get_ai_answer, list_cited_sources), find where I am absent (list_visibility_gaps), and cross-read the Search Console proof (get_search_metrics). Report what moved, which competitors are being named instead of me, and which cited sources I do not appear in yet. Rules, and they are not optional. Follow the documented tool catalog exactly: never invent a tool, an argument or a field, and never guess a number — if a tool did not return it, say so plainly. Reads you may run freely: workspace, AI-visibility, keyword, article, calendar, outreach and activity reads. ASK ME FIRST, every single time, before anything that writes, publishes or spends money — generate_article (this costs real money per article), publish_article (this puts a page on my live site), queue_article, reschedule_article, set_autopilot_mode, and track_prompt or retire_prompt (these change what my subscription meters). Show me exactly what you are about to do, and wait for me to say yes. Every write is attributed to you in my workspace activity feed, so keep them deliberate and few. Confirm the connection now by calling get_workspace and showing me the workspace name, then my current AI-visibility summary.",
+      "pricing_note": "From $39/mo after a 7-day free trial. Agent access is in every paid plan, never a separate tier.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nSightkick is an SEO/AEO autopilot that runs the whole loop rather than one slice of it: it tracks how ChatGPT, Gemini, Google AI Overviews and AI Mode actually answer your buyers' questions, researches the keywords worth winning, writes and scores articles against a five-pillar rubric, schedules them on a publishing calendar, pushes them to your connected CMS, and then proves the outcome with Google Search Console data — impressions, clicks and positions, not estimates.\n\nThe MCP server hands all of that to an agent: 31 tools over streamable HTTP, authenticated with OAuth 2.1, no API key anywhere. One grant binds to one workspace, and every write the agent makes is attributed to it in the workspace's activity feed, so an agent operating your SEO leaves an audit trail a human can read.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot. Because auth is OAuth rather than a key, there is nothing to copy from a dashboard — the first call opens a sign-in and a workspace picker, and the connection is done. The bot reads Sightkick's own documentation first, wires up the server, then answers \"how are we showing up in AI answers?\" from real data: which prompts you win, which competitors get named instead of you, which sources the engines cite, and where Search Console says you actually moved.\n\nThe prompt deliberately splits reads from writes. Reads run freely; anything that generates an article, publishes to your live site, changes your tracked-prompt panel or flips autopilot has to come back and ask you first, because each of those spends money or changes something public."
+    },
+    {
+      "type": "plugin",
+      "slug": "aituber",
+      "url": "https://grokbot.dev/plugins/aituber/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/aituber.json",
+      "name": "AITuber",
+      "tagline": "Give your agent a video studio: script, voice-over, captions and publishing.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "content",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-28T00:00:00Z",
+      "updated_at": "2026-08-28T00:00:00Z",
+      "verified_at": "2026-08-28T09:00:00Z",
+      "author": {
+        "handle": "aituber",
+        "url": "https://aituber.app",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://aituber.app",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create an AITuber account at aituber.app. New accounts start with free credits, so you can make a video before you pay for anything.",
+        "Connect the hosted MCP server at https://mcp.aituber.app. Interactive clients sign in through the browser; headless clients send an API key as a Bearer token.",
+        "In the dashboard, connect the YouTube, TikTok, Instagram or X accounts you want the agent to post to.",
+        "Paste the prompt below into your Grok Bot so making and publishing videos becomes a standing capability."
+      ],
+      "prompt": "You are setting up an AITuber integration for me inside Grok Bot. First, read AITuber's documentation at https://aituber.app/mcp and https://aituber.app/api so you understand its hosted MCP server at https://mcp.aituber.app (browser sign-in for interactive clients, or an API key sent as a Bearer token for headless ones) and what it actually exposes: topic ideas for a niche, script writing, video generation in several styles (AI images with camera motion, narration and word-synced captions; AI video clips; real stock footage matched to the narration; the skeleton template; and consistent AI characters for a series), a library of over 1,300 voices, caption and image styles, standalone AI clips, talking avatar videos, MP4 export, my plan and credit balance, and publishing to the channels I have connected. Then connect to my account so that when I describe a video, you choose the style, voice and captions that fit it, generate it, and wait for it to finish before showing me the result. Rules: follow the documentation exactly and never invent an endpoint, a video style, a voice or a parameter that AITuber does not list; if I ask for something it cannot do, say so instead of guessing. Generating spends credits and publishing is public, so read my credit balance and tell me what a job will cost before you start it, and never export or publish anything until I have seen it and said yes. Confirm the connection first by reading my plan and credit balance.",
+      "pricing_note": "Free credits at signup, then credit-based plans.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nAITuber turns a script, or just a rough idea, into a finished short video: an AI voice-over, visuals that match what is being said, and captions that stay in sync with the words. The agent picks the style that fits the brief, from AI images with camera motion, to AI video clips, to real stock footage matched against the narration, to templates that hold one look across a whole series. It can also find topic ideas for a niche, write the script, generate a standalone clip, build a talking avatar ad, export an MP4, and post the finished video to a connected YouTube, TikTok, Instagram or X account.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and connect it to the hosted MCP server at mcp.aituber.app. The bot reads AITuber's own documentation first, so it wires itself up against the real tools instead of guessing at them. After that you work in plain language: say what the video should be about and it chooses the style, voice and caption treatment, generates it, and brings the result back to you. Generating spends credits and publishing is public, so the prompt makes the bot read your balance and quote the cost before it starts, and hold every export and post until you have approved it."
+    },
+    {
+      "type": "plugin",
+      "slug": "pdf-ai",
+      "url": "https://grokbot.dev/plugins/pdf-ai/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/pdf-ai.json",
+      "name": "PDF.ai",
+      "tagline": "Turn any PDF into structured data your bot can use - parse, extract, split, one API key.",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "subcategory": "enrichment",
+      "integrations": [
+        {
+          "slug": "gmail",
+          "name": "Gmail",
+          "page_url": "https://grokbot.dev/integrations/gmail/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-27T09:00:00Z",
+      "updated_at": "2026-08-27T09:00:00Z",
+      "verified_at": "2026-08-27T09:00:00Z",
+      "author": {
+        "handle": "damonchen",
+        "url": "https://x.com/damonchen",
+        "platform": "x"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://pdf.ai",
+      "repo_url": null,
+      "source_url": "https://x.com/damonchen/status/2092801500573798713",
+      "install_steps": [
+        "Create a free account at pdf.ai and grab an API key from the developer dashboard (pdf.ai/developer) - the free plan includes 200 credits/month with access to all APIs, no card required.",
+        "Skim the docs at api.pdf.ai so your bot knows the surface: POST pdf.ai/api/v2/parse with an X-API-Key header turns a PDF URL into structured markdown/JSON; extract pulls custom fields; split cuts documents into sections; /api/v2/ask answers questions against parsed docs.",
+        "Paste the prompt below into your Grok Bot with your API key, and every PDF that crosses your bot's path becomes data it can actually work with."
+      ],
+      "prompt": "You are setting up a PDF.ai integration inside Grok Bot. PDF.ai is our document-processing layer: one REST API that turns any PDF into structured data. Read the documentation at https://api.pdf.ai first so you use only what is documented. The core calls: POST https://pdf.ai/api/v2/parse with my API key in the X-API-Key header and a form body (url of the PDF, quality, lang_list) returns markdown, structured contents, and pageCount - use it whenever we need the actual text and layout of a document instead of guessing. Use the extract endpoints with custom prompts when I need specific fields (names, dates, amounts, line items) pulled from invoices, contracts, or reports. Use split when a long document needs to become sections. Use POST https://pdf.ai/api/v2/ask with docIds and a prompt to answer questions against documents we already parsed. Rules: never invent an endpoint, parameter, or response field the docs don't describe; the API is credit-metered, so parse a document once and reuse the result instead of re-parsing; my API key stays in your configuration and is never pasted into chat or files; and for documents that look sensitive (contracts, financials, medical), tell me what you're about to send to PDF.ai and wait for my OK first. Confirm the setup by parsing one test PDF I give you and showing me its structure.",
+      "pricing_note": "Free 200 credits/month, no card required; usage-based paid API plans from $49/month.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nPDF.ai is Damon Chen's document-processing platform - \"turn PDFs into structured data\" - serving millions of users on the chat side and exposing the same engine to developers as a clean REST API. Three capabilities matter for a Grok Bot: **parse** (advanced OCR and layout detection that turns any PDF into structured JSON and markdown - headings, paragraphs, tables, figures), **extract** (AI field extraction with custom prompts - pull names, dates, amounts, line items out of invoices and contracts), and **split** (AI-identified sections out of long documents). One endpoint, an API key, responses in under five seconds for most documents, and files are deleted after processing.\n\n## Use it in Grok Bot\n\nPDFs are where bot workflows usually die - the attachment arrives, and the bot can't reliably read it. This plugin fixes that layer: grab a free API key (200 credits/month, no card), paste the prompt on this page, and your bot gains a documented, repeatable way to turn any PDF it encounters - email attachments, invoices, contracts, reports, scanned documents - into data it can reason over. The prompt bakes in the discipline that matters: documented endpoints only, parse once and reuse (credits are metered), the key never appears in chat, and sensitive documents get your sign-off before anything is sent."
+    },
+    {
+      "type": "plugin",
+      "slug": "pallyy",
+      "url": "https://grokbot.dev/plugins/pallyy/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/pallyy.json",
+      "name": "Pallyy",
+      "tagline": "Let your agent draft, schedule, and publish social posts through Pallyy's REST API.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-27T00:00:00Z",
+      "updated_at": "2026-08-27T00:00:00Z",
+      "verified_at": "2026-08-27T07:40:00Z",
+      "author": {
+        "handle": "pallyysocial",
+        "url": "https://pallyy.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://pallyy.com",
+      "repo_url": null,
+      "source_url": "https://pallyy.com/docs/api",
+      "install_steps": [
+        "Create a Pallyy account at pallyy.com and connect the social profiles you want your agent to post to.",
+        "On any paid plan (every plan has a 14-day trial), generate an API key at app.pallyy.com/settings/api-keys with the scopes you need: Edit posts, Publish posts, and Upload media.",
+        "Paste the prompt below into your Grok Bot and give it your Pallyy API key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up a Pallyy integration for me inside Grok Bot. First, read Pallyy's API documentation at https://pallyy.com/docs/api so you understand how it works: bearer auth with an API key from Settings > API keys, base URL https://app.pallyy.com/api/v1, and endpoints for listing social sets (groups of connected profiles), creating and updating post sets (drafts and scheduled posts with per-network captions), listing media, and uploading media by URL. Then, whenever I ask you to draft or schedule posts across my connected profiles, use the Pallyy API to do it: pick the right social set, write the captions I ask for, and schedule at the time I give you. Rules: follow the documentation exactly and never invent an endpoint, field, or parameter Pallyy does not document; respect the 5 requests per second rate limit and back off when you get a 429; and if I ask for something the API cannot do (like analytics), tell me instead of guessing. Always show me the exact post text, profiles, and time before anything is scheduled or published, and confirm the connection first by listing my social sets.",
+      "pricing_note": "Free plan available; the API is included on every paid plan, each with a 14-day trial.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nPallyy is a social media scheduling platform with a public REST API built for exactly this kind of agent work. An agent with a scoped API key can list your connected social profiles (organized into social sets), create and update post sets as drafts or scheduled posts with per-network captions, upload media by URL, and read back publishing results including the live permalink for each published post. Keys are read-only until you grant write scopes, can be restricted to a single social set, and every post an agent creates shows the key's name in the post history, so you can always see what your bot did.\n\n## Use it in Grok Bot\n\nGenerate an API key in Pallyy under Settings > API keys, grant it only the scopes your bot needs (drafting works with Edit posts alone; add Publish posts when you trust it to schedule), and paste the prompt on this page into your Grok Bot with the key. The bot reads Pallyy's API docs first, then drives your scheduling in plain language, and it confirms the exact post, profiles, and time with you before anything goes out."
+    },
+    {
+      "type": "plugin",
+      "slug": "phonezero",
+      "url": "https://grokbot.dev/plugins/phonezero/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/phonezero.json",
+      "name": "PhoneZero",
+      "tagline": "Enable phone to phone tasks in Grok Bot using Grok Voice Agents and Telnyx. Zero infra.",
+      "category": "personal",
+      "categories": [
+        "personal"
+      ],
+      "subcategory": "travel",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-26T16:07:16Z",
+      "updated_at": "2026-08-26T16:07:16Z",
+      "verified_at": "2026-08-27T07:40:00Z",
+      "author": {
+        "handle": "ibelevy",
+        "url": "https://x.com/ibelevy",
+        "platform": "x"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://github.com/function1st/PhoneZero",
+      "repo_url": "https://github.com/function1st/PhoneZero",
+      "source_url": null,
+      "install_steps": [
+        "Share https://github.com/function1st/PhoneZero with your Grok Bot and ask it to help you set it up."
+      ],
+      "prompt": "https://github.com/function1st/PhoneZero please help me set this up. I need step by step instructions to complete the prerequisites also.",
+      "pricing_note": "Plug-in Free (MIT). Pay usage via Telnyx and xAI directly.",
+      "setup_minutes": 30,
+      "description": "## What it does\n\nPhoneZero enables any scenario where you need Grok Bot to pick up the phone and call someone to complete a task. Restaurant reservation in a foreign country and language? Need to check operating hours for a business? Using PhoneZero, Grok Bot can trigger an active call via Telnyx and your Grok Voice Agent to complete the task.\n\nThere's nothing to host. You just need Telnyx and an xAI developer account. Grok Bot does most of the setup with a little help from you.\n\n## Use it in Grok Bot\n\nPaste https://github.com/function1st/PhoneZero into this chat and ask it to help you set PhoneZero up. If you don’t have an existing Telnyx or SpaceXAI dev account, ask Grok Bot to walk you through the prerequisites as well.\n\nA six-minute call is usually about $0.40 to $0.55 on Telnyx and xAI."
+    },
+    {
+      "type": "plugin",
+      "slug": "composio",
+      "url": "https://grokbot.dev/plugins/composio/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/composio.json",
+      "name": "Composio",
+      "tagline": "One connector that gives your Grok Bot 1,000+ app integrations via MCP.",
+      "category": "engineering",
+      "categories": [
+        "engineering"
+      ],
+      "subcategory": "agents-ops",
+      "integrations": [
+        {
+          "slug": "slack",
+          "name": "Slack",
+          "page_url": "https://grokbot.dev/integrations/slack/"
+        },
+        {
+          "slug": "gmail",
+          "name": "Gmail",
+          "page_url": "https://grokbot.dev/integrations/gmail/"
+        },
+        {
+          "slug": "notion",
+          "name": "Notion",
+          "page_url": "https://grokbot.dev/integrations/notion/"
+        },
+        {
+          "slug": "github",
+          "name": "GitHub",
+          "page_url": "https://grokbot.dev/integrations/github/"
+        },
+        {
+          "slug": "google-calendar",
+          "name": "Google Calendar",
+          "page_url": "https://grokbot.dev/integrations/google-calendar/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-26T13:30:00Z",
+      "updated_at": "2026-08-26T13:30:00Z",
+      "verified_at": "2026-08-26T13:30:00Z",
+      "author": {
+        "handle": "composio",
+        "url": "https://composio.dev",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://composio.dev",
+      "repo_url": null,
+      "source_url": "https://x.com/coreyganim/status/2092559429275447742",
+      "install_steps": [
+        "Create a Composio account at composio.dev - it's tool infrastructure for AI agents: just-in-time tool calls, secure delegated auth, and 1,000+ app integrations behind one MCP.",
+        "Connect the Composio connector / MCP to your Grok Bot, then enable the specific integrations you use inside Composio's dashboard (each app authenticates there via OAuth or API key - never in chat).",
+        "Paste the prompt below so every enabled integration becomes a capability your Bot can drive in plain language."
+      ],
+      "prompt": "You are setting up a Composio integration inside Grok Bot. Composio is our connector hub: one MCP connection that bridges you to 1,000+ app integrations (CRMs, project tools, email, docs, niche SaaS) - I enable the specific ones in my Composio dashboard, and you reach all of them through this single connector. Start by listing which integrations are currently enabled and what actions each exposes, so we both know what you can actually do. When I ask for something in a connected tool, use the matching Composio action - never invent a tool, integration, or field that Composio doesn't report as available. If a task needs an integration we haven't enabled, tell me which one to switch on in Composio and continue after I've connected it there. Auth stays with me: sign-ins and API keys happen in Composio's dashboard, never in this chat. Side effects need my sign-off: anything that sends, posts, deletes, or changes data in a connected tool - show me exactly what you're about to do and wait for my OK; reading and searching are fine without asking. Confirm the setup by listing the enabled integrations now.",
+      "pricing_note": "Free tier for getting started; usage-based paid plans - see composio.dev.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nComposio is tool infrastructure for AI agents - \"your agent is smart, its tools should be too.\" It provides just-in-time tool calls, secure delegated auth, sandboxed environments, and parallel execution across **1,000+ app integrations**, all reachable through one MCP connection. For a Grok Bot that means the connector catalog stops being the ceiling: instead of waiting for a native Cursor connector for every tool, you connect Composio once and switch on the integrations you actually use - CRMs, project managers, email, docs, and the niche SaaS nothing ships a connector for.\n\n## Use it in Grok Bot\n\nConnect the Composio connector to your Bot, enable your integrations in Composio's dashboard (each app authenticates there - OAuth or API key, never in chat), and paste the prompt on this page. Your Bot starts by listing what's actually enabled, sticks to the actions Composio reports, asks you to flip on anything missing, and gets your sign-off before any side effect in a connected tool. This is the setup behind the [Composio connector hack](/use-cases/composio-connector-hack/) use case - Corey Ganim's unsponsored recommendation as the easiest way to reach tools without native connectors."
+    },
+    {
+      "type": "plugin",
+      "slug": "affonso",
+      "url": "https://grokbot.dev/plugins/affonso/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/affonso.json",
+      "name": "Affonso",
+      "tagline": "Give your Grok Bot affiliate data and approval-gated program operations.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "analytics",
+      "integrations": [
+        {
+          "slug": "stripe",
+          "name": "Stripe",
+          "page_url": "https://grokbot.dev/integrations/stripe/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-26T12:12:25Z",
+      "updated_at": "2026-08-26T12:12:25Z",
+      "verified_at": "2026-08-26T13:00:00Z",
+      "author": {
+        "handle": "affonso-io",
+        "url": "https://github.com/affonso-io/agent-skills",
+        "platform": "github"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://affonso.io",
+      "repo_url": "https://github.com/affonso-io/agent-skills",
+      "source_url": "https://github.com/affonso-io/agent-skills",
+      "install_steps": [
+        "Create or select an affiliate program in Affonso and generate an API key with only the scopes your Bot needs.",
+        "Install the Affonso Agent Skills with `npx skills add affonso-io/agent-skills` and, when terminal access is available, install the CLI with `npm install -g @affonso/cli`.",
+        "Set `AFFONSO_API_KEY` in the Bot runtime environment, never in chat or logs, then verify the connection with `affonso whoami --json`.",
+        "Paste the prompt below and keep the first operating review read-only while you confirm the data, format, and approval rules."
+      ],
+      "prompt": "Connect this Grok Bot to Affonso. First read the official API documentation at https://docs.affonso.io/api/introduction and the Affonso Agent Skills at https://github.com/affonso-io/agent-skills; use the Affonso CLI skill when terminal access is available. Use only documented endpoints, commands, flags, and response fields, and never invent missing data. Ask me to set my own AFFONSO_API_KEY securely in the runtime environment, never in chat or logs, and verify access with `affonso whoami --json`. Use `--json` for every CLI command and page through complete result sets. Start with read-only affiliate, referral, commission, payout, campaign, coupon, creative, fraud, and program data. Before any action that writes, sends, changes partner status, alters commissions or settings, or processes money, show the exact affected IDs, proposed change, evidence, expected impact, and downside, then wait for my explicit approval. Treat fraud signals as evidence for review, not a verdict. If terminal access, authentication, a required scope, or a documented capability is unavailable, state exactly what is missing and stop instead of guessing. Confirm the connection by returning the authenticated Affonso account and available scopes without exposing the key.",
+      "pricing_note": "See affonso.io/pricing for current plans.",
+      "setup_minutes": 15,
+      "description": "## What it does\n\nAffonso gives a Grok Bot structured access to the operating data behind a SaaS affiliate program: affiliates, referrals, commissions, payouts, campaigns, coupons, creatives, fraud signals, and program settings. The public REST API is the source of truth, while the open-source Agent Skills teach the Bot how to set up tracking, use the Affonso CLI, and run focused workflows for performance, partner qualification and activation, profitability, fraud review, campaigns, and compliance.\n\n## Use it in Grok Bot\n\nInstall the skills, connect an API key through the Bot runtime environment, and use the prompt on this page. The Bot verifies access before reading data, uses JSON output and complete pagination, and begins with a read-only operating review. It can compare periods, surface partner opportunities and risks, prepare decisions, and draft the smallest useful next action. Mutations and external communication stay behind an explicit approval gate: the Bot must show the affected IDs, evidence, impact, and downside before it changes partner status, commissions, payouts, settings, or messages. If a capability or scope is missing, it reports the gap instead of inventing an endpoint or result."
+    },
+    {
+      "type": "plugin",
+      "slug": "bland",
+      "url": "https://grokbot.dev/plugins/bland/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/bland.json",
+      "name": "Bland",
+      "tagline": "Give your Grok Bot a real phone number and a voice that makes actual calls.",
+      "category": "sales",
+      "categories": [
+        "sales"
+      ],
+      "subcategory": "calls",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-26T11:30:00Z",
+      "updated_at": "2026-08-26T11:30:00Z",
+      "verified_at": "2026-08-26T11:30:00Z",
+      "author": {
+        "handle": "bland",
+        "url": "https://www.bland.ai",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://www.bland.ai",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Bland account at bland.ai - the enterprise voice AI platform for phone agents: human-sounding voices, sub-second latency, 40+ languages.",
+        "Purchase a phone number in the Bland dashboard (about $15) and copy your API key.",
+        "Give your Grok Bot the API key and paste the prompt below - the bot works out the rest of the setup itself, including inbound voicemail."
+      ],
+      "prompt": "You now have a Bland account and a real phone number. Here is my Bland API key: [API KEY]. Read Bland's docs at bland.ai to understand the API, wire yourself up so you can place and receive calls on my number, and confirm the setup by telling me the number and what you can do. From then on: when I ask you to call someone with instructions, place the call with Bland, have the conversation, and report back how it went - keep the recording available if I ask for it. Check the number for inbound voicemails and add anything you hear to our chat. Rules that never change: a phone call reaches a real person - before you dial, show me who you are calling, the number, and the goal/script of the call, and wait for my go-ahead; always be honest that you are an AI assistant calling on my behalf if asked; never clone a voice unless it is MY voice and I explicitly asked for it, and never use a cloned voice to impersonate anyone; no calls to emergency services, and respect do-not-call requests immediately. Mind the per-minute cost - keep calls as short as the job allows.",
+      "pricing_note": "Pay-as-you-go per call minute; phone number ~$15. See bland.ai.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nBland is the enterprise voice AI platform for phone agents: \"Build, deploy, and monitor AI voice agents that sound human,\" with self-hosted models, sub-second latency, and 40+ languages. For a Grok Bot, it's the missing sense: a real phone number your bot can call from and receive on. Buy a number (~$15), hand your bot the API key, and it can place calls with instructions you give in plain language, hold the conversation, report back how it went, keep recordings, hear inbound voicemails - even create a voice from a short sample of your own.\n\n## Use it in Grok Bot\n\nNo connector needed - Bland is API-first, and a Grok Bot can wire itself up from the docs with just your API key. Paste the prompt on this page: your bot confirms its number, then \"call the restaurant and book a table for two at 8\" becomes something it can actually do, with a report (and recording on request) when it's done. Because calls reach real people, the prompt keeps you in the loop - the bot shows you who it's calling and why before it dials, is honest about being an AI when asked, and only ever clones your voice at your explicit request. See the \"give your Grok Bot a phone number\" use case for the setup that inspired this listing."
+    },
+    {
+      "type": "plugin",
+      "slug": "amplemarket",
+      "url": "https://grokbot.dev/plugins/amplemarket/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/amplemarket.json",
+      "name": "Amplemarket",
+      "tagline": "Give your Grok Bot a full sales stack - prospect data, signals, and outreach.",
+      "category": "sales",
+      "categories": [
+        "sales"
+      ],
+      "subcategory": "prospecting",
+      "integrations": [
+        {
+          "slug": "gmail",
+          "name": "Gmail",
+          "page_url": "https://grokbot.dev/integrations/gmail/"
+        },
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-26T09:30:00Z",
+      "updated_at": "2026-08-26T09:30:00Z",
+      "verified_at": "2026-08-26T09:30:00Z",
+      "author": {
+        "handle": "amplemarket",
+        "url": "https://www.amplemarket.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://www.amplemarket.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create an Amplemarket account at amplemarket.com - it's the AI sales platform behind Duo: prospect search, buying-intent signals, data enrichment, and multichannel sequences.",
+        "In your Grok Bot's connector / plugin settings, add the Amplemarket connector and sign in with your Amplemarket account.",
+        "Paste the prompt below so prospect research, enrichment and outreach prep become a standing capability you drive in plain language."
+      ],
+      "prompt": "You are setting up an Amplemarket integration inside Grok Bot. Connect the Amplemarket connector with my account, then read what it exposes so you understand it: an AI sales platform with a prospect database (Searcher), buying-intent and job-change signals, competitive intelligence, contact and company enrichment, and multichannel sequences (email, call, social). Then let me drive it in plain language: 'find me 20 VPs of sales at fintech companies in Europe', 'enrich this person and their company', 'who changed jobs at my target accounts this month', 'draft a 3-step sequence for this list'. Rules: outreach reaches real people, so ALWAYS show me the exact recipients and the full message or sequence and get my explicit approval before anything is sent or enrolled - drafts only until I say send; never invent a contact, email address, title, or company fact that Amplemarket didn't return - if a field is missing, say so; and respect suppression/do-not-contact lists. Confirm the connection by running one enrichment on a person or company I name.",
+      "pricing_note": "Paid platform; see amplemarket.com/pricing.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nAmplemarket is \"Step into the future of sales: Human + AI\" - an all-in-one AI sales platform built around **Duo**, its AI sales agent. It covers the whole pipeline: a prospect database with powerful filters (Searcher), buying-intent signals (website visits, job changes, competitor mentions, social engagement), data enrichment, competitive intelligence, multichannel sequences with AI-personalized copy (Duo Copywriter and Duo Voice), a unified inbox, and deliverability tooling (domain health, email warmup, spam checking). Its Grok Bot connector puts that stack in your Bot's hands.\n\n## Use it in Grok Bot\n\nAdd the Amplemarket connector in your Bot's settings and paste the prompt on this page. From then on you prospect in plain language - \"find 20 VPs of sales at European fintechs\", \"enrich this person\", \"who changed jobs at my target accounts\" - and your Bot researches, enriches and drafts sequences from real Amplemarket data. Because outreach reaches real people, the prompt keeps the Bot on drafts-only: it shows you exact recipients and messages and waits for your approval before anything sends or enrolls. Pairs naturally with X prospecting - see the \"find customers complaining about competitors\" use case."
+    },
+    {
+      "type": "plugin",
+      "slug": "appllama",
+      "url": "https://grokbot.dev/plugins/appllama/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/appllama.json",
+      "name": "Appllama",
+      "tagline": "Let your Grok Bot study 39,000+ screens from the App Store's top-earning apps.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "competitive-intel",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-26T09:00:00Z",
+      "updated_at": "2026-08-26T09:00:00Z",
+      "verified_at": "2026-08-26T09:00:00Z",
+      "author": {
+        "handle": "jaimintf",
+        "url": "https://x.com/jaimintf",
+        "platform": "x"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://appllama.io",
+      "repo_url": null,
+      "source_url": "https://appllama.io/mcp",
+      "install_steps": [
+        "Get an Appllama Pro account at appllama.io - the MCP is part of Pro and comes with 1,500 credits a month (reset on the 1st).",
+        "In your Grok Bot's connector / MCP settings, add a custom connector pointing at https://mcp.appllama.io/mcp and connect it to your Appllama account.",
+        "Paste the prompt below so design research - screens, flows, paywalls, onboarding from top-earning iOS apps - becomes a standing capability."
+      ],
+      "prompt": "You are setting up an Appllama integration inside Grok Bot. Connect to Appllama's MCP server at https://mcp.appllama.io/mcp using my Appllama Pro account. Read what it exposes so you understand it: a design-research library of 39,000+ real screens from 920+ top-earning iOS apps, with revenue, download and rating data - searchable by app, category, flow (onboarding through checkout), paywall, and UI element family (tabs, sheets, progress indicators, empty states). Then let me drive it in plain language: 'show me how the top fitness apps do onboarding', 'pull 5 paywalls from apps making over $1M a month and compare their pricing layouts', 'how do the best apps handle empty states', 'map Duolingo's flow from install to first lesson'. When I'm designing something, research the pattern first and ground your recommendations in what the top-earning apps actually ship - cite the app and screen you drew each conclusion from, and never invent a screen, metric, or app that Appllama didn't return. Mind my monthly credit budget: pull what the question needs, not everything. Confirm the connection by searching one app I name and describing its onboarding flow.",
+      "pricing_note": "MCP requires Appllama Pro - 1,500 credits/month; free tier for browsing.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nAppllama is \"Discover the designs that win\" - a design-research library of **39,000+ screens from 920+ of the App Store's top-earning iOS apps** (ChatGPT, Duolingo, Strava, Perplexity and the rest), each tied to revenue, download and rating data, updated weekly. Its MCP server hands that library to your agent: search apps, pull specific screens, compare paywalls and pricing layouts, study onboarding step counts and where the paywall lands, browse UI element families (tabs, sheets, progress indicators, empty states), and map complete flows from onboarding through checkout.\n\n## Use it in Grok Bot\n\nAdd a custom MCP connector pointing at `https://mcp.appllama.io/mcp` (requires Appllama Pro; 1,500 credits a month), then paste the prompt on this page. From then on your Bot does design research on demand - \"show me how top fitness apps do onboarding\", \"compare 5 paywalls from $1M+/month apps\" - and when it's helping you design or build, it grounds its recommendations in what the winners actually ship, citing the app and screen behind each conclusion instead of guessing from taste."
+    },
+    {
+      "type": "plugin",
+      "slug": "omnisocials",
+      "url": "https://grokbot.dev/plugins/omnisocials/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/omnisocials.json",
+      "name": "OmniSocials",
+      "tagline": "Give your agent one API to schedule, publish, and analyze posts across 12 platforms.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-26T00:00:00Z",
+      "updated_at": "2026-08-26T00:00:00Z",
+      "verified_at": "2026-08-26T13:00:00Z",
+      "author": {
+        "handle": "omnisocials",
+        "url": "https://omnisocials.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://omnisocials.com",
+      "repo_url": null,
+      "source_url": "https://www.npmjs.com/package/@omnisocials/mcp-server",
+      "install_steps": [
+        "Create an OmniSocials account at omnisocials.com and connect the social accounts you want it to reach.",
+        "Get an API key from Settings > API in the OmniSocials app, or use the remote MCP URL with your key instead.",
+        "Paste the prompt below into your Grok Bot and give it your OmniSocials API key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up an OmniSocials integration for me inside Grok Bot. First, read OmniSocials's API documentation at https://docs.omnisocials.com so you understand its authentication (a Bearer token API key, omsk_live_*) and the endpoints it exposes: listing connected accounts, creating and publishing or scheduling posts with media, applying saved hashtag sets, reading post and account analytics, and managing webhooks — across Instagram, Facebook, LinkedIn, YouTube, TikTok, X, Pinterest, Bluesky, Threads, Mastodon, and Google Business. You can also connect through its MCP server at https://mcp.omnisocials.com with the same key. Then use my OmniSocials API key so that whenever I ask you to draft, schedule, or publish across my social accounts, you do it through OmniSocials — pick the right accounts, respect each platform's rules, and post at the time I ask. Rules: follow the documentation exactly and never invent an endpoint, parameter, or platform OmniSocials does not list; if I ask for something it cannot do, tell me instead of guessing. Always show me the exact post text, media, target accounts, and schedule before anything is published, and confirm the connection first by listing my connected accounts.",
+      "pricing_note": "Pro from $10/mo per workspace; full API, SDKs, and MCP access on every plan.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nOmniSocials is a social media management platform and API. Its REST API and native MCP server let an AI agent list connected accounts, upload media, create and schedule or publish posts, apply saved hashtag sets, read post and account analytics, and manage webhooks — across 12 platforms including Instagram, Facebook, LinkedIn, YouTube, TikTok, X, Pinterest, Bluesky, Threads, Mastodon, and Google Business.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it an OmniSocials API key, or point it at the remote MCP URL. The bot reads OmniSocials's own documentation first, wires up the integration, and from then on you drive your social accounts in plain language — it follows the docs and shows you the exact post before anything goes out."
+    },
+    {
+      "type": "plugin",
+      "slug": "search1api",
+      "url": "https://grokbot.dev/plugins/search1api/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/search1api.json",
+      "name": "Search1API",
+      "tagline": "Live web search, news, page reading, and trends for your Grok Bot.",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "subcategory": "scraping",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-26T00:00:00Z",
+      "updated_at": "2026-08-26T00:00:00Z",
+      "verified_at": "2026-08-26T09:00:00Z",
+      "author": {
+        "handle": "search1api",
+        "url": "https://s1.dev",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://s1.dev",
+      "repo_url": "https://github.com/superagents-lab/search1api-mcp",
+      "source_url": null,
+      "install_steps": [
+        "Create a Search1API account at s1.dev and grab an API key from app.s1.dev — or skip the key and use the OAuth flow, which has you sign in and approve access in the browser.",
+        "Point your Grok Bot at the hosted MCP server https://mcp.search1api.com/mcp — OAuth-aware clients sign in automatically; other clients use the API key as a bearer token.",
+        "Paste the prompt below so Search1API becomes a standing capability: search, news, crawl, sitemap, and trending on demand.",
+        "The dashboard's MCP page can generate a ready-to-paste client config with your key filled in."
+      ],
+      "prompt": "You are setting up a Search1API integration for me inside Grok Bot. First, read the Search1API MCP documentation at https://s1.dev/docs/integrations/mcp and the API docs at https://s1.dev/docs so you understand the integration: connect to the hosted MCP server at https://mcp.search1api.com/mcp with OAuth 2.1 or an API key — no local server to run. The integration exposes tools for web search (search), news search (news), reading a URL (crawl), listing a site's links (sitemap), and GitHub / Hacker News trends (trending). Then use it whenever I ask for live information: search the web, read a page, find current news, explore a site's structure, or check what is trending. Rules: never invent an endpoint, field, or tool that Search1API does not document; ask me for my API key rather than expecting one in the prompt; and if a request would spend credits or send data out, tell me what it will do first. Confirm the connection with one small search before we start.",
+      "pricing_note": "Free tier: 100 credits. Paid plans from $19/mo; usage-based top-ups.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nSearch1API is web access infrastructure for AI agents: one API for web search, news, page retrieval (crawl), sitemap discovery, and trending topics, with a hosted MCP server so an agent connects without writing any integration code. Connected to a Grok Bot, it replaces hand-rolled scraping and search glue with live, grounded answers — the bot can look up today's information, read a page it was sent, and cite real source URLs instead of guessing.\n\n## Use it in Grok Bot\n\nPoint the bot at the hosted MCP endpoint (OAuth sign-in or an API key), paste the prompt below, and Search1API becomes a standing capability. Then drive it in plain language: \"search the web for X\", \"read this page and summarize it\", \"what are the latest news on Y\", or \"what's trending on GitHub today\". The prompt has the bot read Search1API's own docs first, keep to documented tools only, and confirm the connection with a test search — so you know it works before you rely on it."
+    },
+    {
+      "type": "plugin",
+      "slug": "cribble",
+      "url": "https://grokbot.dev/plugins/cribble/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/cribble.json",
+      "name": "Cribble",
+      "tagline": "Ranks your Grok (and 47 other AI tools) usage on a worldwide leaderboard.",
+      "category": "fun",
+      "categories": [
+        "fun"
+      ],
+      "subcategory": "games",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-24T06:20:00Z",
+      "updated_at": "2026-08-24T06:20:00Z",
+      "verified_at": "2026-08-24T06:20:00Z",
+      "author": {
+        "handle": "birdabo",
+        "url": "https://x.com/birdabo",
+        "platform": "x"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://cribble.dev",
+      "repo_url": "https://github.com/Birdabo404/Cribble",
+      "source_url": null,
+      "install_steps": [
+        "Note: Cribble is a browser extension and leaderboard, not a bot connector - it tracks how you use Grok and other AI tools rather than plugging into your Bot. It's currently invite-only private beta; request access and sign in at cribble.dev.",
+        "Install the Cribble extension and forget it. It quietly tracks your sessions across 47 AI sites - Grok included - and scores depth over volume (ten locked-in minutes beat a hundred idle tabs).",
+        "Watch your rank, streaks and 12-week heat trail on the global board, collect the 25 medals (including the #1-only Apex Legend), and flip on lurk mode any time you want to stay private."
+      ],
+      "prompt": null,
+      "pricing_note": "Private beta, invite-only; pricing not yet announced.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nCribble is \"ranking AI users, worldwide\" - a quiet browser extension that tracks your sessions across 47 AI platforms (Grok, ChatGPT, Claude, Cursor, Gemini, Perplexity and more) and puts you on a global leaderboard. Sessions land on their own: you get a score, streaks, and a twelve-week heat trail, with scoring that rewards depth over volume - ten locked-in minutes outscore a hundred idle tabs. There are seasonal resets each quarter, 25 achievement medals (the Apex Legend is held only by the current #1), customizable pilot plates, and a lurk mode for privacy.\n\n## Use it with Grok\n\nCribble is not a Grok Bot connector - it's a companion that measures your Grok (and wider AI) usage rather than adding tools to your Bot. Install the extension, sign in, and use Grok as you normally would; Cribble tracks it in the background and ranks you against everyone else on the board. Planned phases add squad competitions and CLI agent tracking for tools like Cursor and Claude Code. It's currently invite-only private beta."
+    },
+    {
+      "type": "plugin",
+      "slug": "tubealfred",
+      "url": "https://grokbot.dev/plugins/tubealfred/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/tubealfred.json",
+      "name": "TubeAlfred",
+      "tagline": "Give your Grok Bot read-only access to any public YouTube video, channel, or playlist.",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "subcategory": "enrichment",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-24T00:00:00Z",
+      "updated_at": "2026-08-24T00:00:00Z",
+      "verified_at": "2026-08-26T07:30:00Z",
+      "author": {
+        "handle": "tubealfred",
+        "url": "https://tubealfred.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://tubealfred.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a TubeAlfred API key at https://tubealfred.com/app/api-keys.",
+        "Connect the TubeAlfred MCP server and give your Grok Bot the key.",
+        "Paste the prompt below so this becomes a standing capability."
+      ],
+      "prompt": "Read TubeAlfred's docs at https://tubealfred.com/docs, then integrate via its MCP server using my TubeAlfred API key. Whenever I share a YouTube URL or ask about a video, channel, playlist, or search term, resolve it first, then call the matching tool for details, transcript, comments, or search. Never invent an endpoint, field, metadata, view count, or transcript text that a tool call didn't actually return — if a tool errors or a resource is private, tell me instead of guessing. Confirm the connection first by resolving one YouTube URL I give you.",
+      "pricing_note": "Free tier; paid plans available.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nTubeAlfred is a YouTube API and hosted MCP server covering video, channel, transcript, comment, reply, playlist, community, search, hashtag, and trending endpoints — 35 REST endpoints and 34 MCP tools total.\n\n## Use it in Grok Bot\n\nConnect the MCP server with an API key and paste the prompt. Your bot reads TubeAlfred's docs first, confirms the connection, then from then on can resolve any YouTube URL, pull video/channel/playlist metadata, fetch transcripts, read comments, and search or browse trending content directly in chat."
+    },
+    {
+      "type": "plugin",
+      "slug": "sequenzy",
+      "url": "https://grokbot.dev/plugins/sequenzy/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/sequenzy.json",
+      "name": "Sequenzy",
+      "tagline": "Run your email marketing - subscribers, campaigns, sequences - from your Grok Bot.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "content",
+      "integrations": [
+        {
+          "slug": "stripe",
+          "name": "Stripe",
+          "page_url": "https://grokbot.dev/integrations/stripe/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-23T22:15:00Z",
+      "updated_at": "2026-08-23T22:15:00Z",
+      "verified_at": "2026-08-23T22:15:00Z",
+      "author": {
+        "handle": "nikpolale",
+        "url": "https://x.com/nikpolale",
+        "platform": "x"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://www.sequenzy.com",
+      "repo_url": null,
+      "source_url": "https://docs.sequenzy.com/concepts/mcp",
+      "install_steps": [
+        "Create a Sequenzy account at sequenzy.com. Sequenzy is a developer-first email marketing platform - subscribers, campaigns, sequences, forms and landing pages - with a remote MCP server your agent can drive.",
+        "In your Grok Bot's connector / MCP settings, add a custom connector pointing at https://api.sequenzy.com/v1/mcp (Streamable HTTP). A browser opens for OAuth sign-in - there is no API key to paste.",
+        "Paste the prompt below so managing subscribers, campaigns and sequences becomes a standing capability you drive in plain language."
+      ],
+      "prompt": "You are setting up a Sequenzy integration inside Grok Bot. Connect to Sequenzy's remote MCP server at https://api.sequenzy.com/v1/mcp (Streamable HTTP; a browser opens for OAuth sign-in, no API key). Read what Sequenzy exposes so you understand it: it is a developer-first email marketing platform with 100+ tools for subscribers (add, update, tag, search), lists and segments, campaigns (create, schedule, send test, render), automated sequences (create, enable, enroll subscribers), templates and transactional email, forms, popups and landing pages, integrations, and analytics. Then let me run my email marketing in plain language: 'add these subscribers and tag them', 'draft and schedule this campaign', 'build a 3-email welcome sequence and enroll new signups', 'show me how the last campaign performed'. Rules: sending email reaches real people and is effectively irreversible, so ALWAYS show me the exact audience (list or segment and its approximate size), the subject, and the full content, and get my explicit approval before you send or schedule any campaign or enable any sequence; send a test to me first when I ask; and never invent a subscriber, list, segment, or template that Sequenzy didn't return. Confirm the connection by listing my Sequenzy lists and recent campaigns.",
+      "pricing_note": "See sequenzy.com for current pricing.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nSequenzy is a developer-first email marketing platform - think \"Cursor for marketing emails.\" It handles the whole lifecycle: subscribers, lists and segments, broadcast campaigns, automated sequences, templates and transactional email, forms, popups and landing pages, plus integrations (like Stripe, to segment by MRR/LTV) and analytics. Its remote MCP server exposes 100+ tools, so your Grok Bot can run all of it in plain language instead of you clicking through a dashboard.\n\n## Use it in Grok Bot\n\nAdd a custom MCP connector in your Bot pointing at `https://api.sequenzy.com/v1/mcp` (Streamable HTTP, OAuth sign-in - no API key), then paste the prompt on this page. From then on you can tell your Bot to add and tag subscribers, draft and schedule a campaign, build a welcome sequence and enroll new signups, or pull last week's numbers. Because a campaign reaches real inboxes, the prompt makes the Bot show you the exact audience, subject and content and wait for your approval before it ever sends or schedules anything."
+    },
+    {
+      "type": "plugin",
+      "slug": "fretwork",
+      "url": "https://grokbot.dev/plugins/fretwork/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/fretwork.json",
+      "name": "Fretwork",
+      "tagline": "Local-first freelance management - time, invoices, expenses, CRM - for your Grok Bot.",
+      "category": "finance-ops",
+      "categories": [
+        "finance-ops"
+      ],
+      "subcategory": "invoicing",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-23T16:50:00Z",
+      "updated_at": "2026-08-23T16:50:00Z",
+      "verified_at": "2026-08-23T16:50:00Z",
+      "author": {
+        "handle": "ryanlanciaux",
+        "url": "https://x.com/ryanlanciaux",
+        "platform": "x"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://fretwork.ai",
+      "repo_url": "https://github.com/ryanlanciaux/fretwork.ai",
+      "source_url": null,
+      "install_steps": [
+        "Make sure you're on a Grok Bot plan that supports plugins / MCP connectors, and that Node.js is available on your bot's computer - Fretwork runs locally as an MCP server, with no account and no cloud.",
+        "Paste Fretwork's one-line install into your Grok Bot. It reads the AGENT.md from github.com/ryanlanciaux/fretwork.ai, runs npm install, creates a local SQLite database, and connects Fretwork as an MCP server.",
+        "Paste the prompt below so time tracking, invoicing, expenses and light CRM become a standing capability you drive in plain language."
+      ],
+      "prompt": "You now have Fretwork connected as an MCP server - a local-first freelance management system (time tracking, invoicing, expenses, and light CRM) stored in a local SQLite file on this computer, with no external accounts. Read what Fretwork exposes so you understand its ~58 operations, then let me run my freelance business in plain language: log time ('log 4.5 hours for Acme on the redesign'), create and render invoices (with PDF), record expenses and payments, set up recurring invoices (weekly, monthly, quarterly, yearly), keep dated CRM notes and follow-ups, and pull financial reports by client and status. Rules: Fretwork is my source of truth for billing, so NEVER invent a client, an invoice, an amount, or hours it didn't return; always show me the exact figures before you create or send an invoice or record a payment, and get my explicit confirmation for anything that bills a client or moves money. When I ask for my numbers, read them from Fretwork rather than estimating. Confirm the connection by listing my clients and any open invoices.",
+      "pricing_note": "Free and open source; runs locally, no account or cloud.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nFretwork is an open-source, **local-first freelance management system** that lives inside your AI agent instead of a separate app. It handles time tracking, invoicing (with PDF rendering), expenses, payments, recurring invoices, a lightweight CRM with dated notes and follow-ups, and financial reporting by client and status - around 58 operations in all. Every operation works both as an MCP tool your Grok Bot can call and as a CLI command, and all of your data stays in a single SQLite file on your own machine: no accounts, no cloud, no telemetry.\n\n## Use it in Grok Bot\n\nFretwork installs with a single line pasted into your Bot: it reads the project's AGENT.md from GitHub, runs `npm install`, spins up a local SQLite database, and connects as an MCP server. From then on you run your freelance back office in plain language - \"log 4.5 hours for Acme\", \"create this month's invoice\", \"show me overdue invoices\" - and because Fretwork is the source of truth for your billing, the prompt on this page makes the Bot show you exact figures and confirm before it ever sends an invoice or records a payment."
+    },
+    {
+      "type": "plugin",
+      "slug": "agentmail",
+      "url": "https://grokbot.dev/plugins/agentmail/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/agentmail.json",
+      "name": "AgentMail",
+      "tagline": "Give your Grok Bot its own email inbox and identity on the internet.",
+      "category": "work",
+      "categories": [
+        "work"
+      ],
+      "subcategory": "email",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-23T12:00:00Z",
+      "updated_at": "2026-08-23T12:00:00Z",
+      "verified_at": "2026-08-23T12:00:00Z",
+      "author": {
+        "handle": "AgentMail",
+        "url": "https://www.agentmail.to",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://www.agentmail.to",
+      "repo_url": null,
+      "source_url": "https://x.com/agentmail/status/2091298099859955814",
+      "install_steps": [
+        "Make sure you're on a Grok Bot plan that supports plugins (Cursor Ultra, SuperGrok Heavy, or Cursor Premium Teams), then create a free account at agentmail.to - the free tier covers everything here.",
+        "In Grok Bot, open Settings -> Plugins, search for AgentMail, and click Install.",
+        "Approve the OAuth prompt: your browser opens AgentMail's authorization screen (it reads 'Cursor wants to access AgentMail...' because Grok Bot uses Cursor's plugin plumbing). Click Allow - there is no API key to paste.",
+        "Check the connector card - 24 tools appear. Paste the prompt below so your bot creates its own inbox and email becomes a standing capability."
+      ],
+      "prompt": "You are setting up AgentMail inside Grok Bot so you have your OWN email inbox and identity, separate from my personal email. AgentMail is installed as a native plugin, so its tools are already available to you - do not ask me for an API key. First, use AgentMail to create yourself a dedicated inbox (pick a clear name like assistant or outreach) and tell me the exact address. From now on, send and receive mail only from THAT inbox, never from my personal accounts. With your own inbox you can: sign yourself up for services that email a verification code (read the code from your inbox and finish signup), run outreach and reply threads from your own address, own a support inbox, and follow multi-party threads you're CC'd on. Rules that never change: an email reaches a real person and is effectively irreversible - before you send anything, show me the exact recipient(s), subject, and full body and get my explicit approval; never send in bulk without me confirming the whole recipient list first; never invent an address, contact, or thread that AgentMail didn't return; and never use my personal inbox for any of this. Confirm setup by creating your inbox, telling me its address, and sending a short test email to me at [YOUR EMAIL].",
+      "pricing_note": "Free tier covers a personal bot; paid plans scale - see agentmail.to.",
+      "setup_minutes": 5,
+      "description": "## What it does\n\nAgentMail is the email inbox API for AI agents - it gives your Grok Bot its own inbox and internet identity, the way Gmail does for a person. Backed by Y Combinator and General Catalyst, it's built so an agent can create inboxes on demand, send and receive threaded mail (with attachments and multi-party threads), react to real-time events, and treat its own mailbox as persistent, searchable memory. On Grok Bot it installs as a native plugin in two clicks - OAuth, no API key - and exposes 24 tools your bot can drive in plain language.\n\nWhy it matters: the built-in Gmail plugin points at *your* inbox, so every bot ends up reading your private mail and 2FA codes and sending as you. A dedicated AgentMail inbox keeps that access contained - your bot gets its own address to sign up for accounts, run outreach, and own a support queue, all without touching your personal identity.\n\n## Use it in Grok Bot\n\nInstall AgentMail from Settings -> Plugins (approve the OAuth prompt, no key to paste), then paste the prompt on this page. Your bot creates itself a dedicated inbox and, from then on, sends and receives only from that address. Because email reaches real people, the prompt makes the bot show you every recipient, subject, and body and wait for your approval before it sends - and never touch your personal inbox."
+    },
+    {
+      "type": "plugin",
+      "slug": "2chat",
+      "url": "https://grokbot.dev/plugins/2chat/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/2chat.json",
+      "name": "2Chat",
+      "tagline": "Give your Grok Bot a WhatsApp + SMS phone system for messaging and contacts.",
+      "category": "support",
+      "categories": [
+        "support"
+      ],
+      "subcategory": "replies",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-22T20:30:00Z",
+      "updated_at": "2026-08-22T20:30:00Z",
+      "verified_at": "2026-08-22T20:30:00Z",
+      "author": {
+        "handle": "2chat",
+        "url": "https://2chat.co",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://2chat.co",
+      "repo_url": null,
+      "source_url": "https://developers.2chat.co/docs/MCP/setup",
+      "install_steps": [
+        "Create a 2Chat account at 2chat.co and connect the WhatsApp number(s) you want your agent to use (no WhatsApp Business API required).",
+        "In your Grok Bot's connector / MCP settings, add a custom connector at https://mcp.2chat.io/mcp (Streamable HTTP). A browser opens to sign in - 2Chat uses OAuth 2.1, so there is no API key to paste.",
+        "Paste the prompt below into your Grok Bot so sending WhatsApp/SMS, running templates, and managing contacts become a standing capability."
+      ],
+      "prompt": "You are setting up a 2Chat integration for me inside Grok Bot. Connect to 2Chat's hosted MCP server at https://mcp.2chat.io/mcp (Streamable HTTP, OAuth 2.1 - a browser window will open for me to sign in; there is no API key). Read what 2Chat exposes so you understand it: it is an AI-native phone system with WhatsApp and SMS, so you can list my connected WhatsApp channels, send WhatsApp and SMS messages, send WhatsApp Business template messages, and look up or manage contacts. Then let me drive it in plain language: 'message this contact on WhatsApp', 'send the <template> to these numbers', 'who did we last talk to'. Rules: follow 2Chat's docs exactly and NEVER invent a contact, a channel, a template, or a phone number it doesn't return. Sending a WhatsApp or SMS message is an IRREVERSIBLE action that reaches a real person - always show me the exact recipient(s) and the exact message and get my explicit approval before you send anything, and never send to a list in bulk without me confirming the full set of recipients first. Confirm the connection by listing my connected 2Chat WhatsApp channels.",
+      "pricing_note": "Free trial; paid plans - see 2chat.co/pricing.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\n2Chat is an AI-native phone system with WhatsApp and SMS, built so teams can run sales, marketing and customer support on their existing numbers - no WhatsApp Business API required. Its hosted MCP server lets a Grok Bot list your connected WhatsApp channels, send WhatsApp and SMS messages, run WhatsApp Business templates, and look up or manage contacts, all in plain language.\n\n## Use it in Grok Bot\n\nConnect your Bot to 2Chat's MCP server at https://mcp.2chat.io/mcp (OAuth sign-in, no API key), then paste the prompt on this page. From then on you can tell your Bot to message a contact, send a template to a list, or check who you last spoke to - and because a WhatsApp or SMS message reaches a real person, the Bot always shows you the exact recipients and message and waits for your go-ahead before it sends."
+    },
+    {
+      "type": "plugin",
+      "slug": "marketbetter",
+      "url": "https://grokbot.dev/plugins/marketbetter/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/marketbetter.json",
+      "name": "MarketBetter",
+      "tagline": "Turn website visits and buyer intent into a daily sales playbook your agent runs.",
+      "category": "sales",
+      "categories": [
+        "sales"
+      ],
+      "subcategory": "prospecting",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-22T17:00:00Z",
+      "updated_at": "2026-08-22T17:00:00Z",
+      "verified_at": "2026-08-22T17:00:00Z",
+      "author": {
+        "handle": "marketbetter",
+        "url": "https://marketbetter.ai",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://marketbetter.ai",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a MarketBetter account at marketbetter.ai and connect your CRM and comms tools (HubSpot, Salesforce, Slack, Teams).",
+        "Connect the hosted MCP server at mcp.marketbetter.ai/mcp, or get your API key from the dashboard (see the linked docs).",
+        "Paste the prompt below into your Grok Bot so the daily playbook and outreach drafting become a standing capability."
+      ],
+      "prompt": "You are setting up a MarketBetter integration for me inside Grok Bot. First read MarketBetter's documentation at https://marketbetter.ai and connect to its hosted MCP server at https://mcp.marketbetter.ai/mcp so you understand what it does: it turns website visits and buyer-intent signals into a prioritized daily SDR playbook, identifies the companies visiting my site, builds and enriches prospect lists, and drafts outreach based on the signal context, with connectors to CRMs and comms tools like HubSpot, Salesforce, Slack and Teams. Then let me drive it in plain language: pull today's ranked playbook, tell me why each account is showing intent, and draft the outreach. Rules: follow the docs exactly and NEVER invent an account, a signal, a contact, or a field MarketBetter doesn't return. Sending an email, starting a dial, or writing to my CRM is an irreversible action — always show me the accounts and the exact messages and get my explicit approval before anything is sent or synced. Confirm the connection by pulling today's playbook.",
+      "pricing_note": "Paid plans; see marketbetter.ai.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nMarketBetter turns website visits and buyer-intent signals into a prioritized daily SDR playbook: it identifies the companies on your site, builds and enriches prospect lists, drafts outreach from the signal context, and syncs with HubSpot, Salesforce, Slack and Teams. Its MCP server lets a Grok Bot run that GTM loop on demand.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and connect it to MarketBetter's MCP server or API. The bot reads MarketBetter's docs first, then each day it pulls the ranked playbook, explains the intent behind each account, and drafts the outreach — never sending a message, dialing, or writing to your CRM without your explicit go-ahead."
+    },
+    {
+      "type": "plugin",
+      "slug": "gojiberry",
+      "url": "https://grokbot.dev/plugins/gojiberry/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/gojiberry.json",
+      "name": "Gojiberry AI",
+      "tagline": "Surface warm B2B leads from buying signals and draft the outreach.",
+      "category": "sales",
+      "categories": [
+        "sales"
+      ],
+      "subcategory": "prospecting",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-22T00:00:00Z",
+      "updated_at": "2026-08-22T13:00:00Z",
+      "verified_at": "2026-08-22T13:00:00Z",
+      "author": {
+        "handle": "gojiberry",
+        "url": "https://gojiberry.ai",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://gojiberry.ai",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Gojiberry account at gojiberry.ai, set your ICP, and connect your stack (Slack, HubSpot or Pipedrive).",
+        "Get your account/API access from the Gojiberry dashboard (see the linked docs for the exact place).",
+        "Paste the prompt below into your Grok Bot and connect it to Gojiberry so warm-lead review becomes a daily habit."
+      ],
+      "prompt": "You are setting up a Gojiberry AI integration for me inside Grok Bot. First read Gojiberry's documentation at https://gojiberry.ai so you understand what it does: it detects warm B2B leads from 15+ buying and social signals (LinkedIn likes and comments, job changes, funding rounds, and more), filters them against my ICP, and runs personalized outreach to book demos. Connect to my Gojiberry account and its integrations (Slack, HubSpot, Pipedrive) as the docs describe. Then, on a cadence, pull the fresh warm leads that match my ICP, summarize why each is showing intent, and draft the outreach. Rules: follow the docs exactly and NEVER invent a lead, a signal, or a field Gojiberry doesn't return, and never claim an API capability the docs don't describe. Sending outreach or writing to my CRM is an irreversible action — always show me the leads and the exact messages and get my explicit approval before anything is sent or synced. Confirm the connection by showing today's warm leads.",
+      "pricing_note": "Paid plans; see gojiberry.ai.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nGojiberry AI is a GTM brain for B2B teams: it watches 15+ buying and social signals — LinkedIn engagement, job changes, funding rounds — filters the matches against your ICP, and runs personalized outreach to book qualified demos. It plugs into Slack, HubSpot and Pipedrive, so a Grok Bot can surface who's in buying mode and tee up the follow-up.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and connect it to your Gojiberry account. The bot reads Gojiberry's docs first, then each day it pulls the warm leads matching your ICP, explains the intent signal behind each one, and drafts the outreach — never sending a message or writing to your CRM without your explicit go-ahead."
+    },
+    {
+      "type": "plugin",
+      "slug": "mediafast",
+      "url": "https://grokbot.dev/plugins/mediafast/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/mediafast.json",
+      "name": "MediaFast",
+      "tagline": "Let your agent run your Reddit marketing without getting banned.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-22T00:00:00Z",
+      "updated_at": "2026-08-22T12:00:00Z",
+      "verified_at": "2026-08-22T12:00:00Z",
+      "author": {
+        "handle": "mediafast",
+        "url": "https://www.mediafa.st",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://www.mediafa.st",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a MediaFast account at mediafa.st and set up your product's project so it can build your roadmap.",
+        "Generate an API key in Settings → API Keys (shown once), or connect the MCP server at api.mediafa.st/mcp.",
+        "Paste the prompt below into your Grok Bot and give it your MediaFast key so Reddit marketing becomes a standing capability."
+      ],
+      "prompt": "You are setting up a MediaFast integration for me inside Grok Bot. First, read MediaFast's documentation at https://www.mediafa.st/documentation so you understand its MCP server (https://api.mediafa.st/mcp, API-key auth from Settings → API Keys) and what it does: it turns a product into a day-by-day Reddit action plan — finding the right subreddits, generating subreddit-native post and comment drafts, checking shadowban status, and pacing everything to keep the account safe, with X, LinkedIn and Bluesky supported too. Then connect to my MediaFast account so that when I ask about my marketing plan you pull the real roadmap, when I need a post you draft it native to the target subreddit's tone and rules, and when I worry about account health you check the shadowban status. Rules: follow the documentation exactly and never invent a subreddit, a task, or a metric MediaFast does not return. Account safety is the whole point — NEVER post, comment, or schedule anything without showing me the draft and target first and getting my explicit go-ahead. Confirm the connection by pulling my current roadmap.",
+      "pricing_note": "Free trial; monthly or lifetime plans.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nMediaFast turns your product into a day-by-day Reddit action plan — which subreddits, when to comment, when to post, and what to say, paced to keep your account safe from bans. Its MCP server lets a Grok Bot pull the roadmap, draft subreddit-native posts, and check shadowban status on demand; X, LinkedIn and Bluesky are covered too.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a MediaFast API key or the MCP connection. The bot reads MediaFast's own documentation first, then you drive your Reddit marketing in plain language — it pulls the real roadmap, drafts to each community's tone and rules, and never posts anything without your go-ahead."
+    },
+    {
+      "type": "plugin",
+      "slug": "mentions-so",
+      "url": "https://grokbot.dev/plugins/mentions-so/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/mentions-so.json",
+      "name": "Mentions.so",
+      "tagline": "Track how your brand shows up in ChatGPT, Perplexity, Grok and other AI answers.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "seo",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-22T00:00:00Z",
+      "updated_at": "2026-08-22T13:00:00Z",
+      "verified_at": "2026-08-22T13:00:00Z",
+      "author": {
+        "handle": "mentions-so",
+        "url": "https://mentions.so",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": false,
+      "project_url": "https://mentions.so",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Mentions.so account at mentions.so and add your brand plus the competitors and prompts you want tracked.",
+        "Connect your Grok Bot to your Mentions.so account as the product describes (dashboard export/access).",
+        "Paste the prompt below into your Grok Bot so 'how are we showing up in AI answers?' becomes a standing question."
+      ],
+      "prompt": "You are setting up a Mentions.so integration for me inside Grok Bot. First read Mentions.so's documentation at https://mentions.so so you understand what it does: it tracks, analyzes and helps improve how my brand is mentioned in AI-generated answers across ChatGPT, Perplexity, Claude, Grok, Gemini, DeepSeek, AI Overviews and Llama — with sentiment, visibility versus competitors, traffic from AI sources, and an insights board of recommendations. Connect to my Mentions.so account as the docs describe, then, on a cadence, pull my current AI-search visibility, how it's trending, where competitors are winning, and the top recommended actions. Rules: follow the docs exactly, report only the numbers Mentions.so actually returns, and NEVER invent a metric, a source, or a competitor. This is a reporting integration — do not change my Mentions.so settings or act on a recommendation without my explicit go-ahead. Confirm the connection by showing my current visibility score.",
+      "pricing_note": "Paid plans from $49/mo.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nMentions.so is AI-search optimization: it tracks how your brand shows up when people ask ChatGPT, Perplexity, Grok, Gemini and other models — sentiment, visibility against competitors, traffic from AI, and a board of recommended fixes. Pointed at your account, a Grok Bot can pull that picture on demand and tell you where you're losing the AI answer.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and connect it to your Mentions.so account. The bot reads Mentions.so's docs first, then reports your AI-search visibility, how it's trending, where competitors lead, and the top recommended actions — reporting only what Mentions.so actually returns, and never changing settings without your go-ahead."
+    },
+    {
+      "type": "plugin",
+      "slug": "tiiny-host",
+      "url": "https://grokbot.dev/plugins/tiiny-host/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/tiiny-host.json",
+      "name": "Tiiny Host",
+      "tagline": "Let your agent deploy a static site or file to a live URL in seconds.",
+      "category": "engineering",
+      "categories": [
+        "engineering"
+      ],
+      "subcategory": "ci-cd",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-22T00:00:00Z",
+      "updated_at": "2026-08-22T13:00:00Z",
+      "verified_at": "2026-08-22T13:00:00Z",
+      "author": {
+        "handle": "tiiny-host",
+        "url": "https://tiiny.host",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://tiiny.host",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Tiiny Host account at tiiny.host and, for programmatic deploys, upgrade to a Solo plan or higher to get API access.",
+        "Grab your API key from the dashboard (see api-docs.tiiny.host for the exact place).",
+        "Paste the prompt below into your Grok Bot and give it your Tiiny Host key so 'ship this to a live URL' becomes one step."
+      ],
+      "prompt": "You are setting up a Tiiny Host integration for me inside Grok Bot. First read Tiiny Host's API documentation at https://api-docs.tiiny.host so you understand its upload/deploy API (available on the Solo plan and up): you zip a static site or a file and POST it, and Tiiny Host returns a live, shareable URL. Then, when I hand you a built static site, a PDF, or any supported file and ask you to publish it, deploy it through the API and give me back the live link. Rules: follow the documentation exactly and NEVER invent an endpoint, field, or subdomain the docs don't define. Deploying publishes to the public internet and can use up my plan's sites/bandwidth — so always show me the file and the intended URL/subdomain and get my explicit go-ahead before you publish or overwrite anything. Confirm the connection by listing my existing sites.",
+      "pricing_note": "Free tier; API on Solo plan and up.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nTiiny Host is the fastest way to put a static site or a file online: zip it, upload, and you get a live shareable URL — no server, no config. Its upload/deploy API (Solo plan and up) lets a Grok Bot do that step for you, so anything your agent builds can go from a folder to a public link in one move.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Tiiny Host API key. The bot reads Tiiny Host's own API docs first, then when you say 'publish this' it zips and deploys the site or file and hands back the live URL — showing you the file and target subdomain for approval before anything goes public."
+    },
+    {
+      "type": "plugin",
+      "slug": "zernio",
+      "url": "https://grokbot.dev/plugins/zernio/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/zernio.json",
+      "name": "Zernio",
+      "tagline": "A developer-first API and MCP for scheduling and analyzing social posts everywhere.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-22T00:00:00Z",
+      "updated_at": "2026-08-22T13:00:00Z",
+      "verified_at": "2026-08-22T13:00:00Z",
+      "author": {
+        "handle": "zernio",
+        "url": "https://zernio.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://zernio.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Zernio account at zernio.com and connect the social accounts you want your agent to manage.",
+        "Get your API key (Bearer token) from the dashboard, or connect the hosted MCP server at mcp.zernio.com/mcp.",
+        "Paste the prompt below into your Grok Bot and give it your Zernio key so posting and analytics become a standing capability."
+      ],
+      "prompt": "You are setting up a Zernio integration for me inside Grok Bot. First read Zernio's documentation at https://zernio.com so you understand its developer-first REST API (Bearer-token auth) and its hosted MCP server at https://mcp.zernio.com/mcp: one interface to publish, schedule, and analyze posts across Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads, Pinterest, Reddit, Bluesky and more, plus reading and replying to comments and DMs where supported. Then let me drive it in plain language: draft and schedule content to the accounts I connected, and pull engagement metrics when I ask. Rules: follow the docs exactly and NEVER invent an endpoint, platform, or field the API doesn't expose. Publishing a post, replying, or touching an ads campaign is a public and/or spending action — always show me the exact content, target accounts, and timing and get my explicit approval first. Confirm the connection by listing my connected accounts.",
+      "pricing_note": "First 2 social accounts free, then usage-based.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nZernio is a developer-first social layer: one REST API (and a hosted MCP server at mcp.zernio.com/mcp) to publish, schedule, and analyze content across 15+ networks — Instagram, TikTok, YouTube, X, LinkedIn and the rest — plus reading and replying to comments and DMs. Because it's built for apps and AI agents, a Grok Bot can run your whole posting calendar through it.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Zernio API key or the MCP connection. The bot reads Zernio's docs first, then you schedule posts, pull analytics, and triage comments in plain language across every connected network — with every publish or reply shown to you for approval before it goes out."
+    },
+    {
+      "type": "plugin",
+      "slug": "adkit",
+      "url": "https://grokbot.dev/plugins/adkit/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/adkit.json",
+      "name": "AdKit",
+      "tagline": "Let your agent draft and run Meta, Google and TikTok ads.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "ads",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "adkit",
+        "url": "https://adkit.so",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://adkit.so",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a AdKit account at adkit.so and connect the accounts or data you want it to reach.",
+        "Get your API key or MCP connection from your AdKit dashboard (see the linked docs for the exact place).",
+        "Paste the prompt below into your Grok Bot and give it your AdKit key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up an AdKit integration for me inside Grok Bot. First, read AdKit's documentation at https://adkit.so so you understand its remote MCP server and how it runs ads on Meta, Google and TikTok — creating campaigns, ad sets, budgets, targeting and creatives, and browsing ad libraries — and note its safety model: every change is created as a draft first. Then connect to my AdKit MCP server so that when I ask you to build or adjust a campaign you draft it in plain English through AdKit, and when I want inspiration you pull real ads from the libraries. Rules: follow the documentation exactly and never invent a targeting option, budget field, or metric. Everything stays a draft — never publish, launch, or change spend on a live campaign without showing me the full draft and getting my explicit go-ahead. Confirm access first with a read-only call such as listing my ad accounts.",
+      "pricing_note": null,
+      "setup_minutes": 10,
+      "description": "## What it does\n\nAdKit is an ads toolbox built for AI agents — a remote MCP server that runs campaigns on Meta, Google and TikTok and browses ad libraries. Its safety model turns every change into a draft first, so a Grok Bot can build campaigns in plain English without risking live spend.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a AdKit API key or MCP connection. The bot reads AdKit's own documentation first, wires up the integration, and from then on you drive AdKit in plain language — it follows the docs and checks with you before anything that writes or spends."
+    },
+    {
+      "type": "plugin",
+      "slug": "bannerbear",
+      "url": "https://grokbot.dev/plugins/bannerbear/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/bannerbear.json",
+      "name": "Bannerbear",
+      "tagline": "Give your agent an API to auto-generate branded images and videos.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "content",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "bannerbear",
+        "url": "https://www.bannerbear.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://www.bannerbear.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Bannerbear account at bannerbear.com and design (or import) the templates you want to render.",
+        "Grab your API key from app.bannerbear.com, or connect Bannerbear's MCP server — see the linked docs.",
+        "Paste the prompt below into your Grok Bot and give it your Bannerbear key so image and video generation becomes a standing capability."
+      ],
+      "prompt": "You are setting up a Bannerbear integration for me inside Grok Bot. First, read Bannerbear's documentation at https://developers.bannerbear.com/ (and note it also offers an MCP server so agents can call it directly) so you understand its API-key authentication and how it works — you design a reusable template once, then a single call applies text, image and colour modifications to render a branded image or video, delivered via polling or webhook. Then connect to my Bannerbear account (MCP or API key) so that when I ask for a graphic — a social image, an Open Graph image, an animated GIF, or a video from a template — you fill the right template's layers with the content I give you and return the rendered file. Rules: follow the documentation exactly, never invent a template, layer name, or modification Bannerbear does not have; if I reference a template or field that does not exist, list what is actually available instead of guessing. Confirm the connection first by listing my templates, and show me which template and values you will use before rendering.",
+      "pricing_note": "Paid plans; free trial to start.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nBannerbear is an API-first platform for auto-generating images and videos from reusable templates. One call applies text, image and colour changes to a template and renders branded social graphics, Open Graph images, animated GIFs, screenshots or videos — and it ships an MCP server, so a Grok Bot can produce on-brand visuals on demand.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Bannerbear API key or MCP connection. Design your templates once in Bannerbear; then ask the bot for a graphic and it fills the right template and returns the rendered image or video — following the docs, never inventing a template or layer."
+    },
+    {
+      "type": "plugin",
+      "slug": "breakcold",
+      "url": "https://grokbot.dev/plugins/breakcold/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/breakcold.json",
+      "name": "Breakcold",
+      "tagline": "Let your agent run your CRM across email, LinkedIn and WhatsApp.",
+      "category": "sales",
+      "categories": [
+        "sales"
+      ],
+      "subcategory": "crm",
+      "integrations": [
+        {
+          "slug": "whatsapp",
+          "name": "WhatsApp",
+          "page_url": "https://grokbot.dev/integrations/whatsapp/"
+        },
+        {
+          "slug": "telegram",
+          "name": "Telegram",
+          "page_url": "https://grokbot.dev/integrations/telegram/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "breakcold",
+        "url": "https://www.breakcold.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://www.breakcold.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Breakcold account at breakcold.com and connect the accounts or data you want it to reach.",
+        "Get your API key or MCP connection from your Breakcold dashboard (see the linked docs for the exact place).",
+        "Paste the prompt below into your Grok Bot and give it your Breakcold key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up a Breakcold integration for me inside Grok Bot. First, read Breakcold's MCP documentation at https://www.breakcold.com/crm-mcp (and the setup guides at https://github.com/breakcold/mcp) so you understand its hosted MCP server and the tools it exposes — reading and writing people, companies, deals, tasks, notes and custom fields, moving deals across the pipeline/Kanban, and reading conversations across email, LinkedIn, WhatsApp and Telegram. Then connect to my Breakcold MCP server so that when I ask about a contact or deal you answer from the CRM, when I ask you to log or update something you write it back, and when I ask what to do next you read the recent conversations and propose the next step. Rules: follow the documentation exactly, never invent a record, field, or contact, and never send an outbound message or change a deal stage without showing me first and getting my go-ahead. Confirm the connection by reading one of my pipelines before writing anything.",
+      "pricing_note": "Paid CRM; hosted MCP included.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nBreakcold is an AI-native sales CRM with a hosted MCP server (55 tools from its OpenAPI). A Grok Bot can read and write people, companies, deals, tasks and notes, move deals across the pipeline, and read multi-channel threads — email, LinkedIn, WhatsApp and Telegram — in one prompt.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Breakcold API key or MCP connection. The bot reads Breakcold's own documentation first, wires up the integration, and from then on you drive Breakcold in plain language — it follows the docs and checks with you before anything that writes or spends."
+    },
+    {
+      "type": "plugin",
+      "slug": "distribb",
+      "url": "https://grokbot.dev/plugins/distribb/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/distribb.json",
+      "name": "Distribb",
+      "tagline": "Let your agent do SEO — keywords, articles and backlinks.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "seo",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "distribb",
+        "url": "https://distribb.io",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://distribb.io",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Distribb account at distribb.io and connect the accounts or data you want it to reach.",
+        "Get your API key or MCP connection from your Distribb dashboard (see the linked docs for the exact place).",
+        "Paste the prompt below into your Grok Bot and give it your Distribb key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up a Distribb integration for me inside Grok Bot. First, read Distribb's API documentation at https://distribb.io/api-docs (and its Agentic Mode guide at https://distribb.io/agentic) so you understand its Bearer-token auth and its tools — listing my projects, finding buyer-intent keywords with real volume and difficulty data, creating articles, and publishing them through Distribb's backlink network. Then use my Distribb API key so that when I ask for keywords you return Distribb's real data (never invented volumes), when I ask for an article you draft it and create it in the right project, and when I approve one you publish it. Rules: follow the docs exactly, never fabricate a keyword metric or endpoint, and always show me the article and target keyword before publishing. Confirm the connection first by listing my projects.",
+      "pricing_note": "Plans from $49/mo.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nDistribb is agentic SEO software. Through its API and MCP server a Grok Bot can find buyer-intent keywords with real volume and difficulty data, draft articles with your own AI, and publish them through Distribb's backlink network.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Distribb API key or MCP connection. The bot reads Distribb's own documentation first, wires up the integration, and from then on you drive Distribb in plain language — it follows the docs and checks with you before anything that writes or spends."
+    },
+    {
+      "type": "plugin",
+      "slug": "post-bridge",
+      "url": "https://grokbot.dev/plugins/post-bridge/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/post-bridge.json",
+      "name": "Post Bridge",
+      "tagline": "Give your agent one API to post to 10+ social platforms.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "post-bridge",
+        "url": "https://www.post-bridge.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://www.post-bridge.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Post Bridge account at post-bridge.com and connect the accounts or data you want it to reach.",
+        "Get your API key or MCP connection from your Post Bridge dashboard (see the linked docs for the exact place).",
+        "Paste the prompt below into your Grok Bot and give it your Post Bridge key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up a Post Bridge integration for me inside Grok Bot. First, read Post Bridge's API reference at https://api.post-bridge.com/reference (and its MCP guide at https://www.post-bridge.com/mcp) so you understand its authentication and the endpoints for uploading media, creating posts, scheduling, and reading analytics, plus which of the 10+ platforms each supports. Then use my Post Bridge API key so that whenever I ask you to cross-post or schedule to my social accounts — Instagram, TikTok, YouTube, X, LinkedIn and the rest — you upload any media and create the post through Post Bridge at the time I specify. Rules: follow the docs exactly, never invent an endpoint or field, and if a platform does not support what I asked, say so. Show me the caption, target platforms, and schedule before publishing, and confirm access first with a read-only call such as listing my connected accounts.",
+      "pricing_note": "API access is a $5/mo add-on.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nPost Bridge is one API for publishing and scheduling across 10+ networks — Instagram, TikTok, YouTube, X, LinkedIn and more. It ships a native MCP server and an agent mode so a Grok Bot can upload media and cross-post from a single call.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Post Bridge API key or MCP connection. The bot reads Post Bridge's own documentation first, wires up the integration, and from then on you drive Post Bridge in plain language — it follows the docs and checks with you before anything that writes or spends."
+    },
+    {
+      "type": "plugin",
+      "slug": "postiz",
+      "url": "https://grokbot.dev/plugins/postiz/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/postiz.json",
+      "name": "Postiz",
+      "tagline": "Let your agent schedule and post across 30+ social platforms.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "postiz",
+        "url": "https://postiz.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://postiz.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Postiz account at postiz.com and connect the accounts or data you want it to reach.",
+        "Get your API key or MCP connection from your Postiz dashboard (see the linked docs for the exact place).",
+        "Paste the prompt below into your Grok Bot and give it your Postiz key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up a Postiz integration for me inside Grok Bot. First, read Postiz's documentation at https://docs.postiz.com/mcp/introduction so you understand how its MCP server works — authentication with a public API key from Settings → Developers → Public API, and the tools it exposes: listing connected accounts, fetching a platform's posting rules, scheduling or publishing posts, and generating images and videos. Then connect to my Postiz MCP server so that whenever I ask you to schedule, draft, or publish across my social accounts, you use Postiz to do it — pick the right accounts, respect each platform's rules, and post at the time I ask. Rules: follow the documentation exactly and never invent a tool, parameter, or platform Postiz does not list; if I ask for something Postiz cannot do, tell me instead of guessing. Always show me the exact post text, accounts, and time before anything is published, and confirm the connection first by listing my connected accounts.",
+      "pricing_note": "Open-source core; paid hosted plans.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nPostiz is an all-in-one, agent-native social media scheduler. Its MCP server lets an AI agent list your connected accounts, read each platform's posting rules, schedule or publish posts, and even generate images and videos — across 30+ platforms, all through natural language.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Postiz API key or MCP connection. The bot reads Postiz's own documentation first, wires up the integration, and from then on you drive Postiz in plain language — it follows the docs and checks with you before anything that writes or spends."
+    },
+    {
+      "type": "plugin",
+      "slug": "revid-ai",
+      "url": "https://grokbot.dev/plugins/revid-ai/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/revid-ai.json",
+      "name": "Revid.ai",
+      "tagline": "Let your agent script, render and publish AI videos.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "content",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "revid-ai",
+        "url": "https://www.revid.ai",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://www.revid.ai",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a Revid.ai account at revid.ai and add the credits you will need for rendering.",
+        "Get your API key or connect the MCP server from your Revid.ai dashboard — see the linked docs for the exact place.",
+        "Paste the prompt below into your Grok Bot and give it your Revid.ai key so video creation becomes a standing capability."
+      ],
+      "prompt": "You are setting up a Revid.ai integration for me inside Grok Bot. First, read Revid.ai's documentation at https://www.revid.ai/docs (and its MCP guide at https://www.revid.ai/mcp) so you understand its hosted MCP server (endpoint https://www.revid.ai/api/mcp, Bearer API-key or OAuth auth) and the tools it exposes — rendering a video from a script, prompt, link or file, checking project status, generating media, cloning a voice, calculating the credit cost, exporting, and scheduling or publishing. Then connect to my Revid.ai account so that when I describe a video I want, you render it through Revid.ai with the right script, voice-over, captions and music, tell me the credit cost first, and once I approve, publish or schedule it. Rules: follow the documentation exactly, never invent a tool, workflow, or parameter Revid.ai does not list, and always show me the credit cost and the finished video before anything renders or publishes. Confirm the connection first by listing my projects.",
+      "pricing_note": "Credit-based; free tier to start.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nRevid.ai is an AI video platform with a hosted MCP server and public API built for agents. From one script, prompt, link or file it handles visuals, voice-over, captions and music — so a Grok Bot can render a finished short video, check its status, clone a voice, and schedule or publish it, all in one flow.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a Revid.ai API key or MCP connection. The bot reads Revid.ai's own documentation first, wires up the integration, then you make videos in plain language — it tells you the credit cost and shows you the result before it renders or publishes."
+    },
+    {
+      "type": "plugin",
+      "slug": "screenshotone",
+      "url": "https://grokbot.dev/plugins/screenshotone/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/screenshotone.json",
+      "name": "ScreenshotOne",
+      "tagline": "Give your agent a screenshot API for any URL or HTML.",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "subcategory": "scraping",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "screenshotone",
+        "url": "https://screenshotone.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://screenshotone.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a ScreenshotOne account at screenshotone.com and grab your access key.",
+        "Skim the linked docs to pick the options you need — format, full-page, block ads/cookie banners, viewport, caching.",
+        "Paste the prompt below into your Grok Bot and give it your ScreenshotOne access key so screenshots become a standing capability."
+      ],
+      "prompt": "You are setting up a ScreenshotOne integration for me inside Grok Bot. First, read ScreenshotOne's documentation — the getting-started guide at https://screenshotone.com/docs/getting-started/ and the full options at https://screenshotone.com/docs/options/ — so you understand its authentication (an access key, with signed links for secure requests), that it takes GET or POST requests over HTTPS, and the options for turning a URL, HTML or Markdown into a PNG, JPEG, WebP or PDF, including full-page and scrolling captures, blocking ads and cookie banners, viewport size, and caching. Then use my ScreenshotOne access key so that whenever I ask you to capture a page — screenshot this URL, grab a full-page PNG, render this HTML — you build the correct ScreenshotOne request and return the image or file. Rules: follow the documentation exactly, never invent an option or parameter ScreenshotOne does not list, and if I ask for a capture it cannot do, tell me. Confirm the connection first with a small test screenshot of a simple public page.",
+      "pricing_note": "Usage-based API; free tier to start.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nScreenshotOne is a fast, reliable screenshot API for developers — turn any URL, HTML or Markdown into a PNG, JPEG, WebP or PDF over a simple HTTPS request. It handles full-page and scrolling captures, blocks ads and cookie banners, and caches results, so a Grok Bot can grab a clean screenshot of any page on demand.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a ScreenshotOne access key. The bot reads ScreenshotOne's own documentation first, wires up the integration, then you just ask it to screenshot a URL or render HTML and it returns the image — following the docs for every option."
+    },
+    {
+      "type": "plugin",
+      "slug": "stayingapi",
+      "url": "https://grokbot.dev/plugins/stayingapi/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/stayingapi.json",
+      "name": "StayingAPI",
+      "tagline": "Agent access to booking sites — availability and price compare.",
+      "category": "personal",
+      "categories": [
+        "personal"
+      ],
+      "subcategory": "travel",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "stayingapi",
+        "url": "https://stayingapi.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://stayingapi.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Get an API key at stayingapi.com.",
+        "Tell your Grok Bot to reach for StayingAPI whenever you ask about accommodation.",
+        "Paste the prompt below so price and availability checks become a standing capability."
+      ],
+      "prompt": "You have access to StayingAPI (https://stayingapi.com) with my key. When I ask about a place to stay, search booking sites — hotels, Booking.com, Airbnb-style listings — for the dates and location I give you and return the available options with prices so I can compare. Never invent a listing or a price; if the API returns nothing, say so.",
+      "pricing_note": "Free tier; paid for more checks.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nStayingAPI gives agents access to booking and accommodation sites through one simple API — search availability, pull listings, and compare prices across hotels and short-stay rentals without scraping. Connected to a Grok Bot, it means you can ask where to stay for your dates and get real, comparable options back in the chat.\n\n## Use it in Grok Bot\n\nAdd the prompt below and a key. Ask about a place to stay for your dates and location; the bot searches booking sites through StayingAPI and returns the available options with prices to compare.\n\nPaste the prompt on this page into a Grok Bot and connect your account — that is the whole setup."
+    },
+    {
+      "type": "plugin",
+      "slug": "superx",
+      "url": "https://grokbot.dev/plugins/superx/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/superx.json",
+      "name": "SuperX",
+      "tagline": "Give your agent your X analytics and a 50M-post idea library.",
+      "category": "marketing",
+      "categories": [
+        "marketing"
+      ],
+      "subcategory": "social",
+      "integrations": [
+        {
+          "slug": "x",
+          "name": "X",
+          "page_url": "https://grokbot.dev/integrations/x/"
+        }
+      ],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "superx",
+        "url": "https://superx.so",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://superx.so",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create a SuperX account at superx.so and connect the accounts or data you want it to reach.",
+        "Get your API key or MCP connection from your SuperX dashboard (see the linked docs for the exact place).",
+        "Paste the prompt below into your Grok Bot and give it your SuperX key so this becomes a standing capability."
+      ],
+      "prompt": "You are setting up a SuperX integration for me inside Grok Bot. First, read SuperX's developer documentation at https://superx.so/developers so you understand its REST API (base URL https://api.superx.so/v1, Bearer API-key auth) — how to read my published posts and their metrics, pull account analytics, list my most engaging followers, create or delete drafts and scheduled posts, and query its library of viral post ideas. Then use my SuperX API key so that when I ask how my X account is doing you pull the real analytics; when I ask for post ideas you reference the library instead of making things up; and when I ask you to schedule a tweet or thread you create it as a draft or scheduled post. Rules: follow the docs exactly, never invent a metric or endpoint, and base every claim about my account on data the API actually returned. Confirm the connection first by reading my recent posts, and show me any tweet before it is scheduled.",
+      "pricing_note": "API included in every plan.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nSuperX is an X (Twitter) growth tool — scheduling, analytics, AI content and a library of 50M+ real posts. Its REST API and agent skill let a Grok Bot read your metrics, pull proven post structures, and schedule tweets and threads.\n\n## Use it in Grok Bot\n\nPaste the prompt on this page into a Grok Bot and give it a SuperX API key or MCP connection. The bot reads SuperX's own documentation first, wires up the integration, and from then on you drive SuperX in plain language — it follows the docs and checks with you before anything that writes or spends."
+    },
+    {
+      "type": "plugin",
+      "slug": "transcriptapi",
+      "url": "https://grokbot.dev/plugins/transcriptapi/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/transcriptapi.json",
+      "name": "TranscriptAPI",
+      "tagline": "Give your agents accurate transcripts from any audio or video.",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "subcategory": "enrichment",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "transcriptapi",
+        "url": "https://transcriptapi.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://transcriptapi.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Get an API key at transcriptapi.com.",
+        "Tell your Grok Bot to call TranscriptAPI whenever you share an audio or video URL.",
+        "Paste the prompt below so transcription becomes a standing capability."
+      ],
+      "prompt": "You can transcribe audio and video. Whenever I share a link to a recording, podcast, or video, call TranscriptAPI (https://transcriptapi.com) with my API key, get back the transcript with timestamps, and return clean, readable text. If I ask, pull just the segment around a timestamp I name.",
+      "pricing_note": "Usage-based API; free tier to start.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nTranscriptAPI turns any audio or video into an accurate transcript with a single API call — timestamps included, no pipeline to build. It is the fast way to give a Grok Bot the ability to read recordings, podcasts, meetings and videos, so anything spoken becomes text your bot can search, summarize and act on.\n\n## Use it in Grok Bot\n\nGive your bot the prompt below and an API key. From then on, dropping a recording link into the chat gets you a clean transcript back, and you can ask the bot to pull just the part around a timestamp.\n\nPaste the prompt on this page into a Grok Bot and connect your account — that is the whole setup."
+    },
+    {
+      "type": "plugin",
+      "slug": "zillapi",
+      "url": "https://grokbot.dev/plugins/zillapi/",
+      "detail_url": "https://grokbot.dev/api/v1/plugins/zillapi.json",
+      "name": "ZillAPI",
+      "tagline": "Give your agents fast, structured data on demand.",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "subcategory": "enrichment",
+      "integrations": [],
+      "status": "live",
+      "added_at": "2026-08-21T00:00:00Z",
+      "updated_at": "2026-08-21T12:00:00Z",
+      "verified_at": "2026-08-21T12:00:00Z",
+      "author": {
+        "handle": "zillapi",
+        "url": "https://zillapi.com",
+        "platform": "web"
+      },
+      "scouted_by": null,
+      "source_tweets": [],
+      "primary_source": null,
+      "featured": true,
+      "project_url": "https://zillapi.com",
+      "repo_url": null,
+      "source_url": null,
+      "install_steps": [
+        "Create an account at zillapi.com and get your key.",
+        "Tell your Grok Bot to reach for ZillAPI when it needs to fetch or enrich data.",
+        "Paste the prompt below to make it a standing capability."
+      ],
+      "prompt": "You have access to ZillAPI (https://zillapi.com) with my key. When I ask for data — lookups, enrichment, or structured records — call ZillAPI, fetch what is needed, and return it cleanly. Never invent values; if the API has no answer, say so and stop rather than guessing.",
+      "pricing_note": "Usage-based; free tier.",
+      "setup_minutes": 10,
+      "description": "## What it does\n\nZillAPI gives builders fast, scalable data endpoints without standing up their own infrastructure. Connected to a Grok Bot, it becomes the bot’s way to fetch and enrich real data on demand, so answers are grounded in a live source instead of the model’s best guess.\n\n## Use it in Grok Bot\n\nDrop in the prompt below and a key. When you ask the bot for data, it pulls from ZillAPI and returns it cleanly — and refuses to make numbers up when the source has none.\n\nPaste the prompt on this page into a Grok Bot and connect your account — that is the whole setup."
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "count": 10,
+  "items": [
+    {
+      "slug": "work",
+      "name": "Work",
+      "name_zh": "办公",
+      "intro_zh": "邮件、会议、文档、排程——把桌上那摊事交给 Bot。",
+      "url": "/categories/work/",
+      "orig_url": "https://grokbot.dev/categories/work/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 34
+      },
+      "subcategories": [
+        {
+          "slug": "email",
+          "name": "Email",
+          "name_zh": "邮件",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 11
+          }
+        },
+        {
+          "slug": "meetings",
+          "name": "Meetings",
+          "name_zh": "会议",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 4
+          }
+        },
+        {
+          "slug": "docs",
+          "name": "Docs",
+          "name_zh": "文档",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "scheduling",
+          "name": "Scheduling",
+          "name_zh": "排程",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "tasks",
+          "name": "Tasks",
+          "name_zh": "任务",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 14
+          }
+        },
+        {
+          "slug": "research",
+          "name": "Research",
+          "name_zh": "研究",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 4
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sales",
+      "name": "Sales",
+      "name_zh": "销售",
+      "intro_zh": "获客、CRM、触达、电话、漏斗。让 Bot 做跟进，成交还是你来点头。",
+      "url": "/categories/sales/",
+      "orig_url": "https://grokbot.dev/categories/sales/",
+      "counts": {
+        "plugins": 5,
+        "use_cases": 9
+      },
+      "subcategories": [
+        {
+          "slug": "prospecting",
+          "name": "Prospecting",
+          "name_zh": "获客",
+          "counts": {
+            "plugins": 3,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "crm",
+          "name": "CRM",
+          "name_zh": "CRM",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "outreach",
+          "name": "Outreach",
+          "name_zh": "触达",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "calls",
+          "name": "Calls",
+          "name_zh": "电话",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "pipeline",
+          "name": "Pipeline",
+          "name_zh": "销售漏斗",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 3
+          }
+        }
+      ]
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "name_zh": "营销",
+      "intro_zh": "SEO、内容、社交、广告、分析、竞品情报。",
+      "url": "/categories/marketing/",
+      "orig_url": "https://grokbot.dev/categories/marketing/",
+      "counts": {
+        "plugins": 21,
+        "use_cases": 22
+      },
+      "subcategories": [
+        {
+          "slug": "seo",
+          "name": "SEO",
+          "name_zh": "SEO",
+          "counts": {
+            "plugins": 3,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "content",
+          "name": "Content",
+          "name_zh": "内容",
+          "counts": {
+            "plugins": 5,
+            "use_cases": 12
+          }
+        },
+        {
+          "slug": "social",
+          "name": "Social",
+          "name_zh": "社交",
+          "counts": {
+            "plugins": 10,
+            "use_cases": 6
+          }
+        },
+        {
+          "slug": "ads",
+          "name": "Ads",
+          "name_zh": "广告",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "analytics",
+          "name": "Analytics",
+          "name_zh": "分析",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "competitive-intel",
+          "name": "Competitive Intel",
+          "name_zh": "竞品情报",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "engineering",
+      "name": "Engineering",
+      "name_zh": "工程",
+      "intro_zh": "代码评审、CI/CD、工单、文档、智能体运维。",
+      "url": "/categories/engineering/",
+      "orig_url": "https://grokbot.dev/categories/engineering/",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 18
+      },
+      "subcategories": [
+        {
+          "slug": "code-review",
+          "name": "Code Review",
+          "name_zh": "代码评审",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "ci-cd",
+          "name": "CI/CD",
+          "name_zh": "CI/CD",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "issues",
+          "name": "Issues",
+          "name_zh": "工单",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "docs",
+          "name": "Docs",
+          "name_zh": "文档",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "agents-ops",
+          "name": "Agents Ops",
+          "name_zh": "智能体运维",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 15
+          }
+        }
+      ]
+    },
+    {
+      "slug": "support",
+      "name": "Support",
+      "name_zh": "客服",
+      "intro_zh": "分诊、回复、知识库、升级。前线可以是 Bot。",
+      "url": "/categories/support/",
+      "orig_url": "https://grokbot.dev/categories/support/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 6
+      },
+      "subcategories": [
+        {
+          "slug": "triage",
+          "name": "Triage",
+          "name_zh": "分诊",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "replies",
+          "name": "Replies",
+          "name_zh": "回复",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "knowledge-base",
+          "name": "Knowledge Base",
+          "name_zh": "知识库",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "escalation",
+          "name": "Escalation",
+          "name_zh": "升级",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        }
+      ]
+    },
+    {
+      "slug": "finance-ops",
+      "name": "Finance & Ops",
+      "name_zh": "财务与运营",
+      "intro_zh": "记账、开票、报表、订阅、合规。",
+      "url": "/categories/finance-ops/",
+      "orig_url": "https://grokbot.dev/categories/finance-ops/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 8
+      },
+      "subcategories": [
+        {
+          "slug": "bookkeeping",
+          "name": "Bookkeeping",
+          "name_zh": "记账",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "invoicing",
+          "name": "Invoicing",
+          "name_zh": "开票",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "reporting",
+          "name": "Reporting",
+          "name_zh": "报表",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "subscriptions",
+          "name": "Subscriptions",
+          "name_zh": "订阅",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 4
+          }
+        },
+        {
+          "slug": "compliance",
+          "name": "Compliance",
+          "name_zh": "合规",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        }
+      ]
+    },
+    {
+      "slug": "data",
+      "name": "Data",
+      "name_zh": "数据",
+      "intro_zh": "抓取、监控、告警、看板、补全。",
+      "url": "/categories/data/",
+      "orig_url": "https://grokbot.dev/categories/data/",
+      "counts": {
+        "plugins": 6,
+        "use_cases": 3
+      },
+      "subcategories": [
+        {
+          "slug": "scraping",
+          "name": "Scraping",
+          "name_zh": "抓取",
+          "counts": {
+            "plugins": 2,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "monitoring",
+          "name": "Monitoring",
+          "name_zh": "监控",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "alerts",
+          "name": "Alerts",
+          "name_zh": "告警",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "dashboards",
+          "name": "Dashboards",
+          "name_zh": "看板",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "enrichment",
+          "name": "Enrichment",
+          "name_zh": "数据补全",
+          "counts": {
+            "plugins": 4,
+            "use_cases": 2
+          }
+        }
+      ]
+    },
+    {
+      "slug": "personal",
+      "name": "Personal",
+      "name_zh": "个人",
+      "intro_zh": "家居、旅行、健康、学习、家庭、理财。",
+      "url": "/categories/personal/",
+      "orig_url": "https://grokbot.dev/categories/personal/",
+      "counts": {
+        "plugins": 2,
+        "use_cases": 30
+      },
+      "subcategories": [
+        {
+          "slug": "home",
+          "name": "Home",
+          "name_zh": "家居",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 12
+          }
+        },
+        {
+          "slug": "travel",
+          "name": "Travel",
+          "name_zh": "旅行",
+          "counts": {
+            "plugins": 2,
+            "use_cases": 4
+          }
+        },
+        {
+          "slug": "health",
+          "name": "Health",
+          "name_zh": "健康",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "learning",
+          "name": "Learning",
+          "name_zh": "学习",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 5
+          }
+        },
+        {
+          "slug": "family",
+          "name": "Family",
+          "name_zh": "家庭",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "money",
+          "name": "Money",
+          "name_zh": "理财",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 7
+          }
+        }
+      ]
+    },
+    {
+      "slug": "trading-crypto",
+      "name": "Trading & Crypto",
+      "name_zh": "交易与加密",
+      "intro_zh": "行情、组合、告警。",
+      "url": "/categories/trading-crypto/",
+      "orig_url": "https://grokbot.dev/categories/trading-crypto/",
+      "counts": {
+        "plugins": 0,
+        "use_cases": 2
+      },
+      "subcategories": [
+        {
+          "slug": "markets",
+          "name": "Markets",
+          "name_zh": "市场",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        },
+        {
+          "slug": "portfolio",
+          "name": "Portfolio",
+          "name_zh": "组合",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "alerts",
+          "name": "Alerts",
+          "name_zh": "告警",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "fun",
+      "name": "Fun",
+      "name_zh": "玩乐",
+      "intro_zh": "创意、游戏、角色扮演、媒体。",
+      "url": "/categories/fun/",
+      "orig_url": "https://grokbot.dev/categories/fun/",
+      "counts": {
+        "plugins": 1,
+        "use_cases": 6
+      },
+      "subcategories": [
+        {
+          "slug": "creative",
+          "name": "Creative",
+          "name_zh": "创意",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 3
+          }
+        },
+        {
+          "slug": "games",
+          "name": "Games",
+          "name_zh": "游戏",
+          "counts": {
+            "plugins": 1,
+            "use_cases": 0
+          }
+        },
+        {
+          "slug": "roleplay",
+          "name": "Roleplay",
+          "name_zh": "角色扮演",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 1
+          }
+        },
+        {
+          "slug": "media",
+          "name": "Media",
+          "name_zh": "媒体",
+          "counts": {
+            "plugins": 0,
+            "use_cases": 2
+          }
+        }
+      ]
+    }
+  ]
+}

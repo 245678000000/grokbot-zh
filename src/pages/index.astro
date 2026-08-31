@@ -1,0 +1,168 @@
+---
+import Base from '../layouts/Base.astro';
+import Newsletter from '../components/Newsletter.astro';
+import BotRow from '../components/BotRow.astro';
+import { SITE, stats, freshDrops, featuredPlugins, templates, plugins } from '../lib/data';
+
+const featured = (featuredPlugins && featuredPlugins.length ? featuredPlugins : plugins).slice(0, 8);
+const homeBots = templates.slice(0, 12);
+
+const categoriesList = [
+  { label: '全部', key: 'all' },
+  { label: '开发与运维', key: 'developer|engineering|ops' },
+  { label: '写作与内容', key: 'writer|writing|content|creator' },
+  { label: '商业与研究', key: 'business|finance|sales|marketing|research' },
+  { label: '设计与视觉', key: 'design|creative|image|video' },
+  { label: '自动化', key: 'automation|productivity|workflow' },
+];
+---
+<Base title={SITE.name} description={SITE.description}>
+  <section class="homeHero" aria-labelledby="home-title">
+    <div class="homeHero__copy">
+      <p class="homeEyebrow"><span class="statusDot"></span>中文社区目录 · 每日更新</p>
+      <h1 id="home-title">找到真正能帮你干活的 <span>Grok Bot</span></h1>
+      <p class="homeHero__lede">我们把公开分享的机器人、插件和实战用例整理成中文索引。先看它能做什么，再决定是否接入。</p>
+      <div class="heroSearchWrap">
+        <svg class="heroSearchIcon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+        <label class="srOnly" for="liveSearch">搜索最新机器人</label>
+      <input
+        type="text"
+        id="liveSearch"
+        class="heroSearchInput"
+          placeholder={`搜索最新 ${homeBots.length} 个机器人…`}
+        autocomplete="off"
+      />
+      <span class="heroSearchKbd">⌘ K</span>
+      </div>
+      <div class="homeHero__actions">
+        <a class="btn-accent" href="/bots/">浏览机器人 <span aria-hidden="true">→</span></a>
+        <a class="textLink" href="/use-cases/">先看实战用例</a>
+      </div>
+    </div>
+
+    <aside class="directoryIndex" aria-label="目录索引">
+      <div class="directoryIndex__head">
+        <span>目录总览</span>
+        <span class="directoryIndex__updated">{stats.generated_zh}</span>
+      </div>
+      <a class="directoryIndex__row" href="/bots/">
+        <span class="indexNo">01</span><span class="indexName">可分享机器人</span><strong>{stats.templates}</strong><span aria-hidden="true">↗</span>
+      </a>
+      <a class="directoryIndex__row" href="/use-cases/">
+        <span class="indexNo">02</span><span class="indexName">深度用例</span><strong>{stats.use_cases}</strong><span aria-hidden="true">↗</span>
+      </a>
+      <a class="directoryIndex__row" href="/plugins/">
+        <span class="indexNo">03</span><span class="indexName">精选插件</span><strong>{stats.plugins}</strong><span aria-hidden="true">↗</span>
+      </a>
+      <p class="directoryIndex__note">内容译自 grokbot.dev，提示词保持英文原文。</p>
+    </aside>
+  </section>
+
+  <section class="section homeSection homeSection--first">
+    <div class="sectionHead">
+      <div>
+        <h2>最新收录</h2>
+        <p class="lede">来自开发者与创作者的公开分享，已按用途整理为中文摘要。</p>
+      </div>
+      <a class="sectionMore" href="/bots/">查看全部 {stats.templates} 个 <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="categoryFilterBar" aria-label="按主题筛选最新机器人">
+      <span class="filterLabel">快速筛选</span>
+      <div class="filterScroller">
+        {categoriesList.map((cat, idx) => (
+          <button class:list={['filterChip', { 'is-on': idx === 0 }]} data-filter={cat.key} aria-pressed={idx === 0 ? 'true' : 'false'}>
+            {cat.label}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    <div class="dropList" id="botGrid">
+      {homeBots.map((item: any) => (
+        <div
+          class="botGridItem"
+          data-search={item.search_blob || `${item.name_zh || item.name} ${item.tagline_zh || item.tagline || ''}`}
+          data-tags={[item.primary_category, ...(item.tags || [])].filter(Boolean).join('|')}
+        >
+          <BotRow item={item} href={`/bots/${item.slug}/`} />
+        </div>
+      ))}
+    </div>
+    <p class="filterEmpty" id="filterEmpty" hidden>当前筛选没有结果。试试其他分类，或<a href="/bots/">搜索全部机器人</a>。</p>
+  </section>
+
+  <section class="section homeSection">
+    <div class="sectionHead">
+      <div>
+        <h2>给 Bot 加上真正需要的能力</h2>
+        <p class="lede">联网搜索、代码执行、API 交互等工具，按使用场景集中整理。</p>
+      </div>
+      <a class="sectionMore" href="/plugins/">查看全部 {stats.plugins} 款 <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="dropRail homePluginGrid">
+      {featured.map((p: any) => (
+        <a class="dropCard" href={`/plugins/${p.slug}/`}>
+          <div class="pluginCardTop">
+            <span class="chip">{p.category_zh || p.category}</span>
+            <span class="pluginArrow" aria-hidden="true">↗</span>
+          </div>
+          <h3>{p.name}</h3>
+          <p class="clamp-2">{p.tagline_zh || p.tagline}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <Newsletter />
+
+  <script is:inline>
+    const searchInput = document.getElementById('liveSearch');
+    const items = document.querySelectorAll('.botGridItem');
+    const filterBtns = document.querySelectorAll('[data-filter]');
+    const emptyState = document.getElementById('filterEmpty');
+    let activeFilter = 'all';
+
+    const updateResults = () => {
+      const query = searchInput?.value.trim().toLowerCase() || '';
+      const acceptedTags = activeFilter === 'all' ? [] : activeFilter.split('|');
+      let visible = 0;
+
+      items.forEach((el) => {
+        const searchText = (el.getAttribute('data-search') || '').toLowerCase();
+        const tags = (el.getAttribute('data-tags') || '').toLowerCase().split('|');
+        const matchesQuery = !query || searchText.includes(query);
+        const matchesFilter = !acceptedTags.length || acceptedTags.some((tag) => tags.includes(tag));
+        const show = matchesQuery && matchesFilter;
+        el.classList.toggle('hidden', !show);
+        if (show) visible += 1;
+      });
+
+      if (emptyState) emptyState.hidden = visible !== 0;
+    };
+
+    if (searchInput) {
+      window.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+          e.preventDefault();
+          searchInput.focus();
+        }
+      });
+      searchInput.addEventListener('input', updateResults);
+    }
+
+    filterBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach((b) => {
+          b.classList.remove('is-on');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.add('is-on');
+        btn.setAttribute('aria-pressed', 'true');
+        activeFilter = btn.getAttribute('data-filter') || 'all';
+        updateResults();
+      });
+    });
+  </script>
+</Base>

@@ -1,0 +1,100 @@
+---
+import Base from '../../layouts/Base.astro';
+import Attribution from '../../components/Attribution.astro';
+import { useCases, useCaseBySlug } from '../../lib/data';
+
+export function getStaticPaths() {
+  return useCases.map((u: any) => ({ params: { slug: u.slug } }));
+}
+
+const u = useCaseBySlug(Astro.params.slug);
+if (!u) throw new Error('missing use case');
+const author = u.author || {};
+const title = u.name_zh || u.name;
+const hue = (title.split('').reduce((acc: number, c: string) => acc + c.charCodeAt(0), 0) % 360);
+const iconBg = `hsl(${hue}, 20%, 30%)`;
+---
+<Base title={title} description={u.tagline_zh || u.tagline}>
+  <p class="crumb"><a href="/">首页</a> / <a href="/use-cases/">用例</a> / {title}</p>
+
+  <article class="detailHeroCard">
+    <div class="detailHeroTop">
+      <div class="detailAvatar" style={`background: ${iconBg};`}>
+        <span>{title.slice(0, 1).toUpperCase()}</span>
+      </div>
+      <div class="detailHeadInfo">
+        <span class="kicker">精选用例</span>
+        <h1 class="detailTitle">{title}</h1>
+        <p class="detailTagline">{u.tagline_zh || u.tagline}</p>
+      </div>
+    </div>
+    <div class="detailMetaBar">
+      <div class="detailTags">
+        <span class="chip">{u.category_zh || u.category}</span>
+      </div>
+      {author.handle && (
+        <div class="authorRow">
+          <span>作者:</span>
+          {author.url ? (
+            <a class="authorPill" href={author.url} target="_blank" rel="noopener">@{author.handle}</a>
+          ) : (
+            <span class="authorPill">@{author.handle}</span>
+          )}
+        </div>
+      )}
+    </div>
+  </article>
+
+  {u.how_its_set_up && (
+    <div class="detailSection">
+      <h2>🛠️ 怎么搭建</h2>
+      <p class="detailDescText">{Array.isArray(u.how_its_set_up) ? u.how_its_set_up.join(' ') : u.how_its_set_up}</p>
+    </div>
+  )}
+
+  {u.why_its_cool && (
+    <div class="detailSection">
+      <h2>妙在哪里</h2>
+      <p class="detailDescText">{u.why_its_cool}</p>
+    </div>
+  )}
+
+  {u.prompt && (
+    <div class="detailSection">
+      <div class="promptHeader">
+        <h2>提示词（原文，可直接复制使用）</h2>
+        <button class="btn-ghost btn-copy" data-copy={u.prompt}>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+          </svg>
+          <span>复制提示词</span>
+        </button>
+      </div>
+      <pre class="promptBox">{u.prompt}</pre>
+    </div>
+  )}
+
+  <div style="margin: 1.5rem 0;">
+    <a class="moreLink" href={u.url}>查看原站用例 →</a>
+  </div>
+
+  <Attribution authorHandle={author.handle} authorUrl={author.url} origUrl={u.url} />
+
+  <script is:inline>
+    document.querySelectorAll('.btn-copy').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const text = btn.getAttribute('data-copy');
+        if (text) {
+          await navigator.clipboard.writeText(text);
+          const span = btn.querySelector('span');
+          if (span) span.textContent = '已复制！';
+          setTimeout(() => {
+            if (span) span.textContent = '复制提示词';
+          }, 2000);
+        }
+      });
+    });
+  </script>
+</Base>
+
