@@ -1,11 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Newsletter from '../../components/Newsletter.astro';
+import { stats } from '../../lib/data';
 ---
 <Base title="关于" description="Grok Bot 中文目录是独立社区本地化，不隶属于 xAI。">
   <div class="container-page prose" style="padding:2rem 0 3rem">
-    <p class="kicker">关于 · 更新于 2026年8月31日</p>
+    <p class="kicker">关于 · 更新于 {stats.generated_zh}</p>
     <h1>谁在维护，谁做的，和独立性</h1>
+    <p class="statsLine">{stats.plugins} 插件 · {stats.use_cases} 精选用例 · {stats.templates} 可分享机器人 · {stats.collections} 合集 · 更新于 {stats.generated_zh}</p>
     <h2>这是什么</h2>
     <p>Grok Bot 中文目录是 <a href="https://grokbot.dev/">grokbot.dev</a> 的简体中文本地化。原站是独立社区目录，收录人们用 Grok Bot 真正干成的事：即用提示词、插件、合集。由 <a href="https://crhq.ai">CRHQ</a> 建造和运营。本中文站不另起一套内容，只翻译界面与可读说明，并保留英文提示词。</p>
     <h2>谁让原站保持更新</h2>
